@@ -4,13 +4,7 @@ Created on Thu Nov  9 09:40:49 2017
 
 @author: ccarroll@llorracc.org
 """
-import sys
-import os
 import pylab # the plotting tools
-
-sys.path.insert(0, os.path.abspath('../'))
-sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../..'))
 
 xPoints=100  # number of points at which to sample a function when plotting it using pylab
 mMinVal = 0. # minimum value of the consumer's cash-on-hand to show in plots
