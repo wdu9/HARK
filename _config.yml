@@ -1,0 +1,17 @@
+title: Econ-ARK/TITLARK
+url: https://econ-ark.github.io/TITLARK
+author: Econ-ARK
+keywords: Teaching
+description: 'Teaching and Instructional Tools for Learning the ARK'
+
+timezone: America/New_York
+
+baseurl:
+
+repository:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle
+
