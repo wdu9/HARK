@@ -1,0 +1,4692 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2019.4.7)  13 FEB 2020 23:18
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode HARKmanual,html,pic-tabular
+,pic-m,pic-array,pic-eqnarray,info.a.b.c.\input  HARKmanual
+(./HARKmanual.tex (/usr/local/texlive/texmf-local/tex/latex/econtex.cls
+Document Class: econtex 2017/08/01 LaTeX class for economics papers, handouts, 
+and exam questions written by Christopher Carroll
+(/usr/local/texlive/texmf-local/tex/latex/snapshot.sty
+Package: snapshot 2002/03/05 v1.14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count80
+\cp@tempcnt=\count81
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@IncludeTitlePage=\count82
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box27
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 134.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2162.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (12p
+t)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count83
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: With paper sizes other than (almost) `A4' predefined
+(typearea)             DIV values do not exist. Using DIV calculation for good
+(typearea)             line width (unless using `version=3.24` or prior).
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 383.9344pt
+(typearea)              DIV departure   = 1%
+(typearea)              \evensidemargin = 42.91031pt
+(typearea)              \oddsidemargin  = 42.91031pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 505.0pt
+(typearea)              \topmargin      = -12.77374pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1715.
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\scr@dte@section@maxnumwidth=\skip47
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4489.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4489.
+\scr@dte@part@maxnumwidth=\skip48
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4497.
+\scr@dte@subsection@maxnumwidth=\skip49
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+\scr@dte@subsubsection@maxnumwidth=\skip50
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+\scr@dte@paragraph@maxnumwidth=\skip51
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+\scr@dte@subparagraph@maxnumwidth=\skip52
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box28
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5781.
+\scr@dte@figure@maxnumwidth=\skip55
+\c@figure=\count90
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5793.
+\scr@dte@table@maxnumwidth=\skip56
+\c@table=\count91
+Class scrartcl Info: Redefining `\numberline' on input line 5957.
+\bibindent=\dimen102
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count92
+\U@D=\dimen103
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count93
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count96
+\calc@Cskip=\skip59
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks18
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks27
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box31
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen115
+\ar@mcellbox=\box32
+\extrarowheight=\dimen116
+\NC@list=\toks28
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box33
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count109
+\mult@box=\box34
+\multicol@leftmargin=\dimen117
+\c@unbalance=\count110
+\c@collectmore=\count111
+\doublecol@number=\count112
+\multicoltolerance=\count113
+\multicolpretolerance=\count114
+\full@width=\dimen118
+\page@free=\dimen119
+\premulticols=\dimen120
+\postmulticols=\dimen121
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box35
+\last@line=\box36
+\maxbalancingoverflow=\dimen122
+\mult@rightbox=\box37
+\mult@grightbox=\box38
+\mult@gfirstbox=\box39
+\mult@firstbox=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\c@columnbadness=\count115
+\c@finalcolumnbadness=\count116
+\last@try=\dimen123
+\multicolovershoot=\dimen124
+\multicolundershoot=\dimen125
+\mult@nat@firstbox=\box58
+\colbreak@box=\box59
+\mc@col@check@num=\count117
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count118
+\multirow@dima=\skip71
+\bigstrutjot=\dimen126
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count119
+\@cmidlb=\count120
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count121
+\@lastruleclass=\count122
+\@thisrulewidth=\dimen139
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks29
+\AP@partial=\box60
+\AP@footins=\box61
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enotez/enotez.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-02-15 L3 programming layer (loader) 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-02-15 L3 programming layer (code)
+\c_max_int=\count123
+\l_tmpa_int=\count124
+\l_tmpb_int=\count125
+\g_tmpa_int=\count126
+\g_tmpb_int=\count127
+\g__kernel_prg_map_int=\count128
+\c_log_iow=\count129
+\l_iow_line_count_int=\count130
+\l__iow_line_target_int=\count131
+\l__iow_one_indent_int=\count132
+\l__iow_indent_int=\count133
+\c_zero_dim=\dimen140
+\c_max_dim=\dimen141
+\l_tmpa_dim=\dimen142
+\l_tmpb_dim=\dimen143
+\g_tmpa_dim=\dimen144
+\g_tmpb_dim=\dimen145
+\c_zero_skip=\skip72
+\c_max_skip=\skip73
+\l_tmpa_skip=\skip74
+\l_tmpb_skip=\skip75
+\g_tmpa_skip=\skip76
+\g_tmpb_skip=\skip77
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count134
+\l__intarray_loop_int=\count135
+\c__intarray_sp_dim=\dimen146
+\g__intarray_font_int=\count136
+\c__fp_leading_shift_int=\count137
+\c__fp_middle_shift_int=\count138
+\c__fp_trailing_shift_int=\count139
+\c__fp_big_leading_shift_int=\count140
+\c__fp_big_middle_shift_int=\count141
+\c__fp_big_trailing_shift_int=\count142
+\c__fp_Bigg_leading_shift_int=\count143
+\c__fp_Bigg_middle_shift_int=\count144
+\c__fp_Bigg_trailing_shift_int=\count145
+\c__kernel_randint_max_int=\count146
+\g__fp_array_int=\count147
+\l__fp_array_loop_int=\count148
+\l__sort_length_int=\count149
+\l__sort_min_int=\count150
+\l__sort_top_int=\count151
+\l__sort_max_int=\count152
+\l__sort_true_max_int=\count153
+\l__sort_block_int=\count154
+\l__sort_begin_int=\count155
+\l__sort_end_int=\count156
+\l__sort_A_int=\count157
+\l__sort_B_int=\count158
+\l__sort_C_int=\count159
+\l__tl_analysis_normal_int=\count160
+\l__tl_analysis_index_int=\count161
+\l__tl_analysis_nesting_int=\count162
+\l__tl_analysis_type_int=\count163
+\l__regex_internal_a_int=\count164
+\l__regex_internal_b_int=\count165
+\l__regex_internal_c_int=\count166
+\l__regex_balance_int=\count167
+\l__regex_group_level_int=\count168
+\l__regex_mode_int=\count169
+\c__regex_cs_in_class_mode_int=\count170
+\c__regex_cs_mode_int=\count171
+\l__regex_catcodes_int=\count172
+\l__regex_default_catcodes_int=\count173
+\c__regex_catcode_D_int=\count174
+\c__regex_catcode_S_int=\count175
+\c__regex_catcode_L_int=\count176
+\c__regex_catcode_O_int=\count177
+\c__regex_catcode_A_int=\count178
+\c__regex_all_catcodes_int=\count179
+\l__regex_show_lines_int=\count180
+\l__regex_min_state_int=\count181
+\l__regex_max_state_int=\count182
+\l__regex_left_state_int=\count183
+\l__regex_right_state_int=\count184
+\l__regex_capturing_group_int=\count185
+\l__regex_min_pos_int=\count186
+\l__regex_max_pos_int=\count187
+\l__regex_curr_pos_int=\count188
+\l__regex_start_pos_int=\count189
+\l__regex_success_pos_int=\count190
+\l__regex_curr_char_int=\count191
+\l__regex_curr_catcode_int=\count192
+\l__regex_last_char_int=\count193
+\l__regex_case_changed_char_int=\count194
+\l__regex_curr_state_int=\count195
+\l__regex_step_int=\count196
+\l__regex_min_active_int=\count197
+\l__regex_max_active_int=\count198
+\l__regex_replacement_csnames_int=\count199
+\l__regex_match_count_int=\count266
+\l__regex_min_submatch_int=\count267
+\l__regex_submatch_int=\count268
+\l__regex_zeroth_submatch_int=\count269
+\g__regex_trace_regex_int=\count270
+\c_empty_box=\box62
+\l_tmpa_box=\box63
+\l_tmpb_box=\box64
+\g_tmpa_box=\box65
+\g_tmpb_box=\box66
+\l__box_top_dim=\dimen147
+\l__box_bottom_dim=\dimen148
+\l__box_left_dim=\dimen149
+\l__box_right_dim=\dimen150
+\l__box_top_new_dim=\dimen151
+\l__box_bottom_new_dim=\dimen152
+\l__box_left_new_dim=\dimen153
+\l__box_right_new_dim=\dimen154
+\l__box_internal_box=\box67
+\l__coffin_internal_box=\box68
+\l__coffin_internal_dim=\dimen155
+\l__coffin_offset_x_dim=\dimen156
+\l__coffin_offset_y_dim=\dimen157
+\l__coffin_x_dim=\dimen158
+\l__coffin_y_dim=\dimen159
+\l__coffin_x_prime_dim=\dimen160
+\l__coffin_y_prime_dim=\dimen161
+\c_empty_coffin=\box69
+\l__coffin_aligned_coffin=\box70
+\l__coffin_aligned_internal_coffin=\box71
+\l_tmpa_coffin=\box72
+\l_tmpb_coffin=\box73
+\g_tmpa_coffin=\box74
+\g_tmpb_coffin=\box75
+\c__coffin_empty_coffin=\box76
+\l__coffin_display_coffin=\box77
+\l__coffin_display_coord_coffin=\box78
+\l__coffin_display_pole_coffin=\box79
+\l__coffin_display_offset_dim=\dimen162
+\l__coffin_display_x_dim=\dimen163
+\l__coffin_display_y_dim=\dimen164
+\g__file_internal_ior=\read2
+\l__coffin_bounding_shift_dim=\dimen165
+\l__coffin_left_corner_dim=\dimen166
+\l__coffin_right_corner_dim=\dimen167
+\l__coffin_bottom_corner_dim=\dimen168
+\l__coffin_top_corner_dim=\dimen169
+\l__coffin_scaled_total_height_dim=\dimen170
+\l__coffin_scaled_width_dim=\dimen171
+\l__seq_internal_a_int=\count271
+\l__seq_internal_b_int=\count272
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2019-02-15 v L3 Experimental driver: dvips
+\g__driver_pdf_object_int=\count273
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count274
+\g__xparse_grabber_int=\count275
+\l__xparse_m_args_int=\count276
+\l__xparse_mandatory_args_int=\count277
+\l__xparse_v_nesting_int=\count278
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen172
+\l__xtemplate_tmp_int=\count279
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip78
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+)
+Package: enotez 2017/04/24 v0.9a Endnotes for LaTeX2e
+\l__enotez_list_preamble_skip=\skip79
+\l__enotez_list_postamble_skip=\skip80
+\g__enotez_endnote_id_int=\count281
+\g__enotez_endnote_mark_int=\count282
+\c@endnote=\count283
+\g__enotez_list_printed_int=\count284
+\l__enotez_tmpa_int=\count285
+
+Package xtemplate Info: Declaring object type 'enotez-list' taking 1
+(xtemplate)             argument(s) on line 389.
+
+\l__enotez_list_notes_sep_dim=\dimen173
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+\tab@position=\count286
+\tab@size=\count287
+\listing@line=\count288
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 357.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bezos/accents.sty
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen174
+\cc@wd=\dimen175
+\cc@code=\count289
+\cc@group=\count290
+\cc@skewchar=\count291
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count292
+\c@@ppsavesec=\count293
+\c@@ppsaveapp=\count294
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box80
+\UL@hyphenbox=\box81
+\UL@skip=\skip81
+\UL@hook=\toks30
+\UL@height=\dimen176
+\UL@pe=\count295
+\UL@pixel=\dimen177
+\ULC@box=\box82
+Package: ulem 2012/05/18
+\ULdepth=\dimen178
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/optional/optional.sty
+Package: optional 2005/01/26 ver 2.2b;  Optional inclusion/omission
+)
+Using optional text marked with econtex. 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip82
+\bibsep=\skip83
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count296
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks31
+\footnotemargin=\dimen179
+\c@pp@next@reset=\count297
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ncctools/manyfoot.sty
+Package: manyfoot 2005/09/11 v1.10 Many Footnote Levels Package (NCC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ncctools/nccfoots.sty
+Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
+)
+\MFL@columnwidth=\dimen180
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/perpage.sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count298
+)
+Package footmisc Info: Declaring symbol style blank on input line 344.
+\footinsB=\insert252
+\c@footnoteB=\count299
+\c@pp@a@footnoteB=\count300
+\c@authornum=\count301
+\c@bottomauthor=\count302
+LaTeX Info: Redefining \rm on input line 399.
+LaTeX Info: Redefining \sf on input line 400.
+LaTeX Info: Redefining \tt on input line 401.
+LaTeX Info: Redefining \bf on input line 402.
+LaTeX Info: Redefining \it on input line 403.
+LaTeX Info: Redefining \sl on input line 404.
+LaTeX Info: Redefining \sc on input line 405.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2018-06-12-16:01
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks32
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2019-01-12-14:56
+)
+(/usr/local/texlive/texmf-local/tex/latex/econtexSetup.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/psibycus.sty
+Package: psibycus 2004/10/18 v4.5 Ibycus4 using Type1 fonts (P.A.MacKay/WaS)
+\digraphs=\toks33
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/ibycus4.map
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/tlgsqq.tex))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/Uibycus.fd
+File: Uibycus.fd 2004/10/18 v4.5 font definitions for Ibycus/Type1 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/iby4extr.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ibygrk/version4.tex
+Ibycus Greek. Version 4. 15 July 1997)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ushort/ushort.sty
+ushort.sty by M. Vaeth: Release: 2.2 
+Package: ushort 2001/06/13 v2.2
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2019-01-12-14:56
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+)
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count305
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count306
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen184
+\Fld@menulength=\count307
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+\Field@toks=\toks34
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count308
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver: htex4ht.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/htex4ht.def
+File: htex4ht.def 2018/11/30 v6.88e Hyperref driver for TeX4ht
+Package hyperref Info: tex4ht is already loaded.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 151.
+
+Including MathFactsList.defs)
+(/usr/local/texlive/texmf-local/tex/latex/econtexShortcuts.sty)
+(./HARKmanual.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2018-12-30-09:29
+--------------------------------------
+--- Note --- For additional information, compile `xhlatex mktex4ht.4ht'
+ and review the appropriate pointers under mktex4ht.html => index
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2018-06-12-16:01
+
+--- needs --- tex4ht HARKmanual ---
+\tmp:cnt=\count309
+\openout15 = `HARKmanual.tmp'.
+
+(./HARKmanual.tmp)
+\tmp:dim=\skip84
+--------------------------------------
+--- Note --- for XML code, use the command line option `xml' or `xhtml'
+--------------------------------------
+ (./HARKmanual.xref)
+\:refout=\write3
+\openout3 = `HARKmanual.xref'.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** Preamble.4ht
+******************************************
+                                         *
+
+
+\Configure{PROLOG}.........1
+
+   #1 Comma separated list of hooks to appear before HTML.
+
+      Each hook E is declared to be configurable by an
+      instruction of the form \NewConfigure{E}{1}
+
+      A star '*' prefix calls for accumulative configurations
+
+   Example:
+
+      \Configure{PROLOG}{VERSION,DOCTYPE,*XML-STYLESHEET}
+      \Configure{VERSION}
+         {\HCode{<?xml version="1.0"?>}}
+
+\Configure{ext}............1
+
+   #1: default extension name for target files  (recorded in \:html)
+
+   Can also be requested through a command line option ext=...
+
+\Preamble...................0
+
+   Records the list of the requested options.  Defined upon entering
+   the environment \Preamble{...}....\EndPreamble, to replace the
+   earlier version of \Preamble.
+
+\ifOption ................. 3
+
+   #1  Argument to be checked  wheteher it is a given option.
+   #2  True part
+   #3  False part
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** tex4ht.4ht
+******************************************
+                                         *
+
+
+Wrapper for the Document
+------------------------
+
+\Configure{DOCTYPE}.........1
+\Configure{HTML}............2
+\Configure{HEAD}............2
+\Configure{@HEAD}...........1
+\Configure{BODY}............2
+\Configure{TITLE+}..........1
+\Configure{TITLE}...........2
+\Configure{@TITLE}..........1
+\Configure{Preamble}........2
+
+    <DOCTYPE>
+    <HTML 1>
+      <HEAD 1>
+         <TITLE 1>
+            <@TITLE>
+            <TITLE+>
+         <TITLE 2>
+         <@HEAD>
+      <HEAD 2>
+      <BODY 1>
+      ......
+      <BODY 2>
+    <HTML 2>
+
+The \Configure{@HEAD}{...} command is additive, concatenating the
+content of all of its appearances.  An empty parameter requests
+the cancellation of the earlier contributions.
+
+For instance,
+
+  \Configure{@HEAD}{A}
+  \Configure{@HEAD}{}
+  \Configure{@HEAD}{B}
+  \Configure{@HEAD}{C}
+
+contributes `BC'.
+
+The \Configure{TITLE+} provides the content for the title,
+\Configure{TITLE} sets the envelop, and \Configure{@TITLE} acts as a
+hook for introducing localized configurations. As is the case for
+\Configure{@HEAD}, the contribution of \Configure{@TITLE} is also
+additive.
+
+These configurations should be introduced early enough in the
+compilation. For instance, in the case of LaTeX, between \Preamble
+and \begin{document} of a local configuration file.
+
+           \Preamble
+             %%% here %%%
+           \begin{document}
+             ...
+           \EndPreamble
+
+
+\Configure{@BODY}...........1
+\Configure{@/BODY}..........1
+
+   Variants of \Configure{@HEAD} which contribute their content,
+   respectively, after <body> and before </body>.
+
+\Configure{CutAtTITLE+}.....1
+\Configure{HPageTITLE+}.....1
+
+   #1 an insertion just before the content of <TITLE>;
+
+   If #1 is a one parametric macro, it gets the title content for
+   an argument.
+
+
+Support for Sectioning Commands
+-------------------------------
+
+\Configure{unit-name} ......................4
+
+   #1 start
+   #2 end
+   #3 before title
+   #4 after title
+
+   Example:
+
+        \Configure{section}
+           {\HCode{<section>}}    {\HCode{</section>}}
+           {\HCode{<title>}}      {\HCode{</title>}}
+
+
+\ConfigureMark{unit-name}...................1
+
+   Defines a macro \<<unit-name>>HMark to hold the given argument.
+   Upon entering the unit, \TitleMark gets the content of this macro.
+
+   Some built-in configurations of TeX4ht require an argument for the
+   \<<unit-name>>HMark commands. For safety, these commands should
+   always be followed by a, possiblely empty, argument.  The argument
+   should be a separator between the title mark and its content.
+
+   Example:
+
+        \Configure{section}
+           {}{}
+           {\HCode{<h3>}\TitleMark\space}    {\HCode{</h3>}}
+        \ConfigureMark{section}{\thesection}
+
+
+\Configure{toTocLink}.......................2
+
+   Each unit title contains a \Link{...}{...}...\EndLink command.
+   The first argument of \Link points to the first table of contents
+   referencing the title. The second argument provides an anchor
+   for references to the title (mainly from tables of contents).
+
+   The package option `section+' requests the inclusion of the
+   title within the anchor.  Without this option, the link command
+   resides between the title mark and its content.
+
+   The \Configure{toTocLink} command is provided for configuring
+   the \Link and \EndLink  instructions.  In the default setting,
+   when the `sections+' option is not activated, the \Link
+   command is altered to replace its first argument with an empty
+   argument.
+
+     Example:
+
+          \Configure{toTocLink}
+             {\Link}
+             {\ifx \TitleMark\sectionHMark
+                \Picture[\up]{haut.jpg align="right"}%
+                \EndLink
+                \TitleMark\space
+              \else \EndLink \fi
+             }
+          \def\up{[up]}
+
+\Configure{toToc}...........................2
+
+    #1  unit type
+    #2  desired contents type  (if empty, `unit type' is assumed)
+
+  Example: \Configure{toToc}{chapter}{likechapter}
+           Introduces chapter as likechapter into toc
+
+    #1  empty: stop adding entries of `unit type' to toc
+            @: add entries of `unit type' to toc
+            ?: resume mode in effect before the last stop
+    #2  unit type
+
+  Example: \Configure{toToc}{}{chapter}
+           \chapter{...}
+           \Configure{toToc}{@}{chapter}
+
+\Configure{writetoc}.........................1
+
+    #1  Configuration material for the insertion instruction.
+        New configurations are added to those request earlier
+        by the command.  An empty argument cancels the earlier
+        contributions.
+
+\NoLink.......................1
+
+   Ignore option `section+' for sections of type #1
+
+\TitleCount
+
+   Count of entries submitted to the toc file
+
+\Configure{NoSection}.........2
+
+   Insertions around the parameters of sectioning commands, applied when
+   the parameters are not used to create titles for the divisions.
+
+
+\CutAt{#1,#2,#3,...}
+
+    #1           section type to be placed in a separate web page
+    #2,#3,...    end delimiting section types, other than #1, for
+                 the web pages
+    A `+' before #1 requests hypertext buttons for the web pages
+
+    Examples:
+
+          \CutAt{mychapter,myappendix,mypart}
+          \CutAt{+myappendix,mychapter,mypart}
+
+    Cut points at arbitrary points can be introduced by introducing section-lik
+e
+    commands in a manner similar to
+
+         \NewSection\mysection{}
+         \CutAt{mysection}
+
+
+\Configure{+CutAt}.................................3
+
+     #1 sectioning type
+     #2 before
+     #3 after
+
+     Requests delimiters for the \CutAt buttons of the specified
+     sectioning type
+
+    Example:   \Configure{+CutAt}{mysection}{[}{]}
+
+\PauseCutAt{#1}
+\ContCutAt{#1}
+
+    #1  section type
+
+\Configure{CutAt-filename} ........................1
+
+   A 2-parameter hook for tailoring section-based filenames.
+   The section type is available through #1. The section title
+   is accessible through #2.
+
+   Example:   \Configure{CutAt-filename}{\NextFile{#1-#2.html}}
+
+
+Tables of Contents
+------------------
+
+Created from the entries collected in the previous compilation within
+a jobname.4tc file.
+
+\ConfigureToc{unit-name} ......................4
+
+   #1 before unit number
+   #2 before content
+   #3 before page number
+   #4 at end
+
+   * Empty arguments request the omission of the corresponding field.
+
+   * \TocCount  Specifies the entry count withing the jobname.4tc file.
+
+   * \TitleCount Count of entries submitted to the toc file
+
+   * An alternative to \ConfigureToc{unit-name}:
+
+      \def\toc<unit-name>#1#2#3{<before unit number>#1<before content>#2%
+                             <before page number>#3<at end>}
+
+
+   Example:
+
+        \ConfigureToc{section}
+           {}
+           {\Picture[*]{pic.jpg width="13"  height="13"}~}
+           {}
+           {\HCode{<br />}}
+
+
+\Configure{TocLink}..................4
+
+   Configures the link offered in the third arguments of \ConfigureToc
+
+   Example:   \Configure{TocLink}{\Link{#2}{#3}#4\EndLink}
+
+\TocAt{#1,#2,#3,...}
+
+    #1           section type for which local tables of contents
+                 \Toc#1 are requested
+    #2,#3,...    sectioning types to be included in the tables of
+                 contents
+
+    The non-leading arguments may be preceded by slashes '/', in
+    which cases the arguments specify end points for the tables.
+
+    The default setting requests automatic insertion of the local
+    tables immediately after the sectioning heads.
+
+    A star `*' character may be introduced, between the  \TocAt and
+    the left brace, to request the appearances of the tables of
+    contents at the end of the units' prefaces.
+
+    A hyphen `-' character, on the other hand, disables the automatic
+    insertions of the local tables.
+
+    In case of a single argument, the command removes the
+    existing definition of \Toc#1.
+
+    Example:
+      \TocAt{mychapter,mysection,mysubsection,/myappendix,/mypart}
+      \TocAt-{mysection,mysubsection,/mylikesection}
+      \section{...}...\Tocmysection
+
+    The definition  of the local table of contents can be redefined
+    within \csname Toc#1\endcsname.
+
+    Example:
+
+       \TocAt{section}
+       \def\Tocsection{\TableOfContents[section]}
+
+       \Css{div.sectionTOCS {
+                           width : 30\%;
+                           float : right;
+                      text-align : left;
+                  vertical-align : top;
+                     margin-left : 1em;
+                       font-size : 85\%;
+                background-color : \#DDDDDD;
+           }}
+
+    Example: Table of content before the section title.
+
+       \Configure{section}{}{}
+          {\Tocsection \let\saveTocsection=\Tocsection
+           \def\Tocsection{\let\Tocsection=\saveTocsection}%
+           \ifvmode \IgnorePar\fi \EndP\IgnorePar
+           \HCode{<h3 class="sectionHead">}\TitleMark\space\HtmlParOff}
+          {\HCode{</h3>}\HtmlParOn\ShowPar \IgnoreIndent \par}
+
+
+\Configure{TocAt}......................2
+\Configure{TocAt*}.....................2
+
+   #1 before the tables of contents
+   #2 after the tables of contents
+
+
+Navigation Links for Sectioning Divisions
+-----------------------------------------
+
+\Configure{crosslinks}.....................8
+
+   #1  left delimiter
+   #2  right delimiter
+   #3  next
+   #4  previous
+   #5  previous-tail
+   #6  front
+   #7  tail
+   #8  up
+
+  The content to be displayed in the pointers
+
+\Configure{crosslinks*}.................1--7
+
+  Links to be included and their order. Available
+  options: next, prev, prevtail, tail, front, up.
+  The last argument must be empty.
+
+  Default:
+
+      \Configure{crosslinks*}
+         {next}
+         {prev}
+         {prevtail}
+         {tail} {front}
+         {up}
+         {}
+
+\Configure{crosslinks+}.....................4
+
+   #1  before top menu
+   #2  after top menu
+   #3  before bottom menu
+   #4  after bottom menu
+
+  The top cross links are omitted, if both #1 and #2 are empty.
+  The bottom cross links are omitted, if both #3 and #4 are empty.
+
+\Configure{next}.....................1
+    #1  the anchor of the next button of the front page.
+
+    Default: The value provided in \Configure{crosslinks}
+
+\Configure{next+}.............................2
+
+   #1  before the next button of the front page, when the `next'
+       option is active.
+   #2  after the button
+
+    Default: The values provided in \Configure{crosslinks}
+
+\Configure{crosslinks:next}..................1
+\Configure{crosslinks:prev}..................1
+\Configure{crosslinks:prevtail}..............1
+\Configure{crosslinks:tail}..................1
+\Configure{crosslinks:front}.................1
+\Configure{crosslinks:up}....................1
+
+   #1 local configurations for the delimiters and hooks
+
+\Configure{crosslinks-}.....................2
+
+   Asks to show linkless buttons with the following insertions.
+
+      #1  before
+      #2  after
+
+   The default values are used, if both #1 and #2 are empty
+
+   Examples:
+
+       \Configure{crosslinks-}{}{}
+
+       \Configure{crosslinks-}
+           {\HCode{<span class="hidden">}[}
+           {]\HCode{</span>} }
+       \Css{span.hidden {visibility:hidden;}}
+
+Paragraphs
+----------
+
+\Configure{HtmlPar}..........4
+
+   #1 content at the start non-indented paragraphs
+   #2 content at the start indented paragraphs
+   #3 insertion into \EndP, at the start of non-indented paragraphs
+   #4 insertion into \EndP, at the start of indented paragraphs
+
+   \HtmlParOff
+   \HtmlParOn
+
+   \IgnorePar     Asks to ignore the next paragraph
+   \ShowPar       Asks to take into account the following paragraphs
+
+   \IgnoreIndent  asks to ignore indentation in the next paragraph
+   \ShowIndent    asks to check indentation in the following paragraphs
+
+   \SaveEndP      Saves the content of \EndP, and sets it to empty content
+   \RecallEndP
+
+   \SaveHtmlPar
+   \RecallHtmlPar
+
+
+  Example:
+     \Configure{@BODY}
+        {\ifvmode \IgnorePar\fi \EndP
+         \HCode{<div>}\par\ShowPar}
+     \Configure{@/BODY}
+        {\ifvmode \IgnorePar\fi \EndP
+         \HCode{</div>}}
+
+
+Cross-Linking
+-------------
+
+\Link[@1 @2]{@3}{@4}...\EndLink
+
+  Creates
+
+     <a href="@1#@3" name="@4" @2>...</a>
+
+  * When @1 is empty, tex4ht will derive its value automatically.
+    The derived value will be the file name containing the target @3.
+
+  * \Link may be followed by `-', if tex4ht needs not automatically
+    determine (for other \link commands) the file containing @4.
+    In the present of such a flag, tex4ht can spare a definition of
+    one macro.
+
+  * The component [@1 @2] is optional. If omitted, @1 and @2 are
+    assumed to be empty
+
+  * The href attribute is omitted when @1 and @3 are empty
+
+  * The name attribute is omitted when @4 is empty
+
+  Examples:
+
+      \Link{a}{}...\Endlink .....  \Link{}{b}...\EndLink
+      \Link[http://foo  id="fooo"]{a}{b}...\EndLink
+
+\Configure{Link}..............4
+
+   Configures \Link...\EndLink so that
+
+     #1 replaces `a'
+     #2 replaces `href='
+     #3 replaces `name='
+     #4 replaces `#'.  If empty, the older value remains in effect.
+
+  Examples:
+
+   \Configure{Link}{a}{href=}{name=}{}
+   \Configure{Link}{ref}{target=}{id=}{\empty}
+
+\Configure{?Link}..............1
+
+   #1 insertion before broken links
+
+   To help with debugging
+
+\LinkCommand...................1 <= i <= 6
+
+   Creates a \Link-like command
+
+   #1   tag name
+   #2   href-like attribute
+   #3   name-like attribute
+   #4   insertion
+   #5   /, if empty element
+   #6  replacement for #  (ignored if absent)
+
+  Example:
+
+    \LinkCommand\JSLink{a,\noexpand\jsref,name}
+    \def\jsref="#1"{href="javascript:window.open('#1')"}
+
+    \JSLink{a}{}xx\EndJSLink
+    \Link{}{a}\EndLink       % or \JSLink{}{a}\EndJSLink
+
+\Configure{XrefFile}.....................1
+
+   #1 names cross-references of files (appends #1 to `)F' and `)Q'
+      entries of the .xref files). Applicable mainly implicitly
+      within \Link commands
+
+\Tag.....................................2
+
+   #1  label
+   #2  content
+
+\Ref.....................................1
+\LikeRef.................................1
+
+   #1  label
+
+   \Tag and \Ref are tex4ht.sty commands introduced cross-referencing
+   content through .xref auxiliary files.
+
+   \LikeRef is a variant of \Ref which doesn't verify whether the
+   labels exit.  It is mainly used in \Link and \edef environments.
+
+\ifTag ..................................3
+
+   #1  quetioned tag
+   #2  true part
+   #3  false part
+
+\LoadRef-[prefix]+{filename.ext}{pattern}
+
+   Load the named xref-type file
+
+   .xref      optional--`.xref' is assume for a default
+   +          optional-- asks \Ref and \LikeRef commands
+              to use expanded tags `filename::tag', instead of just `tag'
+   [prefix]   optional--asks just for tags starting with the
+              specified prefix.
+   -          optional--deletes the prefixes from the loaded tags
+   {pattern}  to be included only when `[prefix]' or `+' are included.
+              States how tags are to be addressed, with the parameter
+              symbol `#1'  specifying the loaded part.
+
+   Example:
+
+        % a.tex
+        \LoadRef-[to:]{b}{from:#1}      \Ref{from:filename}
+                                        \LikeRef{from:filename}
+
+        % b.tex
+        \Tag{to:filename}{\FileName}
+
+   Example:
+
+        \LoadRef-[)F]{file}{)Ffoo##1}
+        \LoadRef-[)Q]{file}{)Qfoo##1}
+        \Configure{XrefFile}{foo}   \Link...\EndLink
+
+        \LoadRef{another-file}
+
+
+Files
+-----
+
+\FileName    Holds the name of the current hypertext file
+\FileNumber  Holds the internal number of the current hypertext file
+\RefFileNumber...........................1
+    #1  File number
+
+    Provides the file name
+
+\NextFile.................................1
+    #1 Requested name for the next file
+
+\Hinput{#1}
+
+    The command asks to load the configuration files associated
+    with mark #1.
+
+\Hinclude[#1]{#2}
+
+    The command associates configuration file #2 with mark #1.  If
+    the mark is the star character `*', the configuration files is
+    associated to all marks.  The command is applicable until the
+    \Preamble command is processed
+
+    For instance,  \Hinclude[*]{html4.4ht}....\Hinput{latex}
+
+\Hinclude{#1}{#2}
+
+    The command is applicable while the \Preamble command is
+    processed. Its purpose is to load *4ht hook files within
+    the fragments of code specified in #1.
+
+    For instance, \Hinclude{\input plain.4ht}{plain}
+
+
+Fonts
+-----
+
+\Configure{htf}...............................9
+
+    #1         label (integer 0--255)
+    #2         delimiter (a character not appearing in #3,...,#9)
+           even label             odd label
+    #3       start opening tag      start empty tag
+    #4       name                   alt
+    #5       size                   name
+    #6       mag                    size
+    #7                              mag
+    #8       end the tag            ord
+    #9       closing tag            end the tag
+
+    The htf fonts assign a content and a label to each symbol (possibly
+    followed by a comment).  For instance,
+
+        'e'    '1'    epsilon
+        'z'    '3'    zeta
+
+    An even label asks that the content itself will be used for the
+    symbol, and an odd label asks that the symbol will be represented by a
+    bitmap.  In the later case,  the content serves as a substitution for
+    browsers which don't exhibit bitmaps.
+
+    The \Configure{htf}... command provides label-dependent wrappers to
+    chosen representations.
+
+    If they are not empty, `mag' and `ord' must be c-type
+    patterns for integer arguments, and `name' and `size'
+    should be a patterns for strings.  The `mag' entry is
+    ignored for fonts of the default dimension. Together
+    they specify a attribute-value format, mainly for references
+    in the css code.
+
+  Examples:
+
+     \Configure{htf}{0}{+}{<span\Hnewline
+        class="}{\%s}{-\%s}{x-x-\%d}{}{">}{</span>}
+     \Configure{htf}{1}{+}{<img\Hnewline
+        src="}{" alt="}{" class="}{\%s}{-\%d}{x-x-\%x}{" />}
+
+\Configure{htf-attr}....................... 2
+
+     #1  c-pattern for the font name and size
+     #2  c-pattern for font magnification
+
+     Specify the format of the selectors within the css files.
+
+   Example:
+     \Configure{htf-attr}{.\%s-%s}{--\%s}
+
+\Configure{htf-css}....................... 2
+
+    #1  font name or label
+    #2  css entry
+
+    A variant of the \Css command. If #1 is a font name,
+    the contribution replaces the one given within the
+    htf font definition. If #1 is a label for an entry
+    of a htf font, the contribution is added to the css
+    file.  The contribution is offered, only when the
+    font is in use.
+
+  Example:
+
+   \Configure{htf-css}{4}{.small-caps{font-variant: small-caps;}}
+
+
+Bitmaps
+-------
+
+\Configure{Picture}....................... #1
+
+  #1  Extension name for bitmap files of dvi pictures,
+      stored in \PictExt
+
+  Default: \Configure{Picture}{.png}
+
+  The extension names of bitmap files of glyphs of htf fonts may be
+  determined within a g-entry in the environment file tex4ht.env, or a
+  g-flag of the tex4ht.c utility.
+
+\Configure{Picture-alt}......................1
+
+  #1  alt value for \Picture+{...}  and \Picture*{...}
+
+\Configure{Picture+}.........................2
+\Configure{Picture*}.........................2
+
+  #1  before the dvi picture code
+  #2  after the dvi picture code
+
+  Typically, the plus `+' variant is introduced as an inline
+  contribution into paragraphs, and the star `*' variant as an
+  independent block between paragraphs.
+
+\Configure{PictureAlt}........................2
+\Configure{PictureAlt*+}......................2
+\Configure{PictureAlt*+[]}....................2
+
+  #1 definitions before alt
+  #2 definitions after alt
+
+ Apply to \Picture{...}, \Picture*+{...}, and \Picture*+[...]{...}
+
+\Configure{PictureAlt}........................1
+\Configure{PictureAlt*+}......................1
+\Configure{PictureAlt*+[]}....................1
+
+  #1 definition for attributes (introduced through
+     a parameter named `#1')
+
+   Apply to \Picture{...}, \Picture*+{...}, and \Picture*+[...]{...}
+
+\Configure{IMG}...............................5
+
+  #1 before file name
+  #2 between file name and alt
+  #3 close alt for  \Picture without * or +
+  #4 close alt for  \Picture with * and +
+  #5 right delimiter
+
+  Example:
+
+     \Configure{IMG}
+        {\ht:special{t4ht=<img src="}}
+        {\ht:special{t4ht=" alt="}}
+        {" }
+        {\ht:special{t4ht=" }}
+        {\ht:special{t4ht=/>}}
+
+\NextPictureFile.............................1
+
+   Requests a file name for the next created picture.
+
+\PictureFile.............................0
+
+   Records the filename of the most recent created picture.
+
+Math
+----
+
+\Configure{$}................................2
+\Configure{$$}...............................2
+\Configure{DviMath}..........................2
+
+\DviMath ... \EndDviMath
+\MathClass ... \EndMathClass
+\PicMath ... \EndPicMath
+\DisplayMath ... \EndDispalyMath
+
+   Example:
+
+     \Configure{$} {\Tg<math>\DviMath} {\EndDviMath\Tg</math>} {}
+
+
+
+\Configure{PicMath}..........................4
+
+   Example:
+
+       \Configure{PicMath}{}{}{}{ class="math" }
+
+     \Configure{()}{\protect\PicMath$}{$\protect\EndPicMath}
+
+\Configure{SUB}..............................2
+\Configure{SUP}..............................2
+\Configure{SUBSUP}...........................3
+\Configure{SUPSUB}...........................3
+\Configure{SUB/SUP}..........................6
+
+\Configure{putSUB}...........................1
+\Configure{putSUP}...........................1
+
+     #1 the code to be used for realizing subscripts and postcripts
+
+\Configure{afterSUB}.........................2
+
+     #1 look ahead token after subscript
+     #2 the code to be used for realizing subscripts having #1 for
+        lookahead token
+
+\Configure{over}.............................2
+\Configure{atop}.............................2
+\Configure{above}............................2
+\Configure{overwithdelims}...................2
+\Configure{atopwithdelims}...................2
+\Configure{abovewithdelims}..................2
+
+   #1 before \over, \atop, \above
+             \overwithdelims, \atopwithdelims, \abovewithdelims
+   #2 after  \over, \atop, \above <dimension>
+             \overwithdelims <del1> <del2>
+             \atopwithdelims <del1> <del2>
+             \abovewithdelims <del1> <del2> <dimension>
+
+   Example:
+
+     \Configure{over}
+         {\Send{GROUP}{0}{[before]}[before-rule]}
+         {[before-argument]\Send{EndGROUP}{0}{[after]}}
+
+
+\Configure{MathClass}........................5
+
+   #1  class number
+          0: mathord, 1: mathop, 2: mathbin, 3: mathrel,
+          4: mathopen, 5: mathclose, 6: mathpunc
+   #2  delimiter
+   #3  before
+   #4  after
+   #5  characters
+
+   Extra support:
+
+      \PauseMathClass
+      \EndPauseMathClass
+      \NewMathClass<new control sequence>  (7, 8, ...)
+
+\Configure{FormulaClass}.....................4
+
+   #1  class number
+          0: mathord, 1: mathop, 2: mathbin, 3: mathrel,
+          4: mathopen, 5: mathclose, 6: mathpunc
+   #2  a character not in #3 and #4
+   #3  before
+   #4  after
+
+   If #2 is empty, the formula gets the same marking as a
+   single character of the specified type
+
+\Configure{FormulaClass*}....................4
+
+   Like the previous case, but allow marking in the
+   nested content.
+
+\Configure{MathDelimiters}...................2
+
+   #1  left
+   #2  right
+
+\Configure{mathbin*}.........................4
+\Configure{mathclose*}.......................4
+\Configure{mathop*}..........................4
+\Configure{mathopen*}........................4
+\Configure{mathord*}.........................4
+\Configure{mathpunct*}.......................4
+\Configure{mathrel*}.........................4
+
+   #1  a character not presented in #2#3#4
+   #2  code before
+   #3  code after
+   #4  possible definitions for successive cases
+
+  Example:
+     \Configure{mathop*}{*}{}{}
+        {\Configure{mathop}{*}{<mo>}{</mo>}{}}
+     \mathop{\overline{x \mathop{op} y}} \limits^{a=3}
+
+\Configure{mathbin}..........................4
+\Configure{mathclose}........................4
+\Configure{mathopen}.........................4
+\Configure{mathop}...........................4
+\Configure{mathord}..........................4
+\Configure{mathpunct}........................4
+\Configure{mathrel}..........................4
+
+Variants of the above group, requesting to supress nested marks.
+
+\Configure{nolimits}.........................1
+
+\MathSymbol
+
+AtBeginDocument
+---------------
+
+\Configure{AtBeginDocument}..................2
+
+    #1  before the corresponding hook of latex
+    #2  after
+
+   Insertions are accumulative, and can be erased by providing
+   two empty arguments
+
+Other Hooks
+-----------
+
+  \Configure{HChar}...................1
+
+    #1  a character
+
+    The \HChar{i} instruction inserts the character code i with the
+    font information of character #1, when i is positive. If i is
+    negative, the font info is not included.
+
+
+\Configure{Canvas}
+\Configure{ExitHPage}
+\Configure{LinkHPage}......................1
+\Configure{FontCss}
+\Configure{HVerbatim+}
+\Configure{MiniHalign}
+\Configure{Needs-}
+\Configure{Needs}
+
+
+\Configure{TraceTables}
+\Configure{edit}
+\Configure{halignTB}
+\Configure{halignTD}
+\Configure{halign}
+\Configure{hooks}
+\Configure{moveright}
+
+\Configure{noalign-}
+\Configure{pic-halign}
+
+\Configure{accent}
+\Configure{mathaccent}
+\Configure{accented}
+\Configure{accenting}
+
+
+Back-end Specials
+-----------------
+                                                    insertions
+                                                    ----------
+  =    \special{t4ht=...content...}
+           Insert the specified content to the html output, under
+           edef mode of processing, and without using the mapping
+           of the htf fonts.  Used in \HCode{...}.
+  @    \special{t4ht@...integer...}
+           Insert the absolute value as character code to the output.
+           Positve values ask the insertion to be included in place
+           of the next chracter, together with the font information
+           of that character.
+                                                    files
+                                                    -----
+  >    \special{t4ht>...file-name...}
+           Open a new file, if needed, and direct future output
+           to the specified file.  Used in \File{...}.
+  <    \special{t4ht<...file-name...}
+           Close the specified file.  If it is the current file,
+           activate the youngest file. Used in \EndFile{...}.
+  >*   \special{t4ht*>...file-name...}
+           Declare the file to be the oldest.
+       \special{t4ht*>}
+           Reactivate the file that activated the current file.
+  *<   \special{t4ht*<file}
+           Input file (with no processing)
+  +    \special{t4ht++file-name}...dvi...\special{t4ht+}
+           Pipe the dvi code into a dvi page in the secondary dvi file
+           `jobname.idv'.  Used by \Picture{...}, e.g., for requesting
+           gif's.
+  +    \special{t4ht+embeded-specials within idv}
+  .    \special{t4ht.ext}
+           Change default ext of root file
+  @D   \special{t4ht@D....} Writes the content, augmented with a
+           loc stamp, to the .lg file.  The locations stamp consists
+           a byte-address in a named output file.
+
+                                                    character maps
+                                                    --------------
+  !    \special{t4ht!...optional-parameters....}...dvi...\special{t4ht!}
+           Create an approximated character map for the dvi code.
+           Used in \Picture{...}, e.g., for ALT of IMG
+  |    \special{t4ht|}...\special{t4ht|}
+           Use the non-pictorial characters of the htf fonts.
+           Used for character maps of \Picture{....}
+  @    \special{t4ht@-}....\special{t4ht@-}
+           Remove left margin from character map.  Used in \Picture{...}.
+
+                                                    character settings
+                                                    ------------------
+  @    \special{t4ht@@}....\special{t4ht@@}
+           Insert the character codes, instead of their mappings through
+           the htf fonts.  Used in \JavaScript...
+  @    \special{t4ht@...integer...}, \special{t4ht@-...integer...}
+           Introduce the character code into the output.
+           Used by \HChar{...} and \HChar{-...}. The earlier one
+           also inherites the current font info.
+  @    \special{t4ht@+...string...}
+           Replace the character code introduced by the next character
+           with the specified string.  The decoration of the character
+           code is inherited, when the string is not empty. The string
+           might include character codes by enclosing them between braces.
+  @    \special{t4ht@*...string...}
+           A variant \special{t4ht@+...string...} that inserts the content
+           after the character instead of replacing it.
+  @    \special{t4ht@(}
+           Ignore spaces
+  @    \special{t4ht@)}
+           End ignore spaces
+  @    \special{t4ht@[}
+           Ignore chs and spaces
+  @    \special{t4ht@]}
+           End ignore chs and spaces
+  @    \special{t4ht@[...}...\special{t4ht@]...}\special{t4ht@?...}
+           Ignore chs and spaces, if the specials  have the above
+           syntax on identical strings.
+  @    \special{t4ht@!}
+           Get the last ignored spaces (none, if from previous lines).
+  @    \special{t4ht@_....}
+           Output character for rulers. Empty string is also allowed.
+  @    \special{t4ht@.''''}
+           Output for line break characters (empty
+                                         content resets the default).
+  @    \special{t4ht@,''''}
+           Output for space characters (empty content resets the default).
+
+                                                    dvi tracing
+                                                    -----------
+  @    \special{t4ht@%X}...\special{t4ht@%x}
+           Request dvi tracing.
+
+               X  x
+               P  p      groups
+               C  c      characters
+               H  h      horizontal spaces
+               V  v      vertical spaces
+               R  r      rulers
+
+       \special{t4ht@%%X*...open-del....*...close-del....}
+       \special{t4ht@%%x*...open-del....*...close-del....}
+           Tailor dvi tracing
+
+  @    \special{t4ht@/}
+           On/off tracing of specials.
+  @    \special{t4ht@e...}
+           String for tracing errors into the output.
+  ;    \special{t4ht;....}
+           Decorations for htf characters (e.g., css)
+              8    pause
+              9    end pause
+              \let \prOteCt \relax \Protect \csname acp:c\endcsname {14}.. patt
+ern
+              =... show font name of char
+              %... show font size of char
+              ,    don't report next htf class to lg
+              -    set default font info
+              +    unset default font info
+  ^    \special{t4ht^i}$symbols$\special{t4ht^}}'
+           Requests math class i for the listed math symbols.
+
+           Tex assignes class numbers 0--7 to the atoms of math
+           formulas: 0--ordinary symbol, 1--large operator, 2--binary
+           operation, 3--relational operation, 4--math delimiter,
+           5--right delimiter, 6--punctuation mark, and 7--adjustable.
+           TeX4ht adds classes  8 and 9, while using
+           class 7 independently
+       \special{t4ht^}
+           on/off processing delimiters
+       \special{t4ht^-}
+           pause processing delimeters
+       \special{t4ht^+}
+           continue processing delimeters
+       \special{t4ht^i}
+           on/off processing delimiters of class i
+       \special{t4ht^i*...*...}
+           configure delimiters for class i. * can be any
+           character distinguished for the group.
+       \special{t4ht^i(}
+           put delimiters of class i on next group
+       \special{t4ht^i)}
+           As before, but ignore the delimeters within the sub-group.
+       \special{t4ht^)*...*...}
+           put the specified delimiters on next group.
+           Ignore delimeters within the group.
+       \special{t4ht^<*...*...}
+           put the specified delimiters on the next group.
+           Don't ignore delimeters within the group.
+                                                    dvi arithmetic
+                                                    --------------
+  :    \special{t4ht:....}
+           Dvi-mode arithmetics.
+             :+...  increment by 1( define, if not defined)
+             :-...  decrement by 1
+             :>...  push current value
+             :<...  pop current value
+             :!...  display current value
+             :\let \prOteCt \relax \Protect \csname acp:c\endcsname {14}..  dis
+play top value
+
+                                                    messages to lg file
+                                                    -------------------
+  +    \special{t4ht+@...message...}
+           Send message to the lg file.  Used in the \Needs{...} command.
+  @    \special{t4ht@D....}
+           Send message to the lg file, together with location and file
+           stamp.
+
+                                                    positional code
+                                                    -------------------
+  "    \special{t4ht"}
+           Start/end positional env
+       \special{t4ht"* before-all * after-all ...** before-char
+                     * after-char * rect
+                     *%A*%B*%C*%D*%E
+                     * optional
+           Configure positioned code
+             * before-all
+             * after-all      %...
+             ** before-char  %x %y
+             * after-char
+             * rect          %x1 %y1 ...
+             * x,x1-coefficients %A(x) + %B
+             * y1-coefficients %C(y1 - %E(height)) + %D
+             * y-coefficients  %C(y) + %D
+             * optional: 1, 2
+
+               %x1 %y1 %length %thickness          default
+               %x1 %y1 %x1+length %y1+thickness    1
+               %x1 %y1 %x1+length %y1 %thickness   2
+
+           A-magnification, B-displacement
+           C-magnification, D-displacement,
+           E- origin (0: top, 0.5: mid, 1: bot)
+
+           The %...'s should be c-type templates (e.g., "%.2f"; "%.0f"
+              gives an integer)
+
+           Multiple after-all templates are allowed. The leading
+             character is a code specifying the dimension type.
+                x           min x
+                X           max x
+                y           min y
+                Y           max y
+                d           dx
+                D           dy
+                otherwise   a string with no values
+           The delimiter `*' can be substitued by another character.
+
+
+  ~    \special{t4ht~...}
+           Grouped-base two-way delivery for content created by
+           inline commands like \over.
+
+       \special{t4ht~}...\special{t4ht~}   on/off
+
+       ~<i...  send forward to the start of the group nested
+                                                at relative level i.
+       ~>i...  send forward to the end of the group nested
+                                                at relative level i.
+               i=0, current group
+
+
+       ~<*...  send back to start of previous token / group.
+       \special{t4ht~<)}...\special{t4ht~<(}
+           activate / deactivate  back token / group submissions
+       \special{~<[}...\special{t4ht~<]}'
+           hide region from back submissions over token / group
+       \special{t4ht~<-} ... \special{t4ht~<+}
+           latex back token / group
+
+       \special{t4ht\string~!...path...<...content}
+           insertion at the start of the group reached by the path
+       \special{t4ht\string~!...path...>...content}
+           insertion at the end of the group reached by the path
+       \special{t4ht\string~!...path.../}
+           ignore content within the group reached by the path
+       \special{t4ht\string~!...path...-}
+           ignore rulers from the group reached by the path
+           until the start of the next group
+        A path may consist only of `e' and `s' characters for,
+        respectively, entering and skipping groups
+
+  *!   \special{t4ht*! system command}
+           System call
+  *^   accent specials
+        t text accent #1#2#1#3#1#4#1#5#1#6 pattern
+                      empty                insertion point
+        m math accent #1#2#1#3#1#4#1#5#1   pattern
+                      empty                insertion point
+        a accented    #1#2#1#3#1#4#1#5#1#6
+        i             #1#2#1#3#1#1
+  *@   halign specials
+
+\HCode...............................1
+
+   A wrapper for \special{t4ht=...}.
+
+   The sharp symbol # may be accessed indirectly through the command.
+
+\Hnewline............................0
+
+   Requests new lines within specials
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+******************************************
+****** tex4ht.4ht
+******************************************
+                                         *
+
+
+Cascade Style Sheets and Character Sets
+---------------------------------------
+
+\Configure{CssFile}.....................2
+
+   #1  name for css file
+   #2  comment in css file
+
+\Configure{Css}
+
+\Configure{charset}..................1
+
+   #1  override information for the charset entry in the link element
+
+   To be noticed, the configuration should be encountered early in the
+   complation.
+
+      Example:
+
+        \Preamble{}
+          \Configure{charset}{iso-8859-15}
+        \begin{document}
+        \EndPreamble
+
+   In the case of TeX, the configuration instruction should precede
+   the \Preamble command, and a declaration of the hook should also
+   be provided.
+
+      Example:
+
+          \NewConfigure{charset}{1}
+          \Configure{charset}{iso-8859-15}
+        \Preamble{}
+        \begin{document}
+        \EndPreamble
+
+\Configure{dtd-lang}..................1
+
+    #1 language specification for the DTD identifier
+
+Paragraphs
+----------
+
+Three types of paragraphs are produced by \Configure{HtmlPar}:
+
+   <p class="indent">....</p>
+   <p class="noindent">....</p>
+   <p class="nopar">....</p>
+
+The third one handles degenerated cases which don't call for a
+separate paragraph in the source code. For instance, an inline
+display math code of the form
+
+     ..........
+     $$......$$
+     ..........
+
+translates into a markup similar to
+
+     <p class="...">..........</p>
+     <math>......</math>
+     <p class="nopar">..........</p>
+
+Frames
+------
+
+   May be requested with the command line option `frames'
+
+   \Configure{frames}.....................2
+
+      #1  The frames structure
+      #2  Content for the frame of the table of contents
+
+   Example:
+
+      \Configure{frames}
+         {\HorFrames[frameborder="no" border="0"
+               framespacing="0" rows="*"]{*,3*}
+           \Frame[ name="tex4ht-menu" ]{tex4ht-toc}
+           \Frame[ name="tex4ht-main" ]{tex4ht-body}}
+         {\let\contentsname=\empty \tableofcontents}
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html,pic-tabular,pic-m,pic-array,pic-eqnarray,info
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+)
+\:tokwrite=\toks35
+\:tokpage=\toks36
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `HARKmanual.4ct'.
+
+\:tocout=\write4
+\openout4 = `HARKmanual.4tc'.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2018-12-05-15:46
+LaTeX Info: Redefining \_ on input line 168.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** latex.4ht
+******************************************
+                                         *
+
+
+Sectioning
+----------
+
+\Configure{@sec @ssect}
+
+
+Tables of Contents
+------------------
+
+
+\Configure{tableofcontents}........................5
+
+   #1 before
+   #2 at end
+   #3 after
+   #4 at indented paragraph break
+   #5 at non-indented paragraph break
+
+   The \tableofcontents command may be followed by a comma separated
+   list of sectioning unit names to be included in the table of
+   contents.  The list should be enclosed within square brackets.
+   Alternatively, a command of the form \TableOfContents[...] might
+   be used.
+
+Lists
+-----
+
+\ConfigureList.....................5
+
+   #1   type of list (e.g., itemize, description, enumerate,
+                            list, trivlist)
+   #2   before list
+   #3   after  list
+   #4   before label
+   #5   after label
+
+   \DeleteMark   removes latex's label; to be placed at the end of #4
+   \AnchorLabel  defines an anchor for \label in current item; to
+                 be placed in #5
+
+
+Tables
+------
+
+\Configure{tabular}...................6
+\Configure{array}.....................6
+
+    #1   before table         #2   after table
+    #3   before row           #4   after row
+    #5   before cell          #6   after cell
+
+    \HRow         current row number
+    \HCol         current column number
+    \HMultispan   number of cells covered by the current cell
+    \ar:cnt       number of columns in the table
+
+  NOTE: Table require a number of compilations that depends
+        on the number of columns.
+
+  Example
+
+   \Configure{tabular}
+       {\HCode{<table>}}
+       {\HCode{</table>}}
+       {\HCode{<tr class="row-\HRow">}}
+       {\HCode{</tr>}}
+       {\HCode{<td
+               \ifnum \HMultispan>1 colspan="\HMultispan"\fi >}}
+       {\HCode{</td>}}
+
+
+\Configure{VBorder}...................4
+
+    Break points, when scanning the pattern of column desriptions, at
+
+    #1  at start of pattern
+    #2  at |
+    #3  at a non-@ entry
+    #4  at a @ entry
+
+  Applies to \begin{tabular / array}{...pattern...}
+
+    \ar:cnt    index of entry in pattern
+    \ch:class  records the current alignment type: -,<,>,p,...
+    \HColAlign produces the \Configure{halignTD} contribution
+               for the current alignment type
+    \HColWidth holds the width of the current p column
+
+\Configure{HBorder}..................10
+
+   hline:
+    #1  insert at start of row (e.g., <tr>)
+    #2  insert at each cell    (e.g., <td><hr/></td>)
+    #3  insert at end of row   (e.g., </tr>)
+
+   cline:
+    #4  insert at start of row         (e.g., <tr>)
+    #5  insert at each `extra' cell    (e.g., <td></td>)
+    #6  insert at each cell            (e.g., <td><hr/></td>)
+    #7  insert at end of row           (e.g., </tr>)
+
+   vspace:
+    #8  insert at start of row (e.g., <tr>)
+    #9  insert at each cell    (e.g., <td>&nbsp;</td>)
+    #10 insert at end of row   (e.g., </tr>)
+
+   The contributions are collected into \HBorder.  (The \InitHBorder
+   clears \HBorder.)
+
+\Configure{putHBorder}...............1
+    #1 Specifies how \HBorder is to be used.
+
+   Example: \Configure{putHBorder}{\HCode{\HBorder}}
+
+
+
+\Configure{halignTD}..................2 + 2i + {}
+
+  interpretation for character codes referenced in \HAlign
+
+  e.g.,
+
+   \Configure{halignTD}
+   {}{}
+   {<}{\HCode{style="text-align:left"}}
+   {-}{\HCode{style="text-align:center"}}
+   {>}{\HCode{style="text-align:right"}}
+   {^}{\HCode{style="vertical-align:top"}}
+   {=}{\HCode{style="vertical-align:baseline"}}
+   {|}{\HCode{style="vertical-align:middle"}}
+   {_}{\HCode{style="vertical-align:bottom"}}
+   {p}{\HCode{style="text-align:left"}}
+   {}
+
+   \halignTD can be used in td elements to extract the alignment.
+   It recieves information from \halignTB.
+
+\Configure{halignTB}..................2
+
+   delimiters for \halignTB{tabular}
+
+   Example
+       \Configure{halignTB}{\HCode{<table }}{\HCode{>}}
+
+\Configure{tabbing}[mag]..................4
+
+   #1 before each line
+   #2 after each line
+   #3 before each entry
+   #4 after each entry
+
+   [mag] optional parameter specifying the magnification desired
+         for the dimensions.  When offered, the other parameters
+         have no effect if all of them are assigned empty arguments
+
+   \TabType   \` or \relax
+   \TabWidth  Provides the entry width; 0 at trailing entry that is
+              not flushed rightward
+
+
+Cross References
+----------------
+
+\Configure{ref}.......................3
+
+  #1   \Link-type command
+  #2   \EndLink-type command
+  #3   anchor (the system anchor is
+               reachable through the parameter name #1)
+  \RefArg   Holds the argument of \ref
+
+  If #1 is empty, the hyper links are ignored
+  If #3 is empty, the anchor is the one provided by the system
+
+  Example:
+
+    \Configure{ref}{\Link}{\EndLink}{{\bf #1}}
+
+\Configure{pageref}...................3
+
+  #1   before
+  #2   after
+  #3   anchor (system anchor, if parameter is empty)
+
+\Configure{newlabel}..................2
+
+  #1   address for hyperlink (\cur:th \:currentlabel, if empty)
+  #2   anchor (the system anchor is
+               reachable through the parameter name #1)
+
+\Configure{@newlabel}.................1
+
+   #1  modifications to the newlabel environment
+
+\Configure{newlabel-ref}..............1
+
+   #1  an intermediate link command for the aux file
+       (Configured by \Configure{ref}...)
+
+   The default for #1 is \rEfLiNK
+
+\Configure{cite}......................4
+
+  #1   before
+  #2   after
+  #3   \Link-type command
+  #4   \EndLink-type command
+
+  If #3 is empty, the hyper links are ignored.
+
+\Configure{bibitem}...................2
+
+  #1   \Link-type command
+  #2   \EndLink-type command
+
+\Configure{bibcite}...................1
+
+  #1  configurations for content transfered by bibitem to the aux file
+
+  Example:
+       \Configure{bibcite}
+                 {\def\hookrightarrow{\string\hookrightarrow}}
+       \bibitem[$\hookrightarrow$...]{...}
+
+
+\LoadLabels[#1]{#2}....................
+
+  [#1]   optional group name
+  #2     aux file name, without the extension
+
+  Loads labels of another file, under the specified group name
+
+\RefLabel.............................2
+
+  #1     group name (for separating files and labels from
+                     different sources)
+  #2     label
+
+  A variant of \ref for loading labels produced for other files
+
+  Example:
+    file1.tex:  \label{foo}
+
+    file2.tex:  \LoadLabels[x]{file1}
+                \RefLabel{x}{foo}
+
+\SkipRefstepAnchor.....................0
+
+    No \Link anchor for next \refstepcounter
+
+\ShowRefstepAnchor.....................0
+\AutoRefstepAnchor.....................0
+
+
+Bibliography on bibtex2 option:
+
+  \Configure{bibliography2}........................ 4
+
+     #1 before anchor
+     #2 anchor
+     #3 after anchor
+     #4 link attributes
+
+    Example:
+
+       \Configure{bibliography2}
+          {\bgroup ~~[\Configure{Link}{a}{target="x"  href=}{ name=}{}}
+          {more} {]\egroup}
+
+  \Configure{bibitem2}..............................3
+
+     #1 at start of bibitem
+     #2 at end of bibitem
+     #3 separator after label
+
+  \Configure{bibliographystyle2}....................1
+
+     #1 an empty argument asks for the same style as the
+        normal aux file (still bibtex may produce different
+        output).
+
+Note: Option `bibtex2' requires compilation
+      of `\jobname j.aux' with bibtex.
+
+Captions
+--------
+
+refcaption
+
+  An option for \Preamble, requesting anchors at \caption. The default
+  setting sends them back to the start of the floating environment.
+
+
+Theorems
+--------
+
+\Configure{newtheorem} ......................3
+
+  #1 before theorem
+  #2 between title and body
+  #3 after theorem
+
+Math
+----
+\Configure{()}...............................2
+\Configure{[]}...............................2
+
+   Example:
+
+     \Configure{()}{\protect\PicMath$}{$\protect\EndPicMath}
+     \Configure{[]} {\Tg<display>\DviMath$$} {$$\EndDviMath\Tg</display>}
+
+\Configure{equation}.........................3
+
+   #1    at start
+   #2    between the equation and its numbering
+   #3    at end
+
+  Examples:
+
+      \Configure{equation}
+           {\IgnorePar\EndP\bgroup \Configure{HtmlPar}{}{}{}{}%
+                    \HCode{<table class="equation"><tr><td>}\IgnorePar
+           }
+           {\HCode{</td><td class="eq-number">}}
+           {\HCode{</td></tr></table>}\egroup}
+
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+      \Configure{equation}
+         {\IgnorePar\EndP \bgroup \Configure{$$}{}{}{}%
+          \Configure{@math}{display="inline"}\DviMath
+                  \HCode{<mtable class="equation"><mtr><mtd>}\IgnorePar
+         }
+         {\IgnorePar\HCode{</mtd><mtd class="eq-number">}}
+         {\HCode{</mtd></mtr></mtable>}\EndDviMath\egroup}
+
+
+\Configure{frac}.............................4
+\Configure{sqrtsign}.........................2
+
+\Configure{mbox}.............................2
+
+Environments of latex
+---------------------
+
+  \ConfigureEnv{...}.........................4
+
+     #1 environment name
+     #2 before env
+     #3 after env
+     #4 before underlying list
+     #5 after underlying list
+
+    #2 and #3 are ignore when they are both empty as well as
+    when there is no underlying list
+
+
+   array
+   center
+   flushleft
+   flushright
+   minipage
+   tabbing
+   tabular
+   verbatim*
+   verbatim
+
+
+   \Configure{@begin}........................2
+
+      #1 environment name
+      #2 insertion before the environment
+
+   Example:
+      \Configure{@begin}{theindex}{\section*{\indexname}}
+
+
+Verbatim
+--------
+
+\Configure{verbatim}......................2
+
+   #1 at start of line
+   #2 space character
+
+\Configure{verb}..........................2
+
+   #1 before
+   #2 after
+
+\Configure{obeylines}.....................3
+
+   #1 before
+   #2 at start of line
+   #3 after
+
+\ScriptEnv................................3
+
+  Introduces a verbatim environent
+
+   #1 name
+   #2 before
+   #3 after
+
+  A `-' immediately after \begin{...} designate as an escape symbol
+  the character following the dash
+
+  Example:
+
+     \ScriptEnv{foo}
+       {\HCode{<myscript>}\NoFonts\hfill\break }
+       {\EndNoFonts \HCode{</myscript>}}
+
+     \begin{foo}
+     ....
+     ....
+     \end{foo}
+
+     \begin{foo}-\relax \unhbox \voidb@x \special {t4ht@+&{35}x00A0{59}}x     .
+...
+     ....
+     \end{foo}
+
+
+Fonts
+-----
+
+\Configure{texttt}........................2
+\Configure{textit}........................2
+\Configure{textrm}........................2
+\Configure{textup}........................2
+\Configure{textsl}........................2
+\Configure{textsf}........................2
+\Configure{textbf}........................2
+\Configure{textsc}........................2
+\Configure{emph}..........................2
+
+  #1  before content
+  #2  after content
+
+
+Footnotes
+---------
+
+\Configure{footnotetext}..................3
+
+    #1 before footnote
+    #2 between mark and content
+    #3 after footnote
+
+   \FNnum     footnote number
+
+\Configure{footnotemark}..................2
+
+    #1 before
+    #2 after
+
+Pictures
+--------
+
+\Configure{picture}.......................2
+
+    #1  before
+    #2  after
+
+Other Hooks
+-----------
+
+\Configure{ }.........................1
+
+   #1 representation for non-breaking space ch
+
+\Configure{hline}.....................1
+
+\Configure{hspace} ...................3
+
+   \tmp:dim      register holding the size
+   #1            before the space
+   #2            after the space
+   #3            after #1 (\tmp:dim mod 6em  copies)
+
+\Configure{vspace} ...................1
+
+   #1 the size of space is prvided in a parameter nmaed `#1'
+
+   Example:
+
+      \Configure{vspace}
+      {\ifhmode
+         \HCode{<br />}%
+         \ifdim #1>1ex \HCode{<br />}\fi
+       \fi
+      }
+
+\Configure{fbox} .................................. 2
+
+   Examples:
+
+        \Configure{fbox}
+          {\HCode{<div class="fbox">}\bgroup \fboxrule=0pt}
+          {\egroup\HCode{</div>}}
+        \Css{div.fbox {border: 1pt solid black;}}
+
+        \Configure{fbox}
+          {\HCode{<table cellspacing="0pt"
+              border="1"><tr><td>}\bgroup \fboxrule=0pt}
+          {\egroup\HCode{</td></tr></table>}}
+
+\Configure{'} ..................................... 3
+
+   #1 at entry to math prime environment
+   #2 at exit
+   #3 content of \prime
+
+\Configure{float}....................................
+   #1 optional, to appear within brakects [ and ].  An anchor for
+      the links preceeding the float, when option refcaption is
+      not active
+   #2 Insertion before the links
+   #3 at start
+   #4 at end
+
+\Configure{textcircled}.............................2n+1
+   2i'th     replaced       i=1,...,n
+   2i+1'st   replacement
+   2n+'nd    empty (terminator)
+
+
+\Configure{add accent}{#1:#2}{#3}{#4}...{}{}
+   #1  encoding
+   #2  font number
+   #3  character under font
+   #4  replacement
+
+   Applies to accents that reach \add@accent
+
+  Example:
+
+     \Configure{add accent}{OT4:18}
+       {E}{\add:acc{00C8}}
+       {e}{\add:acc{00E8}}
+       {}{}
+
+
+
+
+\Configure{//[]}
+\Configure{AfterTitle}
+\Configure{HAccent}
+\Configure{InsertTitle}
+\Configure{accents}
+\Configure{accent}
+\Configure{centercr}
+\Configure{centerline}
+
+\Configure{displaylines}
+\Configure{framebox}
+
+\Configure{leftline}
+\Configure{marginpar}
+\Configure{mathaccent}
+\Configure{newline}
+\Configure{oalign}
+
+\Configure{overline}
+
+\Configure{rightline}
+\Configure{stackrel}
+\Configure{tt}
+\Configure{underline}
+\Configure{thanks}....................2
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+******************************************
+****** latex.4ht
+******************************************
+                                         *
+
+
+Hypertext Title
+---------------
+\Configure{@HTML}.........................1
+
+   Environment for setting \title material in <title>. The contributions
+   are accumulative; an empty argument reinitializes the contribution.
+
+Tables
+------
+
+Properties of tabular and array tables can be locally redefined with
+instructions of the following forms.
+
+   \Css{\#TBL-\TableNo-  {....}}           % within tables
+   \Css{\#TBL-\TableNo-\HRow- {....}}      % within rows
+   \Css{\#TBL-\TableNo-\HCol  {....}}      % within columns
+   \Css{\#TBL-\TableNo-\HRow-\HCol {....}} % within cells
+   \Css{\#TBL-\TableNo-<i>g  {....}}       % column group; <i>
+
+\Configure{enumerate}..............1
+   Contribution into <ol>
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2018-11-06-15:55
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** fontmath.4ht
+******************************************
+                                         *
+
+
+\Configure{mathbf}........................2
+\Configure{mathit}........................2
+\Configure{mathrm}........................2
+\Configure{mathsf}........................2
+\Configure{mathtt}........................2
+
+  #1  before content
+  #2  after content
+
+\Configure{overbrace}.................3
+\Configure{underbrace}................3
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/ifthen.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/scrartcl.4ht
+version 2018-10-20-15:45
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/article.4ht
+--------------------------------------
+--- Note ---  A script of the form 
+tex '\def \filename{{%%1}{idx}{4dx}{ind}} \input idxmake.4ht' 
+makeindex -o %%1.ind %%1.4dx 
+in the env file, automatically calls to the revised makeindex 
+command. An extra compilation of the source LaTeX file is required, 
+to get the index correctly into the output.
+--------------------------------------
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** article.4ht
+******************************************
+                                         *
+
+
+
+Title Page
+----------
+\Configure{maketitle}.....................4
+
+   #1 start of maketitle
+   #2 end of maketitle
+   #3 before title
+   #4 after title
+
+\Configure{thanks author date and}........8
+
+   #1  before thanks
+   #2  after thanks
+   #3  before author
+   #4  after author
+   #5  before date
+   #6  after date
+   #7  representation of `and'
+   #8  line breaks (= end of rows, for an embedded tabular environment)
+
+
+Sectioning Commands
+-------------------
+\Configure{part}...................4
+\Configure{section}................4
+\Configure{subsection}.............4
+\Configure{subsubsection}..........4
+\Configure{paragraph}..............4
+\Configure{subparagraph}...........4
+
+   #1 before division
+   #2 after division
+   #3 before title
+   #4 after title
+
+\Configure{likepart}...............4
+\Configure{likesection}............4
+\Configure{likesubsection}.........4
+\Configure{likesubsubsection}......4
+\Configure{likeparagraph}..........4
+\Configure{likesubparagraph}.......4
+
+   starred versions of the sectioning commands
+
+\Configure{endpart}................1
+\Configure{endsection}.............1
+\Configure{endsubsection}..........1
+\Configure{endsubsubsection}.......1
+\Configure{endparagraph}...........1
+\Configure{endsubparagraph}........1
+\Configure{endlikepart}............1
+\Configure{endlikesection}.........1
+\Configure{endlikesubsection}......1
+\Configure{endlikesubsubsection}...1
+\Configure{endlikeparagraph}.......1
+\Configure{endlikesubparagraph}....1
+
+   #1  a comma separated list specifying the end
+       points for the configured logical unit
+
+   e.g., \Configure{endsection}
+              {likesection,chapter,likechapter,appendix,part,likepart}
+
+\Configure{partTITLE+}
+\Configure{sectionTITLE+}
+\Configure{subsectionTITLE+}
+\Configure{subsubsectionTITLE+}
+
+
+   #1 an insertion just before the content of <TITLE>;
+
+   The insertion overrides the one offered by \Configure{CutAtTITLE+}
+   for the given section type (the `like' counterparts acn also be
+   configured).
+
+   If #1 is a one parametric macro, it gets the title content for
+   an argument.
+
+
+
+Bibliography
+------------
+
+\ConfigureList{thebibliography}......4
+
+   #1   before list
+   #2   after  list
+   #3   before label
+   #4   after label
+
+   \DeleteMark   removes latex's label; to be placed at the end of #3
+   \AnchorLabel  defines an anchor for \label in current item; to
+                 be placed in #4
+
+\Configure{cite}        see the
+\Configure{bibitem}     latex section
+
+
+Tables of Content
+-----------------
+\ConfigureToc
+
+  lof, lot, appendix, chapter, likechapter, likeparagraph, likepart,
+  likesection, likesubparagraph, likesubsection, likesubsubsection,
+  paragraph, part, section, subparagraph, subsection, subsubsection,
+
+
+\Configure{tableofcontents*}.......................1
+
+    #1  A non-empty  parameter asks to implicitly introduce
+        a \tableofcontents upon reaching the first sectioning
+        command, if no \tableofcontents command is encountered
+        earlier. The parameter assumes a colon-separated list
+        of sectioning types to be included in the output
+        of \tableofcontents.  Starred variants of sectioning
+        types should be referenced with the `like' prefix.
+
+        An empty parameter cancels earlier requests for implicit
+        calls to \tableofcontents (e.g., embedded within requests
+        to package options 1, 2, 3, 4)
+
+   Example:
+
+      \Configure{tableofcontents*}{part,likepart,%
+           section,likesection,subsection,likesubsection}
+
+\contentsname
+
+   A LaTeX macro stating the title for a table of contents division.
+
+
+
+Captions
+--------
+
+\Configure{caption}...............4
+
+   #1   before number          #2    after number
+   #3   before title           #4    after title
+
+Indexes
+-------
+
+
+\Configure{theindex} ..........................9
+
+     #1    before-env
+     #2    after-env
+     #3    before-item
+     #4    after-item
+     #5    before-subitem
+     #6    after-subitem
+     #7    before-subsubitem
+     #8    after-subsubitem
+     #9    at-indexspace
+
+    Example:
+
+       \Configure{theindex}
+          {\HCode{<ul class="theindex">}\global\let\IndexSpace=\empty}
+          {\HCode{</ul>}}
+          {\HCode{<li \IndexSpace>}\global\let\IndexSpace=\empty}
+                                         {\HCode{</li>\Hnewline}}
+          {\HCode{<li>}\ \ \ \ }         {\HCode{</li>\Hnewline}}
+          {\HCode{<li>}\ \ \ \ \ \ \ \ } {\HCode{</li>\Hnewline}}
+          {\global\def\IndexSpace{class="indexspace"}}
+
+       \Css{.indexspace{margin-top:1em;}}
+
+    The links are indirectly requested in the idx files within
+    \beforeentry macros. For instance, a file try.tex
+
+       \documentclass{article}
+          \makeindex
+       \begin{document}
+
+       \section{xx}
+
+       \index{a1}  x
+       \index{a2}  x
+       \index{a2}  x
+       \index{b1}  x
+       \index{b2}  x
+       \index{b3}  x
+
+       \input \jobname.ind
+
+       \end{document}
+
+    produces a file try.idx of the form
+
+       \beforeentry{try.html}{dx1-1001}{}
+       \indexentry{a1}{1}
+       \beforeentry{try.html}{dx1-1002}{}
+       \indexentry{a2}{1}
+       \beforeentry{try.html}{dx1-1003}{}
+       \indexentry{a2}{1}
+       \beforeentry{try.html}{dx1-1004}{}
+       \indexentry{b1}{1}
+       \beforeentry{try.html}{dx1-1005}{}
+       \indexentry{b2}{1}
+       \beforeentry{try.html}{dx1-1006}{}
+       \indexentry{b3}{1}
+
+    where each pair
+
+        \beforeentry{A}{B}{}\indexetry{C}{D}
+
+    represents an entry of the form
+
+        \indexentry{\Link[A]{B}{}C\EndLink}{D}
+
+    The makeindex utility ignores the \beforeentry records.  To compensate
+    for that, one needs to pre-process the idx file which is introduced to
+    the makeindex utility and/or post-process the output of the utility.
+
+    A script consisting of two instructions similar to
+
+      tex '\def\filename{{try}{idx}{4dx}{ind}} \input idxmake.4ht'
+      makeindex -o try.ind try.4dx
+
+    instead of
+
+      makeindex -o try.ind try.idx
+
+    should do the job.
+
+    On some platforms, the quotation marks ' should be
+    replaced by double quotation marks " or eliminated.
+
+\Configure{makeindex} ..........................1
+
+    The default setting, requests consecutive numbers for the
+    pointers in the indexes.  The current command provides the
+    means to configure the pointers to other values.
+
+    Example: \Configure{makeindex}{Sec \arabic{section}}
+
+
+Environments of article:
+------------------------
+
+  \ConfigureEnv{...}.........................4
+
+   abstract
+   description
+   figure
+   figure*
+   quotation
+   quote
+   table
+   table*
+   thebibliography
+   titlepage
+   verse
+
+Other Hooks
+-----------
+\Configure{listof}
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+******************************************
+****** article.4ht
+******************************************
+                                         *
+
+
+Package options:
+
+   1   cut-off document into pages at the \part level
+   2   cut-off document into pages at the \section and higher levels
+   3   cut-off document into pages at the \subsection and higher levels
+   4   cut-off document into pages at the \subsubsection and higher levels
+
+       The section of \tableofcontents  is created only
+       if \contentsname is not empty
+
+  Macros sensitive to edef commands in sectioning titles
+  should be neutralize within \Configure{@TITLE}{....}
+
+
+Wrapper for the Document
+------------------------
+
+   \Tag{TITLE+}......................1
+
+   #1  Content submitted to the <TITLE> element of the leading
+       web page.
+
+   This instruction should be used at most once in a document.
+   In particular, it shouldn't be used when the \maketitle command
+   is present, since the latter command invokes this feature.
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/babel.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** babel.4ht
+******************************************
+                                         *
+
+
+\Configure{accent}
+\Configure{quotedblbase}
+\Configure{quotesinglbase}
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/english.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/verbatim.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amsmath.4ht
+version 2019-01-24-14:21
+\tmp:muskip=\muskip19
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** amsmath.4ht
+******************************************
+                                         *
+
+
+\Configure{tmspace}...................1
+
+  \mathglue   amount of space in math units
+  \textspace  amount of space in points
+
+  Example:
+    \Configure{tmspace}{\mskip\mathglue}
+
+
+\Configure{boxed}.....................2
+\Configure{equations}.................2
+\Configure{equation}..................3
+\Configure{gather*}...................6
+\Configure{gather}....................6
+\Configure{genfrac}...................6
+\Configure{measure@}..................1
+\Configure{multline*}.................4
+\Configure{multline}..................6
+
+    #5  before the label
+    #6  after the label
+\Configure{overset}...................2
+\Configure{smallmatrix}...............6
+\Configure{split}.....................6
+\Configure{subarray}..................4
+\Configure{substack}..................2
+\Configure{underset}..................2
+\Configure{xleftarrow}................2
+\Configure{xrightarrow}...............2
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amssymb.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amsfonts.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** amsfonts.4ht
+******************************************
+                                         *
+
+
+\Configure{mathbb}........................2
+\Configure{mathfrak}......................2
+
+  #1  before content
+  #2  after content
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/amsthm.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** amsthm.4ht
+******************************************
+                                         *
+
+
+Environments of amsthm:
+
+   proof
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/dcolumn.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/array.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** array.4ht
+******************************************
+                                         *
+
+
+\Configure{tabular}
+\Configure{array}
+
+
+\Configure{VBorder}...................4
+
+    Break points, when scanning the pattern of column desriptions, at
+
+    #1  at start of pattern
+    #2  at |
+    #3  at a non-@ entry
+    #4  at a @ entry
+
+  Applies to \begin{tabular / array}{...pattern...}
+
+    \ar:cnt    index of entry in pattern
+    \ch:class  records the current alignment type: -,<,>,p,...
+    \HColAlign produces the \Configure{halignTD} contribution
+               for the current alignment type
+    \HColWidth holds the width of the current p column
+
+\Configure{HBorder}..................10
+
+   hline:
+    #1  insert at start of row (e.g., <tr>)
+    #2  insert at each cell    (e.g., <td><hr/></td>)
+    #3  insert at end of row   (e.g., </tr>)
+
+   cline:
+    #4  insert at start of row         (e.g., <tr>)
+    #5  insert at each `extra' cell    (e.g., <td></td>)
+    #6  insert at each cell            (e.g., <td><hr/></td>)
+    #7  insert at end of row           (e.g., </tr>)
+
+   vspace:
+    #8  insert at start of row (e.g., <tr>)
+    #9  insert at each cell    (e.g., <td>&nbsp;</td>)
+    #10 insert at end of row   (e.g., </tr>)
+
+   The contributions are collected into \HBorder.  (The \InitHBorder
+   clears \HBorder.)
+
+\Configure{putHBorder}...............1
+    #1 Specifies how \HBorder is to be used.
+
+   Example: \Configure{putHBorder}{\HCode{\HBorder}}
+
+
+
+\Configure{@{}}{}
+
+
+Environments of array:
+
+   array
+   tabular
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/multicol.4ht
+version 2013-07-31-09:45
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/multirow.4ht
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/booktabs.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/afterpage.4ht
+version 2009-05-21-09:32
+
+l.37 --- TeX4ht warning --- afterpage.sty not supported ---
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/moreverb.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** moreverb.4ht
+******************************************
+                                         *
+
+
+\Configure{verbatimtab}......................2
+
+   #1 at start of line
+   #2 space character
+
+Environments of moreverb:
+
+   boxedverbatim*
+   boxedverbatim*
+   boxedverbatim
+   boxedverbatim
+   verbatimtab
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/color.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** color.4ht
+******************************************
+                                         *
+
+
+\Configure{HColor}......................2
+
+      #1 color name
+      #2 color value
+
+  Examples:  \Configure{HColor}{blue}{\#0000FF}
+             \Configure{HColor}{light}{rgb(122,251,255)}
+
+\Configure{colorbox}
+\Configure{color}
+\Configure{textcolor}
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/dvipsnam.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/accents.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/eucal.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/ulem.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/bm.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/url.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** url.4ht
+******************************************
+                                         *
+
+
+\Configure{url}
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- for URL encoding within href use the command line option `url-enc'
+
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/natbib.4ht
+version 2013-01-19-12:33
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/footmisc.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/ushort.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2018-10-01-14:24
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/graphics.4ht
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** graphics.4ht
+******************************************
+                                         *
+
+
+\Configure{graphics}...............2
+
+    #1  before \includegraphics
+    #2  after \includegraphics
+
+
+    Examples:
+
+       \Configure{graphics}
+          {\Picture+[PIC]{ class="graphics"}}
+          {\EndPicture }
+
+       \Configure{graphics}
+         {\bgroup
+             \Configure{IMG}
+                {\ht:special{t4ht=<img src="}}
+                {\ht:special{t4ht=" alt="}}
+                {" }
+                {\ht:special{t4ht=" }}
+                {}%
+          \Picture+[PIC]{}}
+         {\EndPicture
+             \def\temp{.pstex}\expandafter\ifx
+                              \csname Gin@ext\endcsname\temp
+                                         \HCode{ width="75\%" }\fi
+             \HCode{ />}%
+          \egroup}
+
+
+\Configure{graphics*}..............2
+
+    #1  extension name
+    #2  insertion
+
+    \Gin@base (file name), \Gin@ext, \Gin@req@width, \Gin@req@height,
+    \noBoundingBox (defined iff bounding box is unknown)
+
+    Allows to configure tex4ht for graphics files named in
+    the \includegraphics macro, based on the type of the files.
+
+    An empty insertion #2 cancels previous requests for the
+    specified extension.
+
+    Example:
+
+       \Configure{graphics*}
+         {jpg}
+         {\Picture[pict]{\csname Gin@base\endcsname.jpg}}
+
+       \Configure{graphics*}
+         {wmf}
+         {\Needs{"convert \csname Gin@base\endcsname.wmf
+                          \csname Gin@base\endcsname.gif"}%
+          \Picture[pict]{\csname Gin@base\endcsname.gif
+                      width="\expandafter\the\csname
+                                Gin@req@width\endcsname"
+                     height="\expandafter\the\csname
+                                Gin@req@height\endcsname"}%
+         }
+
+       \Configure{graphics*}
+         {eps}
+         {\openin15=\csname Gin@base\endcsname\PictExt\relax
+          \ifeof15
+             \Needs{"convert \csname Gin@base\endcsname.eps
+                             \csname Gin@base\endcsname\PictExt"}%
+          \fi
+          \closein15
+          \Picture[pict]{\csname Gin@base\endcsname\PictExt}%
+         }
+
+  Note: Arguments of the \includegraphics command such as angle and
+    scale in
+
+       \includegraphics[angle=-90,scale=0.5]{fig.eps}
+
+    are not known to the given figure (e.g., to fig.eps). To be
+    taken into account, the scripts should handle the transformations
+    they request (e.g., in \csname Grot@angle\endcsname,
+    \csname Gscale@x\endcsname, \csname Gscale@y\endcsname)
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
+en bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/hyperref.4ht
+version 2016-01-12-16:05
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count310
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/nameref.4ht
+version 2017-11-27-09:16
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+LaTeX Info: Redefining \autoref on input line 95.
+\Hy@SectionHShift=\skip85
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+******************************************
+****** hyperref.4ht
+******************************************
+                                         *
+
+
+A trick like the following one allows a compilation to choose
+between a pdf and a html mode automatically.
+
+   \ifx \HCode\UnDef  \usepackage[pdf]{hyperref}
+   \else              \usepackage[tex4ht]{hyperref}  \fi
+
+The trick assumes the compilations for html are invoked by
+htlatex-like commands.
+
+\Configure{::#1}
+\Configure{::action}
+\Configure{::default}
+\Configure{::menulength}
+\Configure{::method}
+\Configure{::name}
+\Configure{::value}
+\Configure{CheckBox::checked}
+\Configure{CheckBox::}
+\Configure{ChoiceMenu::combo}
+\Configure{ChoiceMenu::popdown}
+\Configure{ChoiceMenu::radio}
+\Configure{ChoiceMenu::}
+\Configure{Form}
+\Configure{PushButton::}
+\Configure{Reset::}
+\Configure{Submit::}
+\Configure{TextField::default}
+\Configure{TextField::multiline}
+\Configure{TextField::password}
+\Configure{TextField::width}
+\Configure{TextField::}
+\Configure{combo::default}
+\Configure{multiline::value}
+\Configure{multiline::width}
+\Configure{radio::default}
+
+
+
+
+                                         *
+******************************************
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/info4ht.4ht
+version 2018-06-12-16:02
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/infoht4.4ht
+version 2017-05-14-11:30
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-01-30-15:45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2018-12-05-18:11
+))
+(./HARKmanual.aux)
+\openout1 = `HARKmanual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 2.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 2.
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring ON on input line 2.
+LaTeX Info: Redefining \ref on input line 2.
+LaTeX Info: Redefining \pageref on input line 2.
+LaTeX Info: Redefining \nameref on input line 2.
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message with `\usepackage{bookmark}'
+(scrartcl)           before \begin{document} on input line 2.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+File: bkm-dvips.def 2016/05/17 v1.26 bookmark driver for dvips (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 209.
+\BKM@id=\count311
+))
+--- file HARKmanual.css ---
+)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 442.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 442.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 442.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 442.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 442.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+Class econtex Warning: {\forcedate} is undefined in the .tex file; please defin
+e it and rerun.
+
+l. 442 --- needs --- UserGuidePic.png ---
+[1
+
+] (./HARKmanual.4ct) [2] [3]
+--- file HARKmanual2.html ---
+ [4] [5
+
+]
+--- file HARKmanual3.html ---
+ [6] [7]
+--- file HARKmanual4.html ---
+ [8] [9
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 442.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 442.
+ [10]
+--- file HARKmanual5.html ---
+--- file HARKmanual6.html ---
+ [11
+
+]
+[12
+
+]
+--- file HARKmanual7.html ---
+ [13
+
+]
+l. 442 Writing HARKmanual.idv[1] (HARKmanual0x.png)
+l. 442 Writing HARKmanual.idv[2] (HARKmanual1x.png)
+l. 442 Writing HARKmanual.idv[3] (HARKmanual2x.png)
+ [14] [15]
+--- file HARKmanual8.html ---
+--- file HARKmanual9.html ---
+ [16
+
+]
+--- file HARKmanual10.html ---
+ [17
+
+
+]
+--- file HARKmanual11.html ---
+ [18] [19] [20] [21]
+--- file HARKmanual12.html ---
+ [22]
+l. 442 Writing HARKmanual.idv[4] (HARKmanual3x.png)
+l. 442 Writing HARKmanual.idv[5] (HARKmanual4x.png)
+l. 442 Writing HARKmanual.idv[6] (HARKmanual5x.png)
+l. 442 Writing HARKmanual.idv[7] (HARKmanual6x.png)
+l. 442 Writing HARKmanual.idv[8] (HARKmanual7x.png)
+l. 442 Writing HARKmanual.idv[9] (HARKmanual8x.png)
+l. 442 Writing HARKmanual.idv[10] (HARKmanual9x.png)
+--- file HARKmanual13.html ---
+ [23
+
+]
+--- file HARKmanual14.html ---
+--- file HARKmanual15.html ---
+l. 442 Writing HARKmanual.idv[11] (HARKmanual10x.png)
+l. 442 Writing HARKmanual.idv[12] (HARKmanual11x.png)
+ [24
+
+
+
+]
+l. 442 Writing HARKmanual.idv[13] (HARKmanual12x.png)
+l. 442 Writing HARKmanual.idv[14] (HARKmanual13x.png)
+l. 442 Writing HARKmanual.idv[15] (HARKmanual14x.png)
+ [25] [26]
+[27]
+--- file HARKmanual16.html ---
+ [28
+
+] [29]
+--- file HARKmanual17.html ---
+--- file HARKmanual18.html ---
+l. 442 Writing HARKmanual.idv[16] (HARKmanual15x.png)
+l. 442 Writing HARKmanual.idv[17] (HARKmanual16x.png)
+l. 442 Writing HARKmanual.idv[18] (HARKmanual17x.png)
+l. 442 Writing HARKmanual.idv[19] (HARKmanual18x.png)
+l. 442 Writing HARKmanual.idv[20] (HARKmanual19x.png)
+ [30
+
+
+]
+l. 442 Writing HARKmanual.idv[21] (HARKmanual20x.png)
+l. 442 Writing HARKmanual.idv[22] (HARKmanual21x.png)
+l. 442 Writing HARKmanual.idv[23] (HARKmanual22x.png)
+l. 442 Writing HARKmanual.idv[24] (HARKmanual23x.png)
+l. 442 Writing HARKmanual.idv[25] (HARKmanual24x.png)
+--- file HARKmanual19.html ---
+l. 442 Writing HARKmanual.idv[26] (HARKmanual25x.png)
+ [31
+
+]
+l. 442 Writing HARKmanual.idv[27] (HARKmanual26x.png)
+l. 442 Writing HARKmanual.idv[28] (HARKmanual27x.png)
+l. 442 Writing HARKmanual.idv[29] (HARKmanual28x.png)
+l. 442 Writing HARKmanual.idv[30] (HARKmanual29x.png)
+l. 442 Writing HARKmanual.idv[31] (HARKmanual30x.png)
+l. 442 Writing HARKmanual.idv[32] (HARKmanual31x.png)
+l. 442 Writing HARKmanual.idv[33] (HARKmanual32x.png)
+l. 442 Writing HARKmanual.idv[34] (HARKmanual33x.png)
+l. 442 Writing HARKmanual.idv[35] (HARKmanual34x.png)
+l. 442 Writing HARKmanual.idv[36] (HARKmanual35x.png)
+l. 442 Writing HARKmanual.idv[37] (HARKmanual36x.png)
+l. 442 Writing HARKmanual.idv[38] (HARKmanual37x.png)
+l. 442 Writing HARKmanual.idv[39] (HARKmanual38x.png)
+--- file HARKmanual20.html ---
+l. 442 Writing HARKmanual.idv[40] (HARKmanual39x.png)
+ [32]
+l. 442 Writing HARKmanual.idv[41] (HARKmanual40x.png)
+l. 442 Writing HARKmanual.idv[42] (HARKmanual41x.png)
+l. 442 Writing HARKmanual.idv[43] (HARKmanual42x.png)
+l. 442 Writing HARKmanual.idv[44] (HARKmanual43x.png)
+l. 442 Writing HARKmanual.idv[45] (HARKmanual44x.png)
+l. 442 Writing HARKmanual.idv[46] (HARKmanual45x.png)
+l. 442 Writing HARKmanual.idv[47] (HARKmanual46x.png)
+l. 442 Writing HARKmanual.idv[48] (HARKmanual47x.png)
+l. 442 Writing HARKmanual.idv[49] (HARKmanual48x.png)
+l. 442 Writing HARKmanual.idv[50] (HARKmanual49x.png)
+l. 442 Writing HARKmanual.idv[51] (HARKmanual50x.png)
+l. 442 Writing HARKmanual.idv[52] (HARKmanual51x.png)
+l. 442 Writing HARKmanual.idv[53] (HARKmanual52x.png)
+l. 442 Writing HARKmanual.idv[54] (HARKmanual53x.png)
+l. 442 Writing HARKmanual.idv[55] (HARKmanual54x.png)
+l. 442 Writing HARKmanual.idv[56] (HARKmanual55x.png)
+l. 442 Writing HARKmanual.idv[57] (HARKmanual56x.png)
+l. 442 Writing HARKmanual.idv[58] (HARKmanual57x.png)
+--- file HARKmanual21.html ---
+l. 442 Writing HARKmanual.idv[59] (HARKmanual58x.png)
+ [33
+
+]
+l. 442 Writing HARKmanual.idv[60] (HARKmanual59x.png)
+--- file HARKmanual22.html ---
+ [34
+
+]
+--- file HARKmanual23.html ---
+ [35
+
+
+]
+--- file HARKmanual24.html ---
+ [36]
+l. 471 Writing HARKmanual.idv[61] (HARKmanual60x.png)
+ [37]
+--- file HARKmanual25.html ---
+--- file HARKmanual26.html ---
+--- file HARKmanual27.html ---
+ [38
+
+
+]
+--- file HARKmanual28.html ---
+ [39]
+--- file HARKmanual29.html ---
+ [40
+
+]
+--- file HARKmanual30.html ---
+ [41]
+--- file HARKmanual31.html ---
+
+[42
+
+]
+--- file HARKmanual32.html ---
+--- file HARKmanual33.html ---
+--- file HARKmanual34.html ---
+ [43
+
+]
+--- file HARKmanual35.html ---
+ [44
+
+
+] [45]
+--- file HARKmanual36.html ---
+ [46]
+--- file HARKmanual37.html ---
+ [47
+
+] [48
+
+] [49]
+--- file HARKmanual38.html ---
+ [50
+
+] [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 670.
+ [52]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 670.
+\BKM@file=\write5
+\openout5 = `HARKmanual.out.ps'.
+
+ (./HARKmanual.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 670.
+\snap@out=\write6
+\openout6 = `HARKmanual.dep'.
+
+
+Dependency list written on HARKmanual.dep.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 670.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 670.
+ ) 
+Here is how much of TeX's memory you used:
+ 28895 strings out of 492617
+ 500421 string characters out of 6129024
+ 788534 words of memory out of 5000000
+ 32001 multiletter control sequences out of 15000+600000
+ 556335 words of font info for 93 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,18n,73p,9661b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on HARKmanual.dvi (52 pages, 220892 bytes).
