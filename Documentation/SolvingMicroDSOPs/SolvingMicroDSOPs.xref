@@ -1,0 +1,485 @@
+\:CrossWord{)F1F-}{SolvingMicroDSOPs.html}{1}%
+\:CrossWord{TITLE+}{Solution Methods for Microeconomic Dynamic Stochastic Optimization Problems}{1}%
+\:CrossWord{)M1x0}{;}{1}%
+\:CrossWord{)QAbstract}{1}{1}%
+\:CrossWord{)tb1}{ 75 0  0 75 0 0 75 0 0 75 0 0 75 0 0 75 0 0}{2}%
+\:CrossWord{)tb1.}{}{2}%
+\:CrossWord{fn0x0}{}{2}%
+\:CrossWord{fn0x0}{}{2}%
+\:CrossWord{)QIntroduction}{1}{1}%
+\:CrossWord{)Qx1-10001}{1}{1}%
+\:CrossWord{fn1x0}{}{1}%
+\:CrossWord{)Qx1-1001f1}{1}{1}%
+\:CrossWord{)BSolvingMicroDSOPs2.html(L }{SolvingMicroDSOPs.html}{1}%
+\:CrossWord{)F2F-}{SolvingMicroDSOPs2.html}{1}%
+\:CrossWord{SolvingMicroDSOPs2.html(L }{SolvingMicroDSOPs2.html}{1}%
+\:CrossWord{)Qfn1x0}{2}{1}%
+\:CrossWord{fn2x0}{}{2}%
+\:CrossWord{)Qx1-1002f2}{1}{2}%
+\:CrossWord{)BSolvingMicroDSOPs3.html(L }{SolvingMicroDSOPs.html}{2}%
+\:CrossWord{)F3F-}{SolvingMicroDSOPs3.html}{2}%
+\:CrossWord{SolvingMicroDSOPs3.html(L }{SolvingMicroDSOPs3.html}{2}%
+\:CrossWord{)Qfn2x0}{3}{2}%
+\:CrossWord{)QThe-Problem}{1}{2}%
+\:CrossWord{)Qx1-20002}{1}{2}%
+\:CrossWord{)Qx1-2001r1}{1}{2}%
+\:CrossWord{fn3x0}{}{3}%
+\:CrossWord{)Qx1-2002f3}{1}{3}%
+\:CrossWord{)BSolvingMicroDSOPs4.html(L }{SolvingMicroDSOPs.html}{3}%
+\:CrossWord{)F4F-}{SolvingMicroDSOPs4.html}{3}%
+\:CrossWord{SolvingMicroDSOPs4.html(L }{SolvingMicroDSOPs4.html}{3}%
+\:CrossWord{)Qfn3x0}{4}{3}%
+\:CrossWord{)Qx1-2003r2}{1}{3}%
+\:CrossWord{)Qx1-2003r5}{1}{3}%
+\:CrossWord{)Qx1-2005r6}{1}{4}%
+\:CrossWord{)Qx1-2005r7}{1}{4}%
+\:CrossWord{fn4x0}{}{4}%
+\:CrossWord{)Qx1-2006f4}{1}{4}%
+\:CrossWord{)BSolvingMicroDSOPs5.html(L }{SolvingMicroDSOPs.html}{4}%
+\:CrossWord{)F5F-}{SolvingMicroDSOPs5.html}{4}%
+\:CrossWord{SolvingMicroDSOPs5.html(L }{SolvingMicroDSOPs5.html}{4}%
+\:CrossWord{)Qfn4x0}{5}{4}%
+\:CrossWord{fn5x0}{}{4}%
+\:CrossWord{)Qx1-2007f5}{1}{4}%
+\:CrossWord{)BSolvingMicroDSOPs6.html(L }{SolvingMicroDSOPs.html}{4}%
+\:CrossWord{)F6F-}{SolvingMicroDSOPs6.html}{4}%
+\:CrossWord{SolvingMicroDSOPs6.html(L }{SolvingMicroDSOPs6.html}{4}%
+\:CrossWord{)Qfn5x0}{6}{4}%
+\:CrossWord{)Qx1-2008r7}{1}{5}%
+\:CrossWord{)QNormalization}{1}{5}%
+\:CrossWord{)Qx1-30003}{1}{5}%
+\:CrossWord{)Qx1-3001r8}{1}{5}%
+\:CrossWord{fn6x0}{}{5}%
+\:CrossWord{)Qx1-3002f6}{1}{5}%
+\:CrossWord{)BSolvingMicroDSOPs7.html(L }{SolvingMicroDSOPs.html}{5}%
+\:CrossWord{)F7F-}{SolvingMicroDSOPs7.html}{5}%
+\:CrossWord{SolvingMicroDSOPs7.html(L }{SolvingMicroDSOPs7.html}{5}%
+\:CrossWord{)Qfn6x0}{7}{5}%
+\:CrossWord{)Qx1-3004r9}{1}{6}%
+\:CrossWord{fn7x0}{}{7}%
+\:CrossWord{)Qx1-3005f7}{1}{7}%
+\:CrossWord{)BSolvingMicroDSOPs8.html(L }{SolvingMicroDSOPs.html}{7}%
+\:CrossWord{)F8F-}{SolvingMicroDSOPs8.html}{7}%
+\:CrossWord{SolvingMicroDSOPs8.html(L }{SolvingMicroDSOPs8.html}{7}%
+\:CrossWord{)Qfn7x0}{8}{7}%
+\:CrossWord{)QThe-Usual-Theory}{1}{7}%
+\:CrossWord{)Qx1-40004}{1}{8}%
+\:CrossWord{)Qx1-4001r10}{1}{8}%
+\:CrossWord{)Qx1-4002r11}{1}{8}%
+\:CrossWord{)Qx1-4003r12}{1}{8}%
+\:CrossWord{)Qx1-4004r13}{1}{9}%
+\:CrossWord{)Qx1-4005r14}{1}{9}%
+\:CrossWord{fn8x0}{}{9}%
+\:CrossWord{)Qx1-4006f8}{1}{9}%
+\:CrossWord{)BSolvingMicroDSOPs9.html(L }{SolvingMicroDSOPs.html}{9}%
+\:CrossWord{)F9F-}{SolvingMicroDSOPs9.html}{9}%
+\:CrossWord{SolvingMicroDSOPs9.html(L }{SolvingMicroDSOPs9.html}{9}%
+\:CrossWord{)Qfn8x0}{9}{9}%
+\:CrossWord{)Qx1-4007r15}{1}{9}%
+\:CrossWord{)Qx1-4008r16}{1}{10}%
+\:CrossWord{)Qx1-4009r17}{1}{10}%
+\:CrossWord{)Qx1-4010r18}{1}{10}%
+\:CrossWord{)QSolving-the-Next-To-Last-Period}{1}{10}%
+\:CrossWord{)Qx1-50005}{1}{10}%
+\:CrossWord{)QDiscretizing-the-Distribution}{1}{11}%
+\:CrossWord{)Qx1-60005.1}{1}{11}%
+\:CrossWord{fn9x0}{}{11}%
+\:CrossWord{)Qx1-6001f9}{1}{11}%
+\:CrossWord{)BSolvingMicroDSOPs10.html(L }{SolvingMicroDSOPs.html}{11}%
+\:CrossWord{)F10F-}{SolvingMicroDSOPs10.html}{11}%
+\:CrossWord{SolvingMicroDSOPs10.html(L }{SolvingMicroDSOPs10.html}{11}%
+\:CrossWord{)Qfn9x0}{10}{11}%
+\:CrossWord{fn10x0}{}{12}%
+\:CrossWord{)Qx1-6003f10}{1}{12}%
+\:CrossWord{)BSolvingMicroDSOPs11.html(L }{SolvingMicroDSOPs.html}{12}%
+\:CrossWord{)F11F-}{SolvingMicroDSOPs11.html}{12}%
+\:CrossWord{SolvingMicroDSOPs11.html(L }{SolvingMicroDSOPs11.html}{12}%
+\:CrossWord{)Qfn10x0}{11}{12}%
+\:CrossWord{)QdiscreteApprox}{1}{12}%
+\:CrossWord{)Qx1-60041}{1}{13}%
+\:CrossWord{1cAp0}{x1-60041}{14}%
+\:CrossWord{)Qx1-6005r20}{1}{15}%
+\:CrossWord{)Qx1-6006r21}{1}{15}%
+\:CrossWord{)Qx1-70005.2}{1}{15}%
+\:CrossWord{fn11x0}{}{16}%
+\:CrossWord{)Qx1-7001f11}{1}{16}%
+\:CrossWord{)BSolvingMicroDSOPs12.html(L }{SolvingMicroDSOPs.html}{16}%
+\:CrossWord{)F12F-}{SolvingMicroDSOPs12.html}{16}%
+\:CrossWord{SolvingMicroDSOPs12.html(L }{SolvingMicroDSOPs12.html}{16}%
+\:CrossWord{)Qfn11x0}{12}{16}%
+\:CrossWord{)Qx1-7002r22}{1}{17}%
+\:CrossWord{fn12x0}{}{17}%
+\:CrossWord{)Qx1-7003f12}{1}{17}%
+\:CrossWord{)BSolvingMicroDSOPs13.html(L }{SolvingMicroDSOPs.html}{17}%
+\:CrossWord{)F13F-}{SolvingMicroDSOPs13.html}{17}%
+\:CrossWord{SolvingMicroDSOPs13.html(L }{SolvingMicroDSOPs13.html}{17}%
+\:CrossWord{)Qfn12x0}{13}{17}%
+\:CrossWord{fn13x0}{}{17}%
+\:CrossWord{)Qx1-7004f13}{1}{17}%
+\:CrossWord{)BSolvingMicroDSOPs14.html(L }{SolvingMicroDSOPs.html}{17}%
+\:CrossWord{)F14F-}{SolvingMicroDSOPs14.html}{17}%
+\:CrossWord{SolvingMicroDSOPs14.html(L }{SolvingMicroDSOPs14.html}{17}%
+\:CrossWord{)Qfn13x0}{14}{17}%
+\:CrossWord{)Qx1-7005r23}{1}{17}%
+\:CrossWord{)Qx1-80005.3}{1}{18}%
+\:CrossWord{fn14x0}{}{18}%
+\:CrossWord{)Qx1-8001f14}{1}{18}%
+\:CrossWord{)BSolvingMicroDSOPs15.html(L }{SolvingMicroDSOPs.html}{18}%
+\:CrossWord{)F15F-}{SolvingMicroDSOPs15.html}{18}%
+\:CrossWord{SolvingMicroDSOPs15.html(L }{SolvingMicroDSOPs15.html}{18}%
+\:CrossWord{)Qfn14x0}{15}{18}%
+\:CrossWord{)QPlotcTm1Simple}{1}{18}%
+\:CrossWord{)Qx1-80022}{1}{19}%
+\:CrossWord{2cAp0}{x1-80022}{20}%
+\:CrossWord{)QPlotvTm1Simple}{1}{21}%
+\:CrossWord{)Qx1-80033}{1}{22}%
+\:CrossWord{3cAp0}{x1-80033}{23}%
+\:CrossWord{)QInterpolating-Expectations}{1}{24}%
+\:CrossWord{)Qx1-90005.4}{1}{24}%
+\:CrossWord{fn15x0}{}{24}%
+\:CrossWord{)Qx1-9001f15}{1}{24}%
+\:CrossWord{)BSolvingMicroDSOPs16.html(L }{SolvingMicroDSOPs.html}{24}%
+\:CrossWord{)F16F-}{SolvingMicroDSOPs16.html}{24}%
+\:CrossWord{SolvingMicroDSOPs16.html(L }{SolvingMicroDSOPs16.html}{24}%
+\:CrossWord{)Qfn15x0}{16}{24}%
+\:CrossWord{)QPlotOTm1RawVSInt}{1}{24}%
+\:CrossWord{)Qx1-90024}{1}{25}%
+\:CrossWord{4cAp0}{x1-90024}{26}%
+\:CrossWord{)QPlotComparecTm1AB}{1}{27}%
+\:CrossWord{)Qx1-90035}{1}{28}%
+\:CrossWord{5cAp0}{x1-90035}{29}%
+\:CrossWord{)QValue-Function-versus-First-Order-Condition}{1}{30}%
+\:CrossWord{)Qx1-100005.5}{1}{30}%
+\:CrossWord{)Qx1-10001r24}{1}{30}%
+\:CrossWord{)Qx1-10002r25}{1}{30}%
+\:CrossWord{)Qx1-10003r26}{1}{31}%
+\:CrossWord{)Qx1-10003r27}{1}{31}%
+\:CrossWord{)QPlotuPrimeVSOPrime}{1}{31}%
+\:CrossWord{)Qx1-100046}{1}{32}%
+\:CrossWord{6cAp0}{x1-100046}{33}%
+\:CrossWord{)Qx1-10005r28}{1}{35}%
+\:CrossWord{)Qx1-100067}{1}{36}%
+\:CrossWord{7cAp0}{x1-100067}{37}%
+\:CrossWord{)QPlotcTm1ABC}{1}{38}%
+\:CrossWord{)Qx1-100078}{1}{39}%
+\:CrossWord{8cAp0}{x1-100078}{40}%
+\:CrossWord{)QTransformation}{1}{41}%
+\:CrossWord{)Qx1-110005.6}{1}{41}%
+\:CrossWord{)Qx1-11002r30}{1}{41}%
+\:CrossWord{)Qx1-11004r32}{1}{42}%
+\:CrossWord{)QThe-Self-Imposed-Natural-Borrowing-Constraint-and-the-a-Lower-Bound}{1}{43}%
+\:CrossWord{)Qx1-120005.7}{1}{43}%
+\:CrossWord{)Qx1-12001r33}{1}{43}%
+\:CrossWord{fn16x0}{}{44}%
+\:CrossWord{)Qx1-12003f16}{1}{44}%
+\:CrossWord{)BSolvingMicroDSOPs17.html(L }{SolvingMicroDSOPs.html}{44}%
+\:CrossWord{)F17F-}{SolvingMicroDSOPs17.html}{44}%
+\:CrossWord{SolvingMicroDSOPs17.html(L }{SolvingMicroDSOPs17.html}{44}%
+\:CrossWord{)Qfn16x0}{17}{44}%
+\:CrossWord{fn17x0}{}{44}%
+\:CrossWord{)Qx1-12004f17}{1}{44}%
+\:CrossWord{)BSolvingMicroDSOPs18.html(L }{SolvingMicroDSOPs.html}{44}%
+\:CrossWord{)F18F-}{SolvingMicroDSOPs18.html}{44}%
+\:CrossWord{SolvingMicroDSOPs18.html(L }{SolvingMicroDSOPs18.html}{44}%
+\:CrossWord{)Qfn17x0}{18}{44}%
+\:CrossWord{)QGothVInvVSGothC}{1}{44}%
+\:CrossWord{)Qx1-120059}{1}{45}%
+\:CrossWord{9cAp0}{x1-120059}{46}%
+\:CrossWord{)QGothVVSGothCInv}{1}{47}%
+\:CrossWord{)Qx1-1200610}{1}{48}%
+\:CrossWord{10cAp0}{x1-1200610}{49}%
+\:CrossWord{)QThe-Method-of-Endogenous-Gridpoints}{1}{50}%
+\:CrossWord{)Qx1-130005.8}{1}{50}%
+\:CrossWord{)Qx1-13001r35}{1}{50}%
+\:CrossWord{fn18x0}{}{51}%
+\:CrossWord{)Qx1-13003f18}{1}{51}%
+\:CrossWord{)BSolvingMicroDSOPs19.html(L }{SolvingMicroDSOPs.html}{51}%
+\:CrossWord{)F19F-}{SolvingMicroDSOPs19.html}{51}%
+\:CrossWord{SolvingMicroDSOPs19.html(L }{SolvingMicroDSOPs19.html}{51}%
+\:CrossWord{)Qfn18x0}{19}{51}%
+\:CrossWord{)QPlotComparecTm1AD}{1}{51}%
+\:CrossWord{)Qx1-1300411}{1}{52}%
+\:CrossWord{11cAp0}{x1-1300411}{53}%
+\:CrossWord{)QImproving-the-a-Grid}{1}{54}%
+\:CrossWord{)Qx1-140005.9}{1}{54}%
+\:CrossWord{)QGothVInvVSGothCEEE}{1}{54}%
+\:CrossWord{)Qx1-1400112}{1}{55}%
+\:CrossWord{12cAp0}{x1-1400112}{56}%
+\:CrossWord{)QGothVVSGothCInvEEE}{1}{57}%
+\:CrossWord{)Qx1-1400213}{1}{58}%
+\:CrossWord{13cAp0}{x1-1400213}{59}%
+\:CrossWord{)QThe-Method-of-Moderation}{1}{60}%
+\:CrossWord{)Qx1-150005.10}{1}{60}%
+\:CrossWord{)QExtrapProblemPlot}{1}{60}%
+\:CrossWord{)Qx1-1500114}{1}{61}%
+\:CrossWord{14cAp0}{x1-1500114}{62}%
+\:CrossWord{fn19x0}{}{63}%
+\:CrossWord{)Qx1-15002f19}{1}{63}%
+\:CrossWord{)BSolvingMicroDSOPs20.html(L }{SolvingMicroDSOPs.html}{63}%
+\:CrossWord{)F20F-}{SolvingMicroDSOPs20.html}{63}%
+\:CrossWord{SolvingMicroDSOPs20.html(L }{SolvingMicroDSOPs20.html}{63}%
+\:CrossWord{)Qfn19x0}{20}{63}%
+\:CrossWord{)Qx1-15003r41}{1}{63}%
+\:CrossWord{)QIntExpFOCInvPesReaOptNeedHiPlot}{1}{65}%
+\:CrossWord{)Qx1-1500715}{1}{66}%
+\:CrossWord{15cAp0}{x1-1500715}{67}%
+\:CrossWord{)Qx1-15008r42}{1}{68}%
+\:CrossWord{)Qx1-15009r44}{1}{69}%
+\:CrossWord{)Qx1-15010r45}{1}{69}%
+\:CrossWord{)QExtrapProblemSolvedPlot}{1}{69}%
+\:CrossWord{)Qx1-1501116}{1}{70}%
+\:CrossWord{16cAp0}{x1-1501116}{71}%
+\:CrossWord{)QApproximating-the-Slope-Too}{1}{72}%
+\:CrossWord{)Qx1-160005.11}{1}{72}%
+\:CrossWord{)Qx1-16001r46}{1}{72}%
+\:CrossWord{)Qx1-16006r53}{1}{74}%
+\:CrossWord{)QIntExpFOCInvPesReaOptGapPlot}{1}{74}%
+\:CrossWord{)Qx1-1600717}{1}{75}%
+\:CrossWord{17cAp0}{x1-1600717}{76}%
+\:CrossWord{)QValue}{1}{77}%
+\:CrossWord{)Qx1-170005.12}{1}{77}%
+\:CrossWord{)QvFuncPF}{1}{77}%
+\:CrossWord{)Qx1-17002r54}{1}{78}%
+\:CrossWord{)Qx1-17006r59}{1}{79}%
+\:CrossWord{)Qx1-17007r60}{1}{79}%
+\:CrossWord{)Qx1-17008r62}{1}{80}%
+\:CrossWord{)QvHatFunc}{1}{80}%
+\:CrossWord{)QRefinement-A-Tighter-Upper-Bound}{1}{81}%
+\:CrossWord{)Qx1-180005.13}{1}{81}%
+\:CrossWord{)Qx1-18003r66}{1}{83}%
+\:CrossWord{)QExtension-A-Stochastic-Interest-Factor}{1}{85}%
+\:CrossWord{)Qx1-190005.14}{1}{85}%
+\:CrossWord{)Qx1-19001r67}{1}{85}%
+\:CrossWord{fn20x0}{}{86}%
+\:CrossWord{)Qx1-19002f20}{1}{86}%
+\:CrossWord{)BSolvingMicroDSOPs21.html(L }{SolvingMicroDSOPs.html}{86}%
+\:CrossWord{)F21F-}{SolvingMicroDSOPs21.html}{86}%
+\:CrossWord{SolvingMicroDSOPs21.html(L }{SolvingMicroDSOPs21.html}{86}%
+\:CrossWord{)Qfn20x0}{21}{86}%
+\:CrossWord{)Qx1-19003r68}{1}{86}%
+\:CrossWord{)Qx1-19005r70}{1}{87}%
+\:CrossWord{)QImposing-Artificial-Borrowing-Constraints}{1}{87}%
+\:CrossWord{)Qx1-200005.15}{1}{87}%
+\:CrossWord{fn21x0}{}{87}%
+\:CrossWord{)Qx1-20001f21}{1}{87}%
+\:CrossWord{)BSolvingMicroDSOPs22.html(L }{SolvingMicroDSOPs.html}{87}%
+\:CrossWord{)F22F-}{SolvingMicroDSOPs22.html}{87}%
+\:CrossWord{SolvingMicroDSOPs22.html(L }{SolvingMicroDSOPs22.html}{87}%
+\:CrossWord{)Qfn21x0}{22}{87}%
+\:CrossWord{)Qx1-20002r71}{1}{88}%
+\:CrossWord{)Qx1-20003r71}{1}{88}%
+\:CrossWord{)Qx1-20004r72}{1}{88}%
+\:CrossWord{fn22x0}{}{89}%
+\:CrossWord{)Qx1-20005f22}{1}{89}%
+\:CrossWord{)BSolvingMicroDSOPs23.html(L }{SolvingMicroDSOPs.html}{89}%
+\:CrossWord{)F23F-}{SolvingMicroDSOPs23.html}{89}%
+\:CrossWord{SolvingMicroDSOPs23.html(L }{SolvingMicroDSOPs23.html}{89}%
+\:CrossWord{)Qfn22x0}{23}{89}%
+\:CrossWord{)Qx1-20006r73}{1}{89}%
+\:CrossWord{)QcVScCon}{1}{89}%
+\:CrossWord{)Qx1-2000718}{1}{90}%
+\:CrossWord{18cAp0}{x1-2000718}{91}%
+\:CrossWord{)Qx1-20009x1}{1}{92}%
+\:CrossWord{)Qx1-20011x2}{1}{92}%
+\:CrossWord{)Qx1-20013x3}{1}{92}%
+\:CrossWord{)QRecursions}{1}{92}%
+\:CrossWord{)Qx1-210006}{1}{92}%
+\:CrossWord{)QTheory}{1}{92}%
+\:CrossWord{)Qx1-220006.1}{1}{92}%
+\:CrossWord{)Qx1-22003x1}{1}{93}%
+\:CrossWord{)Qx1-22004r75}{1}{93}%
+\:CrossWord{)Qx1-22006x2}{1}{93}%
+\:CrossWord{)Qx1-22008x3}{1}{93}%
+\:CrossWord{)Qx1-22010x4}{1}{93}%
+\:CrossWord{)Qx1-22012x5}{1}{94}%
+\:CrossWord{fn23x0}{}{94}%
+\:CrossWord{)Qx1-22013f23}{1}{94}%
+\:CrossWord{)BSolvingMicroDSOPs24.html(L }{SolvingMicroDSOPs.html}{94}%
+\:CrossWord{)F24F-}{SolvingMicroDSOPs24.html}{94}%
+\:CrossWord{SolvingMicroDSOPs24.html(L }{SolvingMicroDSOPs24.html}{94}%
+\:CrossWord{)Qfn23x0}{24}{94}%
+\:CrossWord{)QMathmatica-Background}{1}{94}%
+\:CrossWord{)Qx1-230006.2}{1}{94}%
+\:CrossWord{)QProgram-Structure}{1}{95}%
+\:CrossWord{)Qx1-240006.3}{1}{95}%
+\:CrossWord{)QIteration}{1}{95}%
+\:CrossWord{)Qx1-250006.3.1}{1}{95}%
+\:CrossWord{)Qx1-25002x1}{1}{95}%
+\:CrossWord{)Qx1-25004x2}{1}{95}%
+\:CrossWord{)Qx1-25007x3}{1}{96}%
+\:CrossWord{)Qx1-25009x4}{1}{96}%
+\:CrossWord{)QResults}{1}{96}%
+\:CrossWord{)Qx1-260006.4}{1}{96}%
+\:CrossWord{)QPlotCFuncsConverge}{1}{96}%
+\:CrossWord{)Qx1-2600119}{1}{97}%
+\:CrossWord{19cAp0}{x1-2600119}{98}%
+\:CrossWord{)QMultiple-Control-Variables}{1}{99}%
+\:CrossWord{)Qx1-270007}{1}{99}%
+\:CrossWord{)Qx1-280007.1}{1}{99}%
+\:CrossWord{)Qx1-28001r79}{1}{99}%
+\:CrossWord{)Qx1-28001r80}{1}{99}%
+\:CrossWord{)Qx1-28002r81}{1}{100}%
+\:CrossWord{)Qx1-28004r81}{1}{100}%
+\:CrossWord{)Qx1-28005r82}{1}{101}%
+\:CrossWord{)Qx1-28006r83}{1}{101}%
+\:CrossWord{)Qx1-290007.2}{1}{102}%
+\:CrossWord{fn24x0}{}{102}%
+\:CrossWord{)Qx1-29001f24}{1}{102}%
+\:CrossWord{)BSolvingMicroDSOPs25.html(L }{SolvingMicroDSOPs.html}{102}%
+\:CrossWord{)F25F-}{SolvingMicroDSOPs25.html}{102}%
+\:CrossWord{SolvingMicroDSOPs25.html(L }{SolvingMicroDSOPs25.html}{102}%
+\:CrossWord{)Qfn24x0}{25}{102}%
+\:CrossWord{)Qx1-29003r88}{1}{103}%
+\:CrossWord{)Qx1-29003r89}{1}{103}%
+\:CrossWord{fn25x0}{}{104}%
+\:CrossWord{)Qx1-29005f25}{1}{104}%
+\:CrossWord{)BSolvingMicroDSOPs26.html(L }{SolvingMicroDSOPs.html}{104}%
+\:CrossWord{)F26F-}{SolvingMicroDSOPs26.html}{104}%
+\:CrossWord{SolvingMicroDSOPs26.html(L }{SolvingMicroDSOPs26.html}{104}%
+\:CrossWord{)Qfn25x0}{26}{104}%
+\:CrossWord{)QImplementation}{1}{104}%
+\:CrossWord{)Qx1-300007.3}{1}{105}%
+\:CrossWord{fn26x0}{}{105}%
+\:CrossWord{)Qx1-30001f26}{1}{105}%
+\:CrossWord{)BSolvingMicroDSOPs27.html(L }{SolvingMicroDSOPs.html}{105}%
+\:CrossWord{)F27F-}{SolvingMicroDSOPs27.html}{105}%
+\:CrossWord{SolvingMicroDSOPs27.html(L }{SolvingMicroDSOPs27.html}{105}%
+\:CrossWord{)Qfn26x0}{27}{105}%
+\:CrossWord{)Qx1-30003x1}{1}{105}%
+\:CrossWord{)Qx1-30005x2}{1}{105}%
+\:CrossWord{fn27x0}{}{105}%
+\:CrossWord{)Qx1-30006f27}{1}{105}%
+\:CrossWord{)BSolvingMicroDSOPs28.html(L }{SolvingMicroDSOPs.html}{105}%
+\:CrossWord{)F28F-}{SolvingMicroDSOPs28.html}{105}%
+\:CrossWord{SolvingMicroDSOPs28.html(L }{SolvingMicroDSOPs28.html}{105}%
+\:CrossWord{)Qfn27x0}{28}{105}%
+\:CrossWord{)Qx1-30009x3}{1}{106}%
+\:CrossWord{)Qx1-30012x4}{1}{106}%
+\:CrossWord{)Qx1-310007.4}{1}{106}%
+\:CrossWord{)QPlotctMultContr}{1}{107}%
+\:CrossWord{)Qx1-3100120}{1}{108}%
+\:CrossWord{20cAp0}{x1-3100120}{109}%
+\:CrossWord{)QPlotRiskySharetOfat}{1}{110}%
+\:CrossWord{)Qx1-3100221}{1}{111}%
+\:CrossWord{21cAp0}{x1-3100221}{112}%
+\:CrossWord{)QThe-Infinite-Horizon}{1}{113}%
+\:CrossWord{)Qx1-320008}{1}{113}%
+\:CrossWord{)Qx1-330008.1}{1}{113}%
+\:CrossWord{)Qx1-33001r95}{1}{113}%
+\:CrossWord{)Qx1-340008.2}{1}{114}%
+\:CrossWord{fn28x0}{}{114}%
+\:CrossWord{)Qx1-34001f28}{1}{114}%
+\:CrossWord{)BSolvingMicroDSOPs29.html(L }{SolvingMicroDSOPs.html}{114}%
+\:CrossWord{)F29F-}{SolvingMicroDSOPs29.html}{114}%
+\:CrossWord{SolvingMicroDSOPs29.html(L }{SolvingMicroDSOPs29.html}{114}%
+\:CrossWord{)Qfn28x0}{29}{114}%
+\:CrossWord{)QStructuralEstimation}{1}{114}%
+\:CrossWord{)Qx1-350009}{1}{114}%
+\:CrossWord{fn29x0}{}{114}%
+\:CrossWord{)Qx1-35001f29}{1}{114}%
+\:CrossWord{)BSolvingMicroDSOPs30.html(L }{SolvingMicroDSOPs.html}{114}%
+\:CrossWord{)F30F-}{SolvingMicroDSOPs30.html}{114}%
+\:CrossWord{SolvingMicroDSOPs30.html(L }{SolvingMicroDSOPs30.html}{114}%
+\:CrossWord{)Qfn29x0}{30}{114}%
+\:CrossWord{)QLifeCycleModel}{1}{114}%
+\:CrossWord{)Qx1-360009.1}{1}{115}%
+\:CrossWord{)Qx1-36001r96}{1}{115}%
+\:CrossWord{fn30x0}{}{116}%
+\:CrossWord{)Qx1-36005f30}{1}{116}%
+\:CrossWord{)BSolvingMicroDSOPs31.html(L }{SolvingMicroDSOPs.html}{116}%
+\:CrossWord{)F31F-}{SolvingMicroDSOPs31.html}{116}%
+\:CrossWord{SolvingMicroDSOPs31.html(L }{SolvingMicroDSOPs31.html}{116}%
+\:CrossWord{)Qfn30x0}{31}{116}%
+\:CrossWord{fn31x0}{}{116}%
+\:CrossWord{)Qx1-36006f31}{1}{116}%
+\:CrossWord{)BSolvingMicroDSOPs32.html(L }{SolvingMicroDSOPs.html}{116}%
+\:CrossWord{)F32F-}{SolvingMicroDSOPs32.html}{116}%
+\:CrossWord{SolvingMicroDSOPs32.html(L }{SolvingMicroDSOPs32.html}{116}%
+\:CrossWord{)Qfn31x0}{32}{116}%
+\:CrossWord{)QPlotTimeVaryingParam}{1}{117}%
+\:CrossWord{)Qx1-3600722}{1}{118}%
+\:CrossWord{22cAp0}{x1-3600722}{119}%
+\:CrossWord{)Qx1-360081}{1}{121}%
+\:CrossWord{23cAp0}{x1-360081}{122}%
+\:CrossWord{)Qx1-370009.2}{1}{123}%
+\:CrossWord{fn32x0}{}{123}%
+\:CrossWord{)Qx1-37001f32}{1}{123}%
+\:CrossWord{)BSolvingMicroDSOPs33.html(L }{SolvingMicroDSOPs.html}{123}%
+\:CrossWord{)F33F-}{SolvingMicroDSOPs33.html}{123}%
+\:CrossWord{SolvingMicroDSOPs33.html(L }{SolvingMicroDSOPs33.html}{123}%
+\:CrossWord{)Qfn32x0}{33}{123}%
+\:CrossWord{)Qx1-37003r99}{1}{124}%
+\:CrossWord{)Qx1-37004r100}{1}{125}%
+\:CrossWord{)Qx1-37005r101}{1}{125}%
+\:CrossWord{fn33x0}{}{126}%
+\:CrossWord{)Qx1-37006f33}{1}{126}%
+\:CrossWord{)BSolvingMicroDSOPs34.html(L }{SolvingMicroDSOPs.html}{126}%
+\:CrossWord{)F34F-}{SolvingMicroDSOPs34.html}{126}%
+\:CrossWord{SolvingMicroDSOPs34.html(L }{SolvingMicroDSOPs34.html}{126}%
+\:CrossWord{)Qfn33x0}{34}{126}%
+\:CrossWord{)QPlotMeanMedianSCFcollegeGrads}{1}{126}%
+\:CrossWord{)Qx1-3700723}{1}{127}%
+\:CrossWord{24cAp0}{x1-3700723}{128}%
+\:CrossWord{)Qx1-37010x1}{1}{129}%
+\:CrossWord{)Qx1-37012x2}{1}{129}%
+\:CrossWord{)Qx1-37014x3}{1}{129}%
+\:CrossWord{fn34x0}{}{129}%
+\:CrossWord{)Qx1-37015f34}{1}{129}%
+\:CrossWord{)BSolvingMicroDSOPs35.html(L }{SolvingMicroDSOPs.html}{129}%
+\:CrossWord{)F35F-}{SolvingMicroDSOPs35.html}{129}%
+\:CrossWord{SolvingMicroDSOPs35.html(L }{SolvingMicroDSOPs35.html}{129}%
+\:CrossWord{)Qfn34x0}{35}{129}%
+\:CrossWord{)Qx1-37017x1}{1}{130}%
+\:CrossWord{)Qx1-37019x2}{1}{130}%
+\:CrossWord{)Qx1-37021x3}{1}{130}%
+\:CrossWord{fn35x0}{}{130}%
+\:CrossWord{)Qx1-37022f35}{1}{130}%
+\:CrossWord{)BSolvingMicroDSOPs36.html(L }{SolvingMicroDSOPs.html}{130}%
+\:CrossWord{)F36F-}{SolvingMicroDSOPs36.html}{130}%
+\:CrossWord{SolvingMicroDSOPs36.html(L }{SolvingMicroDSOPs36.html}{130}%
+\:CrossWord{)Qfn35x0}{36}{130}%
+\:CrossWord{fn36x0}{}{130}%
+\:CrossWord{)Qx1-37023f36}{1}{130}%
+\:CrossWord{)BSolvingMicroDSOPs37.html(L }{SolvingMicroDSOPs.html}{130}%
+\:CrossWord{)F37F-}{SolvingMicroDSOPs37.html}{130}%
+\:CrossWord{SolvingMicroDSOPs37.html(L }{SolvingMicroDSOPs37.html}{130}%
+\:CrossWord{)Qfn36x0}{37}{130}%
+\:CrossWord{)Qx1-370242}{1}{131}%
+\:CrossWord{25cAp0}{x1-370242}{132}%
+\:CrossWord{)QPlotContourMedianStrEst}{1}{133}%
+\:CrossWord{)Qx1-3702524}{1}{134}%
+\:CrossWord{26cAp0}{x1-3702524}{135}%
+\:CrossWord{)Qx1-3800010}{1}{136}%
+\:CrossWord{)Qx1-39000A}{1}{137}%
+\:CrossWord{fn37x0}{}{137}%
+\:CrossWord{)Qx1-39001f37}{1}{137}%
+\:CrossWord{)BSolvingMicroDSOPs38.html(L }{SolvingMicroDSOPs.html}{137}%
+\:CrossWord{)F38F-}{SolvingMicroDSOPs38.html}{137}%
+\:CrossWord{SolvingMicroDSOPs38.html(L }{SolvingMicroDSOPs38.html}{137}%
+\:CrossWord{)Qfn37x0}{38}{137}%
+\:CrossWord{fn38x0}{}{137}%
+\:CrossWord{)Qx1-39002f38}{1}{137}%
+\:CrossWord{)BSolvingMicroDSOPs39.html(L }{SolvingMicroDSOPs.html}{137}%
+\:CrossWord{)F39F-}{SolvingMicroDSOPs39.html}{137}%
+\:CrossWord{SolvingMicroDSOPs39.html(L }{SolvingMicroDSOPs39.html}{137}%
+\:CrossWord{)Qfn38x0}{39}{137}%
+\:CrossWord{)Qx1-40000A}{1}{138}%
+\:CrossWord{)QXAttanasioBanksMeghirWeber}{1}{138}%
+\:CrossWord{)QXcagettiWprofiles}{1}{138}%
+\:CrossWord{)QXcarroll:brookings}{1}{138}%
+\:CrossWord{)QXcarrollBSLCPIH}{1}{138}%
+\:CrossWord{)QXcarrollEGM}{1}{138}%
+\:CrossWord{)QXBufferStockTheory}{1}{138}%
+\:CrossWord{)QXMathFacts}{1}{138}%
+\:CrossWord{)QXcarroll&kimball:concavity}{1}{139}%
+\:CrossWord{)QXcarroll&samwick:nature}{1}{139}%
+\:CrossWord{)QXdeatonLiqConstr}{1}{139}%
+\:CrossWord{)QXdenHaanMarcet:parameterized}{1}{139}%
+\:CrossWord{)QXgpLifecycle}{1}{139}%
+\:CrossWord{)QXhorowitzBootstrap}{1}{139}%
+\:CrossWord{)QXjudd:book}{1}{139}%
+\:CrossWord{)QXkopecky2010finite}{1}{139}%
+\:CrossWord{)QXmerton:restat}{1}{139}%
+\:CrossWord{)QXpalumbo:medical}{1}{140}%
+\:CrossWord{)QXsamuelson:portfolio}{1}{140}%
+\:CrossWord{)QXvalencia:2006}{1}{140}%
