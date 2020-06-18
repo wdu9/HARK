@@ -9,14 +9,14 @@
 <meta name="src" content="SolvingMicroDSOPs.tex"> 
 </head><body 
 >
-<!--l. 48--><p class="noindent" >                                                                  <span 
-class="ecrm-0600">SolvingMicroDSOPs, March 19,</span>
+<!--l. 48--><p class="noindent" >                                                                   <span 
+class="ecrm-0600">SolvingMicroDSOPs, June 18,</span>
 <span 
 class="ecrm-0600">2020</span>
   <div class="maketitle">
 <h2 class="titleHead">Solution Methods for Microeconomic Dynamic
 Stochastic Optimization Problems</h2>
-<div class="date" >March 19, 2020</div>
+<div class="date" >June 18, 2020</div>
 <span 
 class="ecrm-0600"> </span>
  <div class="author" ><span 
@@ -24,13 +24,29 @@ class="ecrm-1440">Christopher D. Carroll</span><sup class="textsuperscript"><spa
 class="ecrm-0600">1</span></sup></div>
 <br />
 </div>
-<!--l. 64--><p class="indent" >  <a 
- id="Abstract"></a>  <div 
+  <div  
+class="centerline"><span 
+class="ecti-1200">Note: The code associated with this document should work (though the Matlab code may be out of date), but has been superceded</span> </div>
+<div  
+class="centerline"><span 
+class="ecti-1200">by the set of tools available in the </span><a 
+href="https://github.com/econ-ark/HARK" ><span 
+class="ecti-1200">Econ-ARK</span></a> toolkit, more speciﬁcally the <a 
+href="https://github.com/econ-ark/HARK" >F</a>ramework.</div>
+<div  
+class="centerline"><span 
+class="ecti-1200">The SMM estination code at the end has speciﬁcally been superceded by the </span><a 
+href="https://github.com/econ-ark/REMARK/tree/master/REMARKs/SolvingMicroDSOPs" ><span 
+class="ecti-1200">SolvingMicroDSOPs</span></a> <a 
+href="https://github.com/econ-ark/REMARK" ><span 
+class="ecti-1200">REMARK</span></a></div>
+<!--l. 68--><p class="indent" >  <a 
+ id="Abstract"></a> <div 
 class="abstract" 
 >
-<!--l. 65--><p class="noindent" > <br 
+<!--l. 69--><p class="noindent" > <br 
 class="newline" />_____________________________________________________________________________________
-<!--l. 65--><p class="noindent" ><span 
+<!--l. 69--><p class="noindent" ><span 
 class="ecbx-1200">Abstract</span><br 
 class="newline" />   <span 
 class="ecrm-1095">These notes describe tools for solving microeconomic dynamic stochastic optimization problems,</span>
@@ -65,7 +81,7 @@ class="ecbx-1200"> </span><span
 class="ecbx-1200"> Keywords</span><span 
 class="ecbx-1200"> </span></dt><dd 
 class="list">
-                 <!--l. 75--><p class="noindent" >Dynamic  Stochastic  Optimization,  Method  of  Simulated
+                 <!--l. 79--><p class="noindent" >Dynamic  Stochastic  Optimization,  Method  of  Simulated
                    Moments, Structural Estimation
                    </dd><dt class="list">
 <span 
@@ -83,20 +99,20 @@ class="ecbx-1200"> </span><span
 class="ecbx-1200"> JEL codes</span><span 
 class="ecbx-1200"> </span></dt><dd 
 class="list">
-                 <!--l. 75--><p class="noindent" >E21, F41</dd></dl>
-        </div>
+                 <!--l. 79--><p class="noindent" >E21, F41</dd></dl>
                                                                                      
                                                                                      
+      </div>
 </div>
-<!--l. 89--><p class="indent" >  <div class="center" 
+<!--l. 94--><p class="indent" >  <div class="center" 
 >
-  <!--l. 89--><p class="noindent" >
+  <!--l. 94--><p class="noindent" >
   <table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td  
 class="tabbing"></td></tr></table>
-<!--l. 89--><p class="noindent" >              <table  
+<!--l. 94--><p class="noindent" ><table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
@@ -108,9 +124,9 @@ class="ectt-1000"> PDF:</span><span
 class="ectt-1000">  </span></td><td  
 class="tabbing"></td><td  
 class="tabbing"><a 
-href="http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs.pdf" class="url" ><span 
-class="ectt-1000">http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs.pdf</span></a></td></tr></table>
-<!--l. 89--><p class="noindent" >       <table  
+href="https://github.com/llorracc/SolvingMicroDSOPs/blob/master/SolvingMicroDSOPs.pdf" class="url" ><span 
+class="ectt-1000">https://github.com/llorracc/SolvingMicroDSOPs/blob/master/SolvingMicroDSOPs.pdf</span></a></td></tr></table>
+<!--l. 94--><p class="noindent" ><table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
@@ -119,9 +135,9 @@ class="ectt-1000"> Slides:</span><span
 class="ectt-1000">  </span></td><td  
 class="tabbing"></td><td  
 class="tabbing"><a 
-href="http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs-Slides.pdf" class="url" ><span 
-class="ectt-1000">http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs-Slides.pdf</span></a></td></tr></table>
-<!--l. 89--><p class="noindent" >                 <table  
+href="https://github.com/llorracc/SolvingMicroDSOPs/blob/master/SolvingMicroDSOPs-Slides.pdf" class="url" ><span 
+class="ectt-1000">https://github.com/llorracc/SolvingMicroDSOPs/blob/master/SolvingMicroDSOPs-Slides.pdf</span></a></td></tr></table>
+<!--l. 94--><p class="noindent" >                                <table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
@@ -133,9 +149,22 @@ class="ectt-1000"> Web:</span><span
 class="ectt-1000">  </span></td><td  
 class="tabbing"></td><td  
 class="tabbing"><a 
-href="http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs/" class="url" ><span 
-class="ectt-1000">http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs/</span></a></td></tr></table>
-<!--l. 89--><p class="noindent" >              <table  
+href="https://llorracc.github.io/SolvingMicroDSOPs" class="url" ><span 
+class="ectt-1000">https://llorracc.github.io/SolvingMicroDSOPs</span></a></td></tr></table>
+<!--l. 94--><p class="noindent" >              <table  
+cellpadding="0" border="0" cellspacing="0" 
+class="tabbing"><tr  
+style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
+class="tabbing"><span 
+class="ectt-1000"> </span><span 
+class="ectt-1000"> </span><span 
+class="ectt-1000"> Code:</span><span 
+class="ectt-1000">  </span></td><td  
+class="tabbing"></td><td  
+class="tabbing"><a 
+href="https://github.com/llorracc/SolvingMicroDSOPs/tree/master/Code" class="url" ><span 
+class="ectt-1000">https://github.com/llorracc/SolvingMicroDSOPs/tree/master/Code</span></a></td></tr></table>
+<!--l. 94--><p class="noindent" >                               <table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
@@ -144,9 +173,9 @@ class="ectt-1000">Archive:</span><span
 class="ectt-1000">  </span></td><td  
 class="tabbing"></td><td  
 class="tabbing"><a 
-href="http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs.zip" class="url" ><span 
-class="ectt-1000">http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs.zip</span></a></td></tr></table>
-<!--l. 89--><p class="noindent" >     <table  
+href="https://github.com/llorracc/SolvingMicroDSOPs" class="url" ><span 
+class="ectt-1000">https://github.com/llorracc/SolvingMicroDSOPs</span></a></td></tr></table>
+<!--l. 94--><p class="noindent" >     <table  
 cellpadding="0" border="0" cellspacing="0" 
 class="tabbing"><tr  
 style="vertical-align:baseline;" class="tabbing"><td style="width:75;" 
@@ -163,12 +192,12 @@ class="ectt-1000">  </span></td><td
 class="tabbing"></td><td  
 class="tabbing"><span 
 class="ecti-1000">(Contains LaTeX code for this document and software producing ﬁgures and results)</span></td></tr></table>
-<!--l. 89--><p class="noindent" >
+<!--l. 94--><p class="noindent" >
 </div>
-<!--l. 95--><p class="indent" >  <span class="footnote-mark"><sup class="textsuperscript"></sup></span>
-<!--l. 97--><p class="indent" >  <span class="footnote-mark"><sup class="textsuperscript"></sup></span>
+<!--l. 100--><p class="indent" >  <span class="footnote-mark"><sup class="textsuperscript"></sup></span>
+<!--l. 102--><p class="indent" >  <span class="footnote-mark"><sup class="textsuperscript"></sup></span>
       <sup class="textsuperscript"></sup>
-<!--l. 94--><p class="indent" >  <sup class="textsuperscript"><span 
+<!--l. 99--><p class="indent" >  <sup class="textsuperscript"><span 
 class="ecrm-0600">1</span></sup><span 
 class="ecrm-1000">Carroll: Department of Economics, Johns Hopkins University, Baltimore, MD,</span>
 <a 
@@ -244,11 +273,11 @@ class="ecrm-1000">for revising to be consistent with the ‘method of moderation
 class="ecrm-1000">my own.</span>
                                                                                      
                                                                                      
-<!--l. 133--><p class="indent" >  <a 
+<!--l. 138--><p class="indent" >  <a 
  id="Introduction"></a>
   <h3 class="sectionHead"><span class="titlemark">1  </span> <a 
  id="x1-10001"></a>Introduction</h3>
-<!--l. 136--><p class="noindent" >Calculating the mathematically optimal amount to save is a remarkably diﬃcult problem.
+<!--l. 141--><p class="noindent" >Calculating the mathematically optimal amount to save is a remarkably diﬃcult problem.
 Under well-founded assumptions about the nature of risk (and attitudes toward risk), the
 problem cannot be solved analytically; computational solutions are the only option. To avoid
 having to solve this hard problem, past generations of economists showed impressive ingenuity
@@ -260,27 +289,27 @@ kinds,<span class="footnote-mark"><a
 href="SolvingMicroDSOPs2.html#fn1x0"><sup class="textsuperscript">1</sup></a></span><a 
  id="x1-1001f1"></a> 
 and more.
-<!--l. 151--><p class="indent" >  The motivation is mainly to exchange an intractable general problem for a tractable speciﬁc
+<!--l. 156--><p class="indent" >  The motivation is mainly to exchange an intractable general problem for a tractable speciﬁc
 alternative. Unfortunately, the burgeoning literature on numerical solutions has shown that
 the features that yield tractability also profoundly change the solution. These tricks are
 excuses to solve a problem that has deﬁned away the central diﬃculty: Understanding the
 proper role of uncertainty (and other complexities like constraints) in optimal intertemporal
 choice.
-<!--l. 159--><p class="indent" >  The temptation to use such tricks (and the tolerance for them in leading academic journals)
+<!--l. 164--><p class="indent" >  The temptation to use such tricks (and the tolerance for them in leading academic journals)
 is palpably lessening, thanks to advances in mathematical analysis, increasing computing
 power, and the growing capabilities of numerical computation software. Together, such tools
 permit today’s laptop computers to solve problems that required supercomputers a decade ago
 (and, before that, could not be solved at all).
-<!--l. 167--><p class="indent" >  These points are not unique to the consumption/saving problem; the same propositions
+<!--l. 172--><p class="indent" >  These points are not unique to the consumption/saving problem; the same propositions
 apply to almost any question that involves both intertemporal choice and uncertainty,
 including many aspects of the behavior of ﬁrms and governments.
-<!--l. 172--><p class="indent" >  Given the ubiquity of such problems, one might expect that the use of numerical methods
+<!--l. 177--><p class="indent" >  Given the ubiquity of such problems, one might expect that the use of numerical methods
 for solving dynamic optimization problems would by now be nearly as common as the use of
 econometric methods in empirical work.
-<!--l. 177--><p class="indent" >  Of course, we remain far from that equilibrium. The most plausible explanation for the
+<!--l. 182--><p class="indent" >  Of course, we remain far from that equilibrium. The most plausible explanation for the
 gap is that barriers to the use of numerical methods have remained forbiddingly
 high.
-<!--l. 187--><p class="indent" >  These lecture notes provide a gentle introduction to a particular set of solution tools and
+<!--l. 192--><p class="indent" >  These lecture notes provide a gentle introduction to a particular set of solution tools and
 show how they can be used to solve some canonical problems in consumption choice and
 portfolio allocation. Speciﬁcally, the notes describe and solve optimization problems for a
 consumer facing uninsurable idiosyncratic risk to nonﬁnancial income (e.g., labor or transfer
@@ -303,11 +332,11 @@ class="ecti-1200">a la </span>Gourinchas and Parker (<a
 href="#XgpLifecycle">2002</a>) and
 Cagetti (<a 
 href="#XcagettiWprofiles">2003</a>)).
-<!--l. 218--><p class="indent" >  <a 
+<!--l. 223--><p class="indent" >  <a 
  id="The-Problem"></a>
   <h3 class="sectionHead"><span class="titlemark">2  </span> <a 
  id="x1-20002"></a>The Problem</h3>
-<!--l. 220--><p class="noindent" >We are interested in the behavior a consumer whose goal in period <img 
+<!--l. 225--><p class="noindent" >We are interested in the behavior a consumer whose goal in period <img 
 src="SolvingMicroDSOPs0x.svg" alt="t  " class="math";align="absmiddle"> is to maximize expected
 discounted utility from consumption over the remainder of a lifetime that ends in period <img 
 src="SolvingMicroDSOPs1x.svg" alt="T  " class="math";align="absmiddle">:
@@ -359,7 +388,7 @@ yt+1  −  noncapital income  in period t + 1.
 </div>
                                                                                      
                                                                                      
-<!--l. 254--><p class="indent" >  For now, we will assume that the exogenous variables evolve as follows:
+<!--l. 259--><p class="indent" >  For now, we will assume that the exogenous variables evolve as follows:
 <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -371,7 +400,7 @@ log  𝜃t+n ∼    𝒩 (− σ 𝜃∕2,σ𝜃) - lognormal  transitory shocks
  id="x1-2005r6"></a><a 
  id="x1-2005r7"></a></center>
 </div>
-<!--l. 267--><p class="indent" >  Using the fact about lognormally distributed variables
+<!--l. 272--><p class="indent" >  Using the fact about lognormally distributed variables
 <a 
 href="http://econ.jhu.edu/people/ccarroll/public/lecturenotes/MathFactsList/ELogNorm" ><span 
 class="ectt-1200">ELogNorm</span></a><span class="footnote-mark"><a 
@@ -385,17 +414,17 @@ href="#x1-2005r7">7<!--tex4ht:ref: eq:epsdist --></a>) guarantees that
 src="SolvingMicroDSOPs9x.svg" alt="log 𝔼[𝜃] = 0  " class="math";align="absmiddle"> which means that <img 
 src="SolvingMicroDSOPs10x.svg" alt="𝔼[𝜃]  " class="math";align="absmiddle">=1 (the mean value of the transitory shock is
 1).
-<!--l. 276--><p class="indent" >  Equation (<a 
+<!--l. 281--><p class="indent" >  Equation (<a 
 href="#x1-2005r6">6<!--tex4ht:ref: eq:permincgrow --></a>) indicates that we are allowing for a predictable average proﬁle of
 income growth over the lifetime <img 
 src="SolvingMicroDSOPs11x.svg" alt="{Γ }T0   " class="math";align="absmiddle"> (allowing, for example, for typical career wage
 paths).<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs6.html#fn5x0"><sup class="textsuperscript">5</sup></a></span><a 
  id="x1-2007f5"></a> 
-<!--l. 293--><p class="indent" >  Finally, the utility function is of the Constant Relative Risk Aversion (CRRA), form,
+<!--l. 298--><p class="indent" >  Finally, the utility function is of the Constant Relative Risk Aversion (CRRA), form,
 <img 
 src="SolvingMicroDSOPs12x.svg" alt="u (∙ ) = ∙1− ρ∕(1 − ρ )  " class="math";align="absmiddle">.
-<!--l. 296--><p class="indent" >  As is well known, this problem can be rewritten in recursive (Bellman equation)
+<!--l. 301--><p class="indent" >  As is well known, this problem can be rewritten in recursive (Bellman equation)
 form
 <div class="eqnarray">
                                                                                      
@@ -410,17 +439,17 @@ href="#x1-2003r2">2<!--tex4ht:ref: DBCLevelStart --></a>)-(<a
 href="#x1-2003r5">5<!--tex4ht:ref: DBCLevelEnd --></a>) given above, where <img 
 src="SolvingMicroDSOPs14x.svg" alt="vt  " class="math";align="absmiddle"> measures
 total expected discounted utility from behaving optimally now and henceforth.
-<!--l. 307--><p class="indent" >  <a 
+<!--l. 312--><p class="indent" >  <a 
  id="Normalization"></a>
   <h3 class="sectionHead"><span class="titlemark">3  </span> <a 
  id="x1-30003"></a>Normalization</h3>
-<!--l. 311--><p class="noindent" >The single most powerful method for speeding the solution of such models is to redeﬁne the
+<!--l. 316--><p class="noindent" >The single most powerful method for speeding the solution of such models is to redeﬁne the
 problem in a way that reduces the number of state variables (if possible). In the consumption
 problem here, the obvious idea is to see whether the problem can be rewritten in terms of the
 ratio of various variables to permanent noncapital (‘labor’) income <img 
 src="SolvingMicroDSOPs15x.svg" alt="pppt  " class="math";align="absmiddle"> (henceforth for brevity
 referred to simply as ‘permanent income.’)
-<!--l. 321--><p class="indent" >  In the last period of life, there is no future, <img 
+<!--l. 326--><p class="indent" >  In the last period of life, there is no future, <img 
 src="SolvingMicroDSOPs16x.svg" alt="v     = 0
   T+1  " class="math";align="absmiddle">, so the optimal plan is to consume
 everything, implying that <div class="eqnarray">
@@ -450,7 +479,7 @@ vT(mT  ,pppT)  =  ppp1T− ρ--T---= ppp1T−−ρ1Γ 1T−ρ--T---= ppp1−T−
                      1 − ρ            1 − ρ
 " class="math-display" ></center>
 </div>
-<!--l. 337--><p class="indent" >  Now deﬁne a new optimization problem:
+<!--l. 342--><p class="indent" >  Now deﬁne a new optimization problem:
 <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -465,7 +494,7 @@ vt(mt )  =    macxt   u(ct) + 𝔼t[βΓ t+1 vt+1 (mt+1 )]                (9)
 " class="math-display" ><a 
  id="x1-3004r9"></a></center>
 </div>
-<!--l. 349--><p class="indent" >  The accumulation equation is the normalized version of the transition equation for
+<!--l. 354--><p class="indent" >  The accumulation equation is the normalized version of the transition equation for
                                                                                      
                                                                                      
 <img 
@@ -492,19 +521,19 @@ src="SolvingMicroDSOPs32x.svg" alt="v  (m  ,ppp ) = ppp1−ρv (m )
   t  t  t     t   t   t  " class="math";align="absmiddle">. We have thus reduced the problem
 from two continuous state variables to one (and thereby enormously simpliﬁed its
 solution).
-<!--l. 367--><p class="indent" >  For some problems it will not be obvious that there is an appropriate ‘normalizing’ variable,
+<!--l. 372--><p class="indent" >  For some problems it will not be obvious that there is an appropriate ‘normalizing’ variable,
 but many problems can be normalized if suﬃcient thought is given. For example,
 <a 
 href="#Xvalencia:2006">Valencia</a> (<a 
 href="#Xvalencia:2006">2006</a>) shows how a bank’s optimization problem can be normalized by the level of
 the bank’s productivity.
-<!--l. 377--><p class="indent" >  <a 
+<!--l. 382--><p class="indent" >  <a 
  id="The-Usual-Theory"></a>
                                                                                      
                                                                                      
   <h3 class="sectionHead"><span class="titlemark">4  </span> <a 
  id="x1-40004"></a>The Usual Theory, and A Bit More Notation</h3>
-<!--l. 382--><p class="noindent" >The ﬁrst order condition for (<a 
+<!--l. 387--><p class="noindent" >The ﬁrst order condition for (<a 
 href="#x1-3004r9">9<!--tex4ht:ref: vtNorm --></a>) with respect to <img 
 src="SolvingMicroDSOPs33x.svg" alt="ct  " class="math";align="absmiddle"> is <div class="eqnarray">
   <center class="math-display" >
@@ -552,7 +581,7 @@ u (ct)  =   𝔼t[βRΓ t+1u (ct+1)].                        (14)
 " class="math-display" ><a 
  id="x1-4005r14"></a></center>
 </div>
-<!--l. 412--><p class="indent" >  Now note that in equation (<a 
+<!--l. 417--><p class="indent" >  Now note that in equation (<a 
 href="#x1-4004r13">13<!--tex4ht:ref: eq:upctp1EqVpxtp1 --></a>) neither <img 
 src="SolvingMicroDSOPs39x.svg" alt="mt  " class="math";align="absmiddle"> nor <img 
 src="SolvingMicroDSOPs40x.svg" alt="ct  " class="math";align="absmiddle"> has any <span 
@@ -601,11 +630,11 @@ src="SolvingMicroDSOPs48x.svg" alt="u′(c )  =  𝔳′(m  − c ).            
 " class="math-display" ><a 
  id="x1-4010r18"></a></center>
 </div>
-<!--l. 447--><p class="indent" >  <a 
+<!--l. 452--><p class="indent" >  <a 
  id="Solving-the-Next-To-Last-Period"></a>
   <h3 class="sectionHead"><span class="titlemark">5  </span> <a 
  id="x1-50005"></a>Solving the Next-to-Last Period</h3>
-<!--l. 450--><p class="noindent" >The problem in the second-to-last period of life is: <div class="eqnarray">
+<!--l. 455--><p class="noindent" >The problem in the second-to-last period of life is: <div class="eqnarray">
                                                                                      
                                                                                      
   <center class="math-display" >
@@ -630,7 +659,7 @@ vT −1(mT −1)  =   mcax   ------+ βΓ T       --------------------------dℱ
 </div>where <img 
 src="SolvingMicroDSOPs54x.svg" alt="ℱ " class="math";align="absmiddle"> is the cumulative distribution function for <img 
 src="SolvingMicroDSOPs55x.svg" alt="𝜃  " class="math";align="absmiddle">.
-<!--l. 467--><p class="indent" >  In principle, the maximization implicitly deﬁnes a function  <img 
+<!--l. 472--><p class="indent" >  In principle, the maximization implicitly deﬁnes a function  <img 
 src="SolvingMicroDSOPs56x.svg" alt="cT−1(mT −1)  " class="math";align="absmiddle"> that yields
 optimal consumption in period <img 
 src="SolvingMicroDSOPs57x.svg" alt="T − 1  " class="math";align="absmiddle"> for any given level of resources <img 
@@ -644,15 +673,15 @@ src="SolvingMicroDSOPs61x.svg" alt="cT−1   " class="math";align="absmiddle"> t
 considered, the integral must be calculated numerically, and numerical integration is <span 
 class="ecti-1200">very</span>
 slow.
-<!--l. 477--><p class="indent" >  <a 
+<!--l. 482--><p class="indent" >  <a 
  id="Discretizing-the-Distribution"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.1  </span> <a 
  id="x1-60005.1"></a>Discretizing the Distribution</h4>
-<!--l. 479--><p class="noindent" >Our ﬁrst time-saving step is therefore to construct a discrete approximation to the lognormal
+<!--l. 484--><p class="noindent" >Our ﬁrst time-saving step is therefore to construct a discrete approximation to the lognormal
 distribution that can be used in place of numerical integration. We calculate an <img 
 src="SolvingMicroDSOPs62x.svg" alt="n  " class="math";align="absmiddle">-point
 approximation as follows.
-<!--l. 487--><p class="indent" >  Deﬁne a set of points from <img 
+<!--l. 492--><p class="indent" >  Deﬁne a set of points from <img 
 src="SolvingMicroDSOPs63x.svg" alt="♯0   " class="math";align="absmiddle"> to <img 
 src="SolvingMicroDSOPs64x.svg" alt="♯n𝜃   " class="math";align="absmiddle"> on the <img 
 src="SolvingMicroDSOPs65x.svg" alt="[0,1]  " class="math";align="absmiddle"> interval as the elements of the set
@@ -678,7 +707,7 @@ src="SolvingMicroDSOPs73x.svg" alt="                            ∫  ♯−i1
                               ♯−i1−1
 " class="math-display" ></center>
 </div>
-<!--l. 495--><p class="indent" >  The method is illustrated in Figure <a 
+<!--l. 500--><p class="indent" >  The method is illustrated in Figure <a 
 href="#x1-60041">1<!--tex4ht:ref: fig:discreteapprox --></a>. The solid continuous curve represents the “true” CDF
 <img 
 src="SolvingMicroDSOPs74x.svg" alt="ℱ  (𝜃)  " class="math";align="absmiddle"> for a lognormal distribution such that <img 
@@ -710,7 +739,7 @@ src="SolvingMicroDSOPs79x.svg" alt="ℱ " class="math";align="absmiddle"></span>
                                                                                      
                                                                                      
   </div>
-<!--l. 512--><p class="indent" >  Recalling our deﬁnition of <img 
+<!--l. 517--><p class="indent" >  Recalling our deﬁnition of <img 
 src="SolvingMicroDSOPs80x.svg" alt="𝔳t(at)  " class="math";align="absmiddle">, for <img 
 src="SolvingMicroDSOPs81x.svg" alt="t = T −  1  " class="math";align="absmiddle">
 <div class="eqnarray">
@@ -734,7 +763,7 @@ vT− 1(mT − 1) =   mcaTx−1   1 − ρ + 𝔳T−1(mT −1 − cT− 1)   . 
 </div>
   <h4 class="subsectionHead"><span class="titlemark">5.2  </span> <a 
  id="x1-70005.2"></a>The Approximate Consumption and Value Functions</h4>
-<!--l. 534--><p class="noindent" >Given a particular value of <img 
+<!--l. 539--><p class="noindent" >Given a particular value of <img 
 src="SolvingMicroDSOPs84x.svg" alt="mT −1   " class="math";align="absmiddle">, a numerical maximization routine can now ﬁnd the <img 
 src="SolvingMicroDSOPs85x.svg" alt="cT−1   " class="math";align="absmiddle">
 that maximizes (<a 
@@ -745,7 +774,7 @@ class="ectt-1200">2period.m</span>. (The archive also contains parallel Matlab p
 but these notes will dwell on the speciﬁcs of the <span 
 class="ecti-1200">Mathematica </span>implementation, which is
 superior in many respects.)
-<!--l. 541--><p class="indent" >  The ﬁrst thing <span 
+<!--l. 546--><p class="indent" >  The ﬁrst thing <span 
 class="ectt-1200">2period.m </span>does is to read in the ﬁle <span 
 class="ectt-1200">functions.m </span>which contains
 deﬁnitions of the consumption and value functions; <span 
@@ -757,7 +786,7 @@ solves for period <img
 src="SolvingMicroDSOPs87x.svg" alt="t  " class="math";align="absmiddle">.
                                                                                      
                                                                                      
-<!--l. 547--><p class="indent" >  The next step is to run the programs <span 
+<!--l. 552--><p class="indent" >  The next step is to run the programs <span 
 class="ectt-1200">setup_params.m</span>, <span 
 class="ectt-1200">setup_grids.m</span>, <span 
 class="ectt-1200">setup_shocks.m</span>,
@@ -784,7 +813,7 @@ deﬁnes the elements necessary to determine behavior in the last period, in whi
 src="SolvingMicroDSOPs92x.svg" alt="cT(m ) = m  " class="math";align="absmiddle">
 and <img 
 src="SolvingMicroDSOPs93x.svg" alt="vT(m ) = u(m )  " class="math";align="absmiddle">.
-<!--l. 561--><p class="indent" >  After all the setup, the only remaining step in <span 
+<!--l. 566--><p class="indent" >  After all the setup, the only remaining step in <span 
 class="ectt-1200">2period.m </span>is to invoke <span 
 class="ectt-1200">SolveAnotherPeriod</span>,
 which constructs the solution for period <img 
@@ -792,7 +821,7 @@ src="SolvingMicroDSOPs94x.svg" alt="T − 1  " class="math";align="absmiddle"> g
 <img 
 src="SolvingMicroDSOPs95x.svg" alt="T  " class="math";align="absmiddle"> (constructed by <span 
 class="ectt-1200">setup_lastperiod.m</span>).
-<!--l. 566--><p class="indent" >  Because we will always be comparing our solution to the perfect foresight solution, we also
+<!--l. 571--><p class="indent" >  Because we will always be comparing our solution to the perfect foresight solution, we also
 construct the variables required to characterize the perfect foresight consumption function in
 periods prior to <img 
 src="SolvingMicroDSOPs96x.svg" alt="T  " class="math";align="absmiddle">. In particular, we construct the list <span 
@@ -804,7 +833,7 @@ src="SolvingMicroDSOPs97x.svg" alt="T −  1  " class="math";align="absmiddle"> 
 wealth’).<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs12.html#fn11x0"><sup class="textsuperscript">11</sup></a></span><a 
  id="x1-7001f11"></a> 
-<!--l. 577--><p class="indent" >  The perfect foresight consumption function is also constructed (<span 
+<!--l. 582--><p class="indent" >  The perfect foresight consumption function is also constructed (<span 
 class="ectt-1200">setup_PerfectForesightSolution.m</span>).
 This program uses the fact that, in <span 
 class="ecti-1200">Mathematica</span>, functions can be saved as objects using the
@@ -843,7 +872,7 @@ src="SolvingMicroDSOPs105x.svg" alt="¯cT = mT  " class="math";align="absmiddle"
 <img 
 src="SolvingMicroDSOPs106x.svg" alt="hT =  κ- = 1
        T  " class="math";align="absmiddle">.
-<!--l. 598--><p class="indent" >  The inﬁnite horizon perfect foresight marginal propensity to save <div class="eqnarray">
+<!--l. 603--><p class="indent" >  The inﬁnite horizon perfect foresight marginal propensity to save <div class="eqnarray">
   <center class="math-display" >
 <img 
 src="SolvingMicroDSOPs107x.svg" alt="                 1∕ρ
@@ -854,7 +883,7 @@ src="SolvingMicroDSOPs107x.svg" alt="                 1∕ρ
 derivations.<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs13.html#fn12x0"><sup class="textsuperscript">12</sup></a></span><a 
  id="x1-7003f12"></a> 
-<!--l. 605--><p class="indent" >  The program then constructs behavior for one iteration back from the last period of life by
+<!--l. 610--><p class="indent" >  The program then constructs behavior for one iteration back from the last period of life by
 using the function <span 
 class="ectt-1200">AddNewPeriodToParamLifeDates</span>. Using the <span 
 class="ecti-1200">Mathematica</span> command
@@ -876,7 +905,7 @@ class="ectt-1200">Min])</span>, is the perfect foresight marginal propensity to 
 src="SolvingMicroDSOPs112x.svg" alt="t = T − 1  " class="math";align="absmiddle">.<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs14.html#fn13x0"><sup class="textsuperscript">13</sup></a></span><a 
  id="x1-7004f13"></a> 
-<!--l. 617--><p class="indent" >  Next, the program deﬁnes a function <img 
+<!--l. 622--><p class="indent" >  Next, the program deﬁnes a function <img 
 src="SolvingMicroDSOPs113x.svg" alt="𝔳   " class="math";align="absmiddle"><span 
 class="ectt-1200">[at_] </span>(in <span 
 class="ectt-1200">functions_stable.m</span>) which  is the
@@ -887,7 +916,7 @@ src="SolvingMicroDSOPs114x.svg" alt="T  " class="math";align="absmiddle"> given 
 src="SolvingMicroDSOPs115x.svg" alt="T − 1  " class="math";align="absmiddle">,
 <img 
 src="SolvingMicroDSOPs116x.svg" alt="aT −1   " class="math";align="absmiddle">.
-<!--l. 625--><p class="indent" >  The heart of the program is the next expression (in <span 
+<!--l. 630--><p class="indent" >  The heart of the program is the next expression (in <span 
 class="ectt-1200">functions.m</span>). This expression loops
 over the values of the variable <span 
 class="ectt-1200">mVec</span>, solving the maximization problem (given in equation
@@ -916,7 +945,7 @@ src="SolvingMicroDSOPs123x.svg" alt="mT − 1,i  " class="math";align="absmiddle
                                                                                      
   <h4 class="subsectionHead"><span class="titlemark">5.3  </span> <a 
  id="x1-80005.3"></a>An Interpolated Consumption Function</h4>
-<!--l. 651--><p class="noindent" >Now we use the ﬁrst of the really convenient built-in features of  <span 
+<!--l. 656--><p class="noindent" >Now we use the ﬁrst of the really convenient built-in features of  <span 
 class="ecti-1200">Mathematica</span>. Given a set of
 points on a function (in this case, the consumption function <img 
 src="SolvingMicroDSOPs124x.svg" alt="cT−1(m )  " class="math";align="absmiddle">), <span 
@@ -954,7 +983,7 @@ src="SolvingMicroDSOPs139x.svg" alt="(0.25cj,T− 1 + 0.75ck,T−1)  " class="ma
 numerical approximation to the value function <img 
 src="SolvingMicroDSOPs140x.svg" alt="`vT−1(mT −1)  " class="math";align="absmiddle"> in an exactly analogous
 way.
-<!--l. 679--><p class="indent" >  Figures <a 
+<!--l. 684--><p class="indent" >  Figures <a 
 href="#x1-80022">2<!--tex4ht:ref: fig:PlotcTm1Simple --></a> and <a 
 href="#x1-80033">3<!--tex4ht:ref: fig:PlotVTm1Simple --></a> show plots of the <img 
 src="SolvingMicroDSOPs141x.svg" alt="`cT−1   " class="math";align="absmiddle"> and <img 
@@ -970,7 +999,7 @@ the intuition for why trying to approximate the value function directly is a bad
 context).<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs15.html#fn14x0"><sup class="textsuperscript">14</sup></a></span><a 
  id="x1-8001f14"></a> 
-<!--l. 691--><p class="indent" >  <a 
+<!--l. 696--><p class="indent" >  <a 
  id="PlotcTm1Simple"></a> <div class="figure" 
 >
                                                                                      
@@ -979,7 +1008,7 @@ href="SolvingMicroDSOPs15.html#fn14x0"><sup class="textsuperscript">14</sup></a>
  id="x1-80022"></a>
                                                                                      
                                                                                      
-<!--l. 693--><p class="noindent" > <img 
+<!--l. 698--><p class="noindent" > <img 
 src="./Figures/PlotcTm1Simple.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -990,7 +1019,7 @@ src="SolvingMicroDSOPs146x.svg" alt="`cT− 1(mT  −1)  " class="math";align="a
                                                                                      
                                                                                      
   </div>
-<!--l. 698--><p class="indent" >  <a 
+<!--l. 703--><p class="indent" >  <a 
  id="PlotvTm1Simple"></a> <div class="figure" 
 >
                                                                                      
@@ -999,7 +1028,7 @@ src="SolvingMicroDSOPs146x.svg" alt="`cT− 1(mT  −1)  " class="math";align="a
  id="x1-80033"></a>
                                                                                      
                                                                                      
-<!--l. 700--><p class="noindent" > <img 
+<!--l. 705--><p class="noindent" > <img 
 src="./Figures/PlotVTm1Simple.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1010,11 +1039,11 @@ src="SolvingMicroDSOPs148x.svg" alt="`vT −1(mT −1)  " class="math";align="ab
                                                                                      
                                                                                      
   </div>
-<!--l. 705--><p class="indent" >  <a 
+<!--l. 710--><p class="indent" >  <a 
  id="Interpolating-Expectations"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.4  </span> <a 
  id="x1-90005.4"></a>Interpolating Expectations</h4>
-<!--l. 710--><p class="noindent" ><span 
+<!--l. 715--><p class="noindent" ><span 
 class="ectt-1200">2period.m </span>works well in the sense that it generates a good approximation to the true optimal
 consumption function. However, there is a clear ineﬃciency in the program: Since it uses
 equation (<a 
@@ -1033,7 +1062,7 @@ with <img
 src="SolvingMicroDSOPs154x.svg" alt="aT −1 = 0  " class="math";align="absmiddle"> dozens of times. It would be much more eﬃcient if the program
 could make that calculation once and then merely recall the value when it is needed
 again.
-<!--l. 727--><p class="indent" >  This can be achieved using the same interpolation technique used above to construct a
+<!--l. 732--><p class="indent" >  This can be achieved using the same interpolation technique used above to construct a
 direct numerical approximation to the value function: Deﬁne a grid of possible values for
 saving at time <img 
 src="SolvingMicroDSOPs155x.svg" alt="T − 1  " class="math";align="absmiddle">, <img 
@@ -1056,7 +1085,7 @@ src="SolvingMicroDSOPs162x.svg" alt="⃗a
 src="SolvingMicroDSOPs163x.svg" alt="⃗𝔳
   T−1   " class="math";align="absmiddle">
 vectors.
-<!--l. 741--><p class="indent" >  Thus, we are now interpolating for the function that reveals
+<!--l. 746--><p class="indent" >  Thus, we are now interpolating for the function that reveals
 the expected value of <span 
 class="ecti-1200">ending </span>the period with a given amount of
 assets.<span class="footnote-mark"><a 
@@ -1071,7 +1100,7 @@ at the gridpoints chosen for <img
 src="SolvingMicroDSOPs164x.svg" alt="aT− 1   " class="math";align="absmiddle"> and they appear reasonably close except in the region
 below <img 
 src="SolvingMicroDSOPs165x.svg" alt="mT −1 = 1  " class="math";align="absmiddle">.
-<!--l. 753--><p class="indent" >  <a 
+<!--l. 758--><p class="indent" >  <a 
  id="PlotOTm1RawVSInt"></a> <div class="figure" 
 >
                                                                                      
@@ -1080,7 +1109,7 @@ src="SolvingMicroDSOPs165x.svg" alt="mT −1 = 1  " class="math";align="absmiddl
  id="x1-90024"></a>
                                                                                      
                                                                                      
-<!--l. 755--><p class="noindent" > <img 
+<!--l. 760--><p class="noindent" > <img 
 src="./Figures/PlotOTm1RawVSInt.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1091,7 +1120,7 @@ src="SolvingMicroDSOPs167x.svg" alt="`𝔳T− 1(aT −1)  " class="math";align=
                                                                                      
                                                                                      
   </div>
-<!--l. 760--><p class="indent" >  <a 
+<!--l. 765--><p class="indent" >  <a 
  id="PlotComparecTm1AB"></a> <div class="figure" 
 >
                                                                                      
@@ -1100,7 +1129,7 @@ src="SolvingMicroDSOPs167x.svg" alt="`𝔳T− 1(aT −1)  " class="math";align=
  id="x1-90035"></a>
                                                                                      
                                                                                      
-<!--l. 762--><p class="noindent" > <img 
+<!--l. 767--><p class="noindent" > <img 
 src="./Figures/PlotComparecTm1AB.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1111,7 +1140,7 @@ src="SolvingMicroDSOPs169x.svg" alt="`cT− 1(mT  −1)  " class="math";align="a
                                                                                      
                                                                                      
   </div>
-<!--l. 767--><p class="indent" >  Nevertheless, the resulting consumption rule obtained when <img 
+<!--l. 772--><p class="indent" >  Nevertheless, the resulting consumption rule obtained when <img 
 src="SolvingMicroDSOPs170x.svg" alt="`𝔳T−1(aT− 1)  " class="math";align="absmiddle"> is used instead of
 <img 
 src="SolvingMicroDSOPs171x.svg" alt="𝔳T −1(aT−1)  " class="math";align="absmiddle"> is surprisingly bad, as shown in ﬁgure <a 
@@ -1128,11 +1157,11 @@ concave, which is distressing because Carroll and Kimball (<a
 href="#Xcarroll&kimball:concavity">1996</a>) prove that the correct
 consumption function is strictly concave in a wide class of problems that includes this
 problem.
-<!--l. 780--><p class="indent" >  <a 
+<!--l. 785--><p class="indent" >  <a 
  id="Value-Function-versus-First-Order-Condition"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.5  </span> <a 
  id="x1-100005.5"></a>Value Function versus First Order Condition</h4>
-<!--l. 783--><p class="noindent" >Loosely speaking, our diﬃculty reﬂects the fact that the consumption choice is governed by
+<!--l. 788--><p class="noindent" >Loosely speaking, our diﬃculty reﬂects the fact that the consumption choice is governed by
 the <span 
 class="ecti-1200">marginal </span>value function, not by the <span 
 class="ecti-1200">level </span>of the value function (which is the object that we
@@ -1146,7 +1175,7 @@ class="equation"><tr><td><a
 <img 
 src="SolvingMicroDSOPs177x.svg" alt="𝔼 [− (c − /c)2] &#x003C; − (𝔼[c] − /c)2
 " class="math-display" ></center></td><td class="equation-label">(24)</td></tr></table>
-<!--l. 795--><p class="nopar" >
+<!--l. 800--><p class="nopar" >
 where <img 
 src="SolvingMicroDSOPs178x.svg" alt="/c  " class="math";align="absmiddle"> is the ‘bliss point’. However, unlike the CRRA utility function, with quadratic utility
 the consumption/saving <span 
@@ -1161,14 +1190,14 @@ class="equation"><tr><td><a
 <img 
 src="SolvingMicroDSOPs179x.svg" alt="𝔼[− 2(c − /c)] = − 2(𝔼[c] − /c).
 " class="math-display" ></center></td><td class="equation-label">(25)</td></tr></table>
-<!--l. 803--><p class="nopar" >
-<!--l. 805--><p class="indent" >  Intuitively, if one’s goal is to accurately capture choices that are governed by marginal
+<!--l. 808--><p class="nopar" >
+<!--l. 810--><p class="indent" >  Intuitively, if one’s goal is to accurately capture choices that are governed by marginal
 value, numerical techniques that approximate the <span 
 class="ecti-1200">marginal </span>value function will yield a more
 accurate approximation to optimal behavior than techniques that approximate the <span 
 class="ecti-1200">level </span>of the
 value function.
-<!--l. 812--><p class="indent" >  The ﬁrst order condition of the maximization problem in period <img 
+<!--l. 817--><p class="indent" >  The ﬁrst order condition of the maximization problem in period <img 
 src="SolvingMicroDSOPs180x.svg" alt="T − 1  " class="math";align="absmiddle"> is:
 <div class="eqnarray">
   <center class="math-display" >
@@ -1190,7 +1219,7 @@ u (cT −1) =   β 𝔼T −1[Γ T Ru (cT)]                                  (26
  id="x1-100046"></a>
                                                                                      
                                                                                      
-<!--l. 823--><p class="noindent" > <img 
+<!--l. 828--><p class="noindent" > <img 
 src="./Figures/PlotuPrimeVSOPrime.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1201,7 +1230,7 @@ src="SolvingMicroDSOPs183x.svg" alt="𝔳 ′T−1(3 − c),𝔳′T−1(4 − c
                                                                                      
                                                                                      
   </div>
-<!--l. 828--><p class="indent" >  The downward-sloping curve in Figure <a 
+<!--l. 833--><p class="indent" >  The downward-sloping curve in Figure <a 
 href="#x1-100046">6<!--tex4ht:ref: fig:PlotuPrimeVSOPrime --></a> shows the value of <img 
 src="SolvingMicroDSOPs184x.svg" alt="c−Tρ−1   " class="math";align="absmiddle"> for our baseline
 parameter values for <img 
@@ -1234,7 +1263,7 @@ src="SolvingMicroDSOPs195x.svg" alt="mT  −1 = 4  " class="math";align="absmidd
 src="SolvingMicroDSOPs196x.svg" alt="cT− 1 = 2.5  " class="math";align="absmiddle">. Thus, increasing <img 
 src="SolvingMicroDSOPs197x.svg" alt="mT −1   " class="math";align="absmiddle"> from 3 to 4 increases optimal consumption by about
 0.5.
-<!--l. 849--><p class="indent" >  Now consider the derivative of our function <img 
+<!--l. 854--><p class="indent" >  Now consider the derivative of our function <img 
 src="SolvingMicroDSOPs198x.svg" alt="`𝔳T−1(aT− 1)  " class="math";align="absmiddle">. Because we have constructed
 <img 
 src="SolvingMicroDSOPs199x.svg" alt="`𝔳T −1   " class="math";align="absmiddle"> as a linear interpolation, the slope of <img 
@@ -1244,7 +1273,7 @@ src="SolvingMicroDSOPs201x.svg" alt="{aT −1,i,ai+1,T− 1} " class="math";alig
 gridpoint is diﬀerent, of course, from the slope above that gridpoint, a fact which implies that
 the derivative of <img 
 src="SolvingMicroDSOPs202x.svg" alt="`𝔳T− 1(aT −1)  " class="math";align="absmiddle"> follows a step function.
-<!--l. 859--><p class="indent" >  The solid-line step function in Figure <a 
+<!--l. 864--><p class="indent" >  The solid-line step function in Figure <a 
 href="#x1-100046">6<!--tex4ht:ref: fig:PlotuPrimeVSOPrime --></a> depicts the actual value of <img 
 src="SolvingMicroDSOPs203x.svg" alt=" ′
 `𝔳T−1(3 − cT−1)  " class="math";align="absmiddle">. When
@@ -1278,7 +1307,7 @@ src="SolvingMicroDSOPs217x.svg" alt="c    = 2
 <img 
 src="SolvingMicroDSOPs218x.svg" alt="mT − 1 = 3  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs219x.svg" alt="mT − 1 = 4  " class="math";align="absmiddle">.
-<!--l. 878--><p class="indent" >  We would obviously obtain much better estimates of the point of intersection between
+<!--l. 883--><p class="indent" >  We would obviously obtain much better estimates of the point of intersection between
 <img 
 src="SolvingMicroDSOPs220x.svg" alt="u ′(cT−1)  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs221x.svg" alt="𝔳′T−1(mT −1 − cT− 1)  " class="math";align="absmiddle"> if our estimate of <img 
@@ -1303,7 +1332,7 @@ src="SolvingMicroDSOPs225x.svg" alt="{{aT −1,1,𝔳′T −1,1},{aT −1,2,�
 <img 
 src="SolvingMicroDSOPs226x.svg" alt="`𝔳′   (a   )
  T −1  T−1  " class="math";align="absmiddle"> as the linear interpolating function that ﬁts this set of points.
-<!--l. 895--><p class="indent" >  <a 
+<!--l. 900--><p class="indent" >  <a 
 >PlotOPRawVSFOC</a> <div class="figure" 
 >
                                                                                      
@@ -1312,7 +1341,7 @@ src="SolvingMicroDSOPs226x.svg" alt="`𝔳′   (a   )
  id="x1-100067"></a>
                                                                                      
                                                                                      
-<!--l. 897--><p class="noindent" > <img 
+<!--l. 902--><p class="noindent" > <img 
 src="./Figures/PlotOPRawVSFOC.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1323,7 +1352,7 @@ src="SolvingMicroDSOPs228x.svg" alt="`𝔳′T−1(aT− 1)  " class="math";alig
                                                                                      
                                                                                      
   </div>
-<!--l. 903--><p class="indent" >  The program ﬁle <span 
+<!--l. 908--><p class="indent" >  The program ﬁle <span 
 class="ectt-1200">functionsIntExpFOC.m </span>therefore uses the function <img 
 src="SolvingMicroDSOPs229x.svg" alt="𝔳   " class="math";align="absmiddle"><span 
 class="ectt-1200">a[at_] </span>deﬁned
@@ -1340,7 +1369,7 @@ href="#x1-100078">8<!--tex4ht:ref: fig:PlotcTm1ABC --></a> shows that the new co
 function (long dashes) is a considerably better approximation of the true consumption
 function (solid) than was the consumption function obtained by approximating the level of the
 value function (short dashes).
-<!--l. 917--><p class="indent" >  <a 
+<!--l. 922--><p class="indent" >  <a 
  id="PlotcTm1ABC"></a> <div class="figure" 
 >
                                                                                      
@@ -1349,7 +1378,7 @@ value function (short dashes).
  id="x1-100078"></a>
                                                                                      
                                                                                      
-<!--l. 919--><p class="noindent" > <img 
+<!--l. 924--><p class="noindent" > <img 
 src="./Figures/PlotcTm1ABC.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1360,11 +1389,11 @@ src="SolvingMicroDSOPs231x.svg" alt="`cT−1(mT −1)  " class="math";align="abs
                                                                                      
                                                                                      
   </div>
-<!--l. 924--><p class="indent" >  <a 
+<!--l. 929--><p class="indent" >  <a 
  id="Transformation"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.6  </span> <a 
  id="x1-110005.6"></a>Transformation</h4>
-<!--l. 927--><p class="noindent" >Even the new-and-improved consumption function diverges notably from the true solution,
+<!--l. 932--><p class="noindent" >Even the new-and-improved consumption function diverges notably from the true solution,
 especially at lower values of <img 
 src="SolvingMicroDSOPs232x.svg" alt="m  " class="math";align="absmiddle">. That is because the linear interpolation does an increasingly
 poor job of capturing the nonlinearity of <img 
@@ -1372,7 +1401,7 @@ src="SolvingMicroDSOPs233x.svg" alt=" ′
 𝔳T− 1(aT −1)  " class="math";align="absmiddle"> at lower and lower levels of
 <img 
 src="SolvingMicroDSOPs234x.svg" alt="a  " class="math";align="absmiddle">.
-<!--l. 933--><p class="indent" >  This is where we unveil our next trick. To understand the logic, start by considering the
+<!--l. 938--><p class="indent" >  This is where we unveil our next trick. To understand the logic, start by considering the
 case where <img 
 src="SolvingMicroDSOPs235x.svg" alt="ℛ  =  β = Γ  =  1
  T          T  " class="math";align="absmiddle"> and there is no uncertainty  (that is, we know for
@@ -1385,7 +1414,7 @@ src="SolvingMicroDSOPs237x.svg" alt="c−ρ   =   c−ρ.                       
  T−1       T
 " class="math-display" ></center>
 </div>
-<!--l. 943--><p class="indent" >  In the case we are now considering with no uncertainty and no liquidity constraints, the
+<!--l. 948--><p class="indent" >  In the case we are now considering with no uncertainty and no liquidity constraints, the
 optimizing consumer does not care whether a unit of income is scheduled to be received in the
 future period <img 
 src="SolvingMicroDSOPs238x.svg" alt="T  " class="math";align="absmiddle"> or the current period <img 
@@ -1400,7 +1429,7 @@ periods; it does not include current income, which has already been incorporated
 <img 
 src="SolvingMicroDSOPs242x.svg" alt="m
   T− 1   " class="math";align="absmiddle">).
-<!--l. 956--><p class="indent" >  The optimal solution is to spend half of total lifetime resources in period <img 
+<!--l. 961--><p class="indent" >  The optimal solution is to spend half of total lifetime resources in period <img 
 src="SolvingMicroDSOPs243x.svg" alt="T − 1  " class="math";align="absmiddle">
 and the remainder in period <img 
 src="SolvingMicroDSOPs244x.svg" alt="T  " class="math";align="absmiddle">. Since total resources are known with certainty
@@ -1419,7 +1448,7 @@ src="SolvingMicroDSOPs247x.svg" alt="               (          ) −ρ
 v′   (m    ) =   mT-−1 +-1-   .
  T −1   T−1          2
 " class="math-display" ></center></td><td class="equation-label">(30)</td></tr></table>
-<!--l. 967--><p class="nopar" >
+<!--l. 972--><p class="nopar" >
 Of course, this is a highly nonlinear function. However, if we raise both sides of (<a 
 href="#x1-11002r30">30<!--tex4ht:ref: eq:vPLin --></a>) to the
 power <img 
@@ -1464,13 +1493,13 @@ src="SolvingMicroDSOPs256x.svg" alt="𝔠T− 1,i  " class="math";align="absmidd
 src="SolvingMicroDSOPs257x.svg" alt="aT−1,i  " class="math";align="absmiddle"> gridpoints, with the idea that we will construct <img 
 src="SolvingMicroDSOPs258x.svg" alt="`𝔠T− 1   " class="math";align="absmiddle">
 as the interpolating function connecting these points.
-<!--l. 1000--><p class="indent" >  <a 
+<!--l. 1005--><p class="indent" >  <a 
  id="The-Self-Imposed-Natural-Borrowing-Constraint-and-the-a-Lower-Bound"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.7  </span> <a 
  id="x1-120005.7"></a>The Self-Imposed ‘Natural’ Borrowing Constraint and the <img 
 src="SolvingMicroDSOPs259x.svg" alt="a
  T−1   " class="math";align="absmiddle"> Lower Bound</h4>
-<!--l. 1004--><p class="noindent" >This is the appropriate moment to ask an awkward question that we have so far neglected:
+<!--l. 1009--><p class="noindent" >This is the appropriate moment to ask an awkward question that we have so far neglected:
 How should a function like <img 
 src="SolvingMicroDSOPs260x.svg" alt="`𝔠T− 1   " class="math";align="absmiddle"> be evaluated outside the range of points spanned by
 <img 
@@ -1480,7 +1509,7 @@ used to produce our linearly interpolating approximation <img
 src="SolvingMicroDSOPs263x.svg" alt="`𝔠T− 1   " class="math";align="absmiddle"> (as described in
 section <a 
 href="#x1-80005.3">5.3<!--tex4ht:ref: subsec:LinInterp --></a>)?
-<!--l. 1011--><p class="indent" >  The natural answer would seem to be linear extrapolation; for example, we could use
+<!--l. 1016--><p class="indent" >  The natural answer would seem to be linear extrapolation; for example, we could use
 <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -1513,7 +1542,7 @@ aT−1↓aT−1  T−1  T−1       aT−1↓aT−1     T   n𝜃        T −1 
 </div>
                                                                                      
                                                                                      
-<!--l. 1026--><p class="indent" >  But since <img 
+<!--l. 1031--><p class="indent" >  But since <img 
 src="SolvingMicroDSOPs272x.svg" alt="𝜃-=  𝜃1   " class="math";align="absmiddle">, exactly at <img 
 src="SolvingMicroDSOPs273x.svg" alt="aT−1 = aT −1   " class="math";align="absmiddle"> the ﬁrst term in the summation would be
 <img 
@@ -1538,7 +1567,7 @@ yields <img
 src="SolvingMicroDSOPs284x.svg" alt="− ∞ " class="math";align="absmiddle"> utility and <img 
 src="SolvingMicroDSOPs285x.svg" alt="∞ " class="math";align="absmiddle"> marginal utility (or undeﬁned utility and marginal
 utility).
-<!--l. 1040--><p class="indent" >  These reﬂections lead us to the conclusion that the consumer faces a ‘self-imposed’ liquidity
+<!--l. 1045--><p class="indent" >  These reﬂections lead us to the conclusion that the consumer faces a ‘self-imposed’ liquidity
 constraint (which results from the precautionary motive): He will never borrow an amount
 greater than or equal to <img 
 src="SolvingMicroDSOPs286x.svg" alt="𝜃ℛ −T1  " class="math";align="absmiddle"> (that is, assets will never reach the lower bound of
@@ -1555,7 +1584,7 @@ src="SolvingMicroDSOPs289x.svg" alt="T  " class="math";align="absmiddle"> would 
 of utility.<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs18.html#fn17x0"><sup class="textsuperscript">17</sup></a></span><a 
  id="x1-12004f17"></a> 
-<!--l. 1057--><p class="indent" >  This self-imposed constraint cannot be captured well when the <img 
+<!--l. 1062--><p class="indent" >  This self-imposed constraint cannot be captured well when the <img 
 src="SolvingMicroDSOPs290x.svg" alt="𝔳′T− 1   " class="math";align="absmiddle"> function is
 approximated by a piecewise linear function like <img 
 src="SolvingMicroDSOPs291x.svg" alt="`𝔳′
@@ -1585,7 +1614,7 @@ arbitrarily large amount as the level of assets approaches its true theoretical 
 <img 
 src="SolvingMicroDSOPs299x.svg" alt="a-
  T −1 " class="math";align="absmiddle">.
-<!--l. 1076--><p class="indent" >  The foregoing logic demonstrates that the marginal value of saving approaches inﬁnity as
+<!--l. 1081--><p class="indent" >  The foregoing logic demonstrates that the marginal value of saving approaches inﬁnity as
 <img 
 src="SolvingMicroDSOPs300x.svg" alt="                    −1
 aT −1 ↓ aT −1 = − 𝜃-ℛ T  " class="math";align="absmiddle">. But this implies that <img 
@@ -1596,14 +1625,14 @@ src="SolvingMicroDSOPs302x.svg" alt="a  " class="math";align="absmiddle"> approa
 src="SolvingMicroDSOPs303x.svg" alt="c  " class="math";align="absmiddle"> must
 approach <span 
 class="ecti-1200">its </span>minimum possible value: zero.
-<!--l. 1083--><p class="indent" >  The upshot of this discussion is a realization that all we need to do is to augment each of
+<!--l. 1088--><p class="indent" >  The upshot of this discussion is a realization that all we need to do is to augment each of
 the <img 
 src="SolvingMicroDSOPs304x.svg" alt="⃗aT− 1   " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs305x.svg" alt="⃗cT− 1   " class="math";align="absmiddle"> vectors with an extra point so that the ﬁrst element in the list used to
 produce our <span 
 class="ectt-1200">InterpolatingFunction </span>is <img 
 src="SolvingMicroDSOPs306x.svg" alt="{aT −1,0,cT− 1,0} = {aT −1,0.} " class="math";align="absmiddle">.
-<!--l. 1088--><p class="indent" >  <a 
+<!--l. 1093--><p class="indent" >  <a 
  id="GothVInvVSGothC"></a> <div class="figure" 
 >
                                                                                      
@@ -1612,7 +1641,7 @@ src="SolvingMicroDSOPs306x.svg" alt="{aT −1,0,cT− 1,0} = {aT −1,0.} " clas
  id="x1-120059"></a>
                                                                                      
                                                                                      
-<!--l. 1090--><p class="noindent" > <img 
+<!--l. 1095--><p class="noindent" > <img 
 src="./Figures/GothVInvVSGothC.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1623,7 +1652,7 @@ src="SolvingMicroDSOPs308x.svg" alt="`𝔠T− 1(aT−1)  " class="math";align="
                                                                                      
                                                                                      
   </div>
-<!--l. 1097--><p class="indent" >  Figure <a 
+<!--l. 1102--><p class="indent" >  Figure <a 
 href="#x1-120059">9<!--tex4ht:ref: fig:GothVInvVSGothC --></a> plots the results (generated by the program <span 
 class="ectt-1200">2periodIntExpFOCInv.m</span>). The solid
 line calculates the exact numerical value of <img 
@@ -1635,7 +1664,7 @@ transformation: The true function is close to linear, and so the linear approxim
 almost indistinguishable from the true function except at the very lowest values of
 <img 
 src="SolvingMicroDSOPs311x.svg" alt="aT −1   " class="math";align="absmiddle">.
-<!--l. 1110--><p class="indent" >  Figure <a 
+<!--l. 1115--><p class="indent" >  Figure <a 
 href="#x1-1200610">10<!--tex4ht:ref: fig:GothVVSGothCInv --></a> similarly shows that when we calculate <img 
 src="SolvingMicroDSOPs312x.svg" alt="``𝔳′  (a    )
  T−1  T− 1  " class="math";align="absmiddle"> as <img 
@@ -1648,7 +1677,7 @@ src="SolvingMicroDSOPs314x.svg" alt=" ′
 line) than we did in the previous  program which did not do the transformation
 (Figure <a 
 href="#x1-100067">7<!--tex4ht:ref: fig:PlotOPRawVSFOC --></a>).
-<!--l. 1120--><p class="indent" >  <a 
+<!--l. 1125--><p class="indent" >  <a 
  id="GothVVSGothCInv"></a> <div class="figure" 
 >
                                                                                      
@@ -1657,7 +1686,7 @@ href="#x1-100067">7<!--tex4ht:ref: fig:PlotOPRawVSFOC --></a>).
  id="x1-1200610"></a>
                                                                                      
                                                                                      
-<!--l. 1122--><p class="noindent" > <img 
+<!--l. 1127--><p class="noindent" > <img 
 src="./Figures/GothVVSGothCInv.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1669,11 +1698,11 @@ src="SolvingMicroDSOPs317x.svg" alt="`𝔠T −1(aT−1)  " class="math";align="
                                                                                      
                                                                                      
   </div>
-<!--l. 1129--><p class="indent" >  <a 
+<!--l. 1134--><p class="indent" >  <a 
  id="The-Method-of-Endogenous-Gridpoints"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.8  </span> <a 
  id="x1-130005.8"></a>The Method of Endogenous Gridpoints</h4>
-<!--l. 1132--><p class="noindent" >Our solution procedure for <img 
+<!--l. 1137--><p class="noindent" >Our solution procedure for <img 
 src="SolvingMicroDSOPs318x.svg" alt="c
  T−1   " class="math";align="absmiddle"> still requires us, for each point in <img 
 src="SolvingMicroDSOPs319x.svg" alt="⃗m
@@ -1685,7 +1714,7 @@ solves <img
 src="SolvingMicroDSOPs321x.svg" alt=" ′          ′
 u(cT− 1) = 𝔳T−1(mT −1 − cT−1)  " class="math";align="absmiddle">. Unfortunately, rootﬁnding is a notoriously
 computation-intensive (that is, slow!) operation.
-<!--l. 1139--><p class="indent" >  Our next trick lets us completely skip the rootﬁnding step. The method can be understood
+<!--l. 1144--><p class="indent" >  Our next trick lets us completely skip the rootﬁnding step. The method can be understood
 by noting that any arbitrary value of <img 
 src="SolvingMicroDSOPs322x.svg" alt="a
  T− 1,i  " class="math";align="absmiddle"> (greater than its lower bound value <img 
@@ -1710,7 +1739,7 @@ u(cT− 1,i) =   𝔳T− 1(aT −1,i)                            (35)
 " class="math-display" ><a 
  id="x1-13001r35"></a></center>
 </div>
-<!--l. 1155--><p class="indent" >  But with mutually consistent values of <img 
+<!--l. 1160--><p class="indent" >  But with mutually consistent values of <img 
 src="SolvingMicroDSOPs327x.svg" alt="cT−1,i  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs328x.svg" alt="aT−1,i  " class="math";align="absmiddle"> (consistent, in the sense that
 they are the unique optimal values that correspond to the solution to the problem in a
@@ -1722,13 +1751,13 @@ src="SolvingMicroDSOPs329x.svg" alt="mT −1,i  " class="math";align="absmiddle"
 src="SolvingMicroDSOPs330x.svg" alt="mT −1,i  =  cT −1,i + aT −1,i.                        (40)
 " class="math-display" ></center>
 </div>
-<!--l. 1162--><p class="indent" >  These <img 
+<!--l. 1167--><p class="indent" >  These <img 
 src="SolvingMicroDSOPs331x.svg" alt="mT −1   " class="math";align="absmiddle"> gridpoints are “endogenous” in contrast to the usual solution method of
 specifying some ex-ante grid of values of <img 
 src="SolvingMicroDSOPs332x.svg" alt="mT − 1   " class="math";align="absmiddle"> and then using a rootﬁnding routine to locate
 the corresponding optimal <img 
 src="SolvingMicroDSOPs333x.svg" alt="cT−1   " class="math";align="absmiddle">.
-<!--l. 1166--><p class="indent" >  Thus, we can generate a set of <img 
+<!--l. 1171--><p class="indent" >  Thus, we can generate a set of <img 
 src="SolvingMicroDSOPs334x.svg" alt="m
   T−1,i  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs335x.svg" alt="c
@@ -1753,7 +1782,7 @@ naturally dense right around the parts of the function with the greatest nonline
  id="x1-1300411"></a>
                                                                                      
                                                                                      
-<!--l. 1178--><p class="noindent" > <img 
+<!--l. 1183--><p class="noindent" > <img 
 src="./Figures/PlotComparecTm1AD.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1764,7 +1793,7 @@ src="SolvingMicroDSOPs340x.svg" alt="`cT −1(mT −1)  " class="math";align="ab
                                                                                      
                                                                                      
   </div>
-<!--l. 1182--><p class="indent" >  Figure <a 
+<!--l. 1187--><p class="indent" >  Figure <a 
 href="#x1-1300411">11<!--tex4ht:ref: fig:ComparecTm1AD --></a> plots the actual consumption function <img 
 src="SolvingMicroDSOPs341x.svg" alt="cT−1   " class="math";align="absmiddle"> and the approximated consumption
 function <img 
@@ -1774,12 +1803,12 @@ href="#x1-100078">8<!--tex4ht:ref: fig:PlotcTm1ABC --></a> <img
 src="SolvingMicroDSOPs343x.svg" alt="`c
  T −1   " class="math";align="absmiddle"> is quite close to the actual
 consumption function.
-<!--l. 1191--><p class="indent" >  <a 
+<!--l. 1196--><p class="indent" >  <a 
  id="Improving-the-a-Grid"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.9  </span> <a 
  id="x1-140005.9"></a>Improving the <img 
 src="SolvingMicroDSOPs344x.svg" alt="a  " class="math";align="absmiddle"> Grid</h4>
-<!--l. 1194--><p class="noindent" >Thus far, we have arbitrarily used <img 
+<!--l. 1199--><p class="noindent" >Thus far, we have arbitrarily used <img 
 src="SolvingMicroDSOPs345x.svg" alt="a  " class="math";align="absmiddle"> gridpoints of <img 
 src="SolvingMicroDSOPs346x.svg" alt="{0.,1.,2.,3.,4.} " class="math";align="absmiddle"> (augmented
 in the last subsection by <img 
@@ -1808,7 +1837,7 @@ eee   " class="math";align="absmiddle"> for some number of exponentiations <img
 src="SolvingMicroDSOPs356x.svg" alt="n 𝜃  " class="math";align="absmiddle">) from each point to the next point is
 constant (instead of, as previously, imposing constancy of the absolute gap between
 points).
-<!--l. 1211--><p class="indent" >  <a 
+<!--l. 1216--><p class="indent" >  <a 
  id="GothVInvVSGothCEEE"></a> <div class="figure" 
 >
                                                                                      
@@ -1817,7 +1846,7 @@ points).
  id="x1-1400112"></a>
                                                                                      
                                                                                      
-<!--l. 1213--><p class="noindent" > <img 
+<!--l. 1218--><p class="noindent" > <img 
 src="./Figures/GothVInvVSGothCEEE.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1829,7 +1858,7 @@ class="ectt-1200">aVec</span></span></div><!--tex4ht:label?: x1-1400112 -->
                                                                                      
                                                                                      
   </div>
-<!--l. 1220--><p class="indent" >  <a 
+<!--l. 1225--><p class="indent" >  <a 
  id="GothVVSGothCInvEEE"></a> <div class="figure" 
 >
                                                                                      
@@ -1838,7 +1867,7 @@ class="ectt-1200">aVec</span></span></div><!--tex4ht:label?: x1-1400112 -->
  id="x1-1400213"></a>
                                                                                      
                                                                                      
-<!--l. 1222--><p class="noindent" > <img 
+<!--l. 1227--><p class="noindent" > <img 
 src="./Figures/GothVVSGothCInvEEE.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -1850,13 +1879,13 @@ class="ectt-1200">aVec</span></span></div><!--tex4ht:label?: x1-1400213 -->
                                                                                      
                                                                                      
   </div>
-<!--l. 1228--><p class="indent" >  The results (generated by the program <span 
+<!--l. 1233--><p class="indent" >  The results (generated by the program <span 
 class="ectt-1200">2periodIntExpFOCInvEEE.m</span>) are depicted in
 Figures <a 
 href="#x1-1400112">12<!--tex4ht:ref: fig:GothVInvVSGothCEE --></a> and <a 
 href="#x1-1400213">13<!--tex4ht:ref: fig:GothVVSGothCInvEE --></a>, which are notably closer to their respective truths than the corresponding
 ﬁgures that used the original grid.
-<!--l. 1234--><p class="indent" >  <a 
+<!--l. 1239--><p class="indent" >  <a 
  id="The-Method-of-Moderation"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.10  </span> <a 
  id="x1-150005.10"></a>The Method of Moderation</h4>
@@ -2114,18 +2143,18 @@ src="SolvingMicroDSOPs403x.svg" alt="`ˆcT−1   " class="math";align="absmiddle
                                                                                      
                                                                                      
   </div>
-<!--l. 1447--><p class="indent" >  <a 
+<!--l. 1452--><p class="indent" >  <a 
  id="Approximating-the-Slope-Too"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.11  </span> <a 
  id="x1-160005.11"></a>Approximating the Slope Too</h4>
-<!--l. 1451--><p class="noindent" >Until now, we have calculated the level of consumption at various diﬀerent gridpoints and used
+<!--l. 1456--><p class="noindent" >Until now, we have calculated the level of consumption at various diﬀerent gridpoints and used
 linear interpolation (either directly for <img 
 src="SolvingMicroDSOPs404x.svg" alt="cT −1   " class="math";align="absmiddle"> or indirectly for, say, <img 
 src="SolvingMicroDSOPs405x.svg" alt="ˆχχχT− 1   " class="math";align="absmiddle">). But the resulting
 piecewise linear approximations have the unattractive feature that they are not diﬀerentiable
 at the ‘kink points’ that correspond to the gridpoints where the slope of the function changes
 discretely.
-<!--l. 1460--><p class="indent" >  <a 
+<!--l. 1465--><p class="indent" >  <a 
 href="#XBufferStockTheory">Carroll</a> (<a 
 href="#XBufferStockTheory">2020</a>) shows that the true consumption function for this problem is ‘smooth:’ It
 exhibits a well-deﬁned unique marginal propensity to consume at every positive value of <img 
@@ -2135,7 +2164,7 @@ marginal propensity to consume (henceforth <img
 src="SolvingMicroDSOPs407x.svg" alt="κ  " class="math";align="absmiddle">) at each gridpoint, and then ﬁnd an
 interpolating approximation that smoothly matches both the level and the slope at those
 points.
-<!--l. 1470--><p class="indent" >  This requires us to diﬀerentiate (<a 
+<!--l. 1475--><p class="indent" >  This requires us to diﬀerentiate (<a 
 href="#x1-15008r42">42<!--tex4ht:ref: eq:koppa --></a>) and (<a 
 href="#x1-15009r44">44<!--tex4ht:ref: eq:chi --></a>), yielding <div class="eqnarray">
   <center class="math-display" >
@@ -2160,7 +2189,7 @@ src="SolvingMicroDSOPs409x.svg" alt="        (                         )
                                                                                      
 " class="math-display" ></center>
 </div>
-<!--l. 1481--><p class="indent" >  To compute the vector of values of (<a 
+<!--l. 1486--><p class="indent" >  To compute the vector of values of (<a 
 href="#x1-16001r46">46<!--tex4ht:ref: eq:koppaPrime --></a>) corresponding to the points in <img 
 src="SolvingMicroDSOPs410x.svg" alt="⃗μt  " class="math";align="absmiddle">, we need the
 marginal propensities to consume (designated <img 
@@ -2210,7 +2239,7 @@ c  (𝔠 + 1)  =   𝔠                                   (52)
 " class="math-display" ><a 
  id="x1-16006r53"></a></center>
 </div>
-<!--l. 1511--><p class="indent" >  Designating <img 
+<!--l. 1516--><p class="indent" >  Designating <img 
 src="SolvingMicroDSOPs422x.svg" alt="`ˆcT−1   " class="math";align="absmiddle"> as the approximated consumption rule obtained using an interpolating
 polynomial approximation to <img 
 src="SolvingMicroDSOPs423x.svg" alt="χχχˆ  " class="math";align="absmiddle"> that matches both the level and the ﬁrst derivative at
@@ -2225,7 +2254,7 @@ at which the diﬀerence touches the horizontal axis). (We plot here the diﬀer
 between the two functions rather than the level plotted in previous ﬁgures, because in
 levels the approximation error would not be detectable even to the most eagle-eyed
 reader.)
-<!--l. 1528--><p class="indent" >  <a 
+<!--l. 1533--><p class="indent" >  <a 
  id="IntExpFOCInvPesReaOptGapPlot"></a> <div class="figure" 
 >
                                                                                      
@@ -2234,7 +2263,7 @@ reader.)
  id="x1-1600717"></a>
                                                                                      
                                                                                      
-<!--l. 1530--><p class="noindent" > <img 
+<!--l. 1535--><p class="noindent" > <img 
 src="./Figures/IntExpFOCInvPesReaOptGapPlot.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -2245,7 +2274,7 @@ src="SolvingMicroDSOPs426x.svg" alt="`ˆcT−1   " class="math";align="absmiddle
                                                                                      
                                                                                      
   </div>
-<!--l. 1538--><p class="indent" >  <a 
+<!--l. 1543--><p class="indent" >  <a 
  id="Value"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.12  </span> <a 
  id="x1-170005.12"></a>Value</h4>
@@ -2413,7 +2442,7 @@ function would match both the level of consumption and the marginal propensity t
 at the gridpoints; the numerical diﬀerences between the newly constructed consumption
 function and the highly accurate one constructed earlier would be negligible within the
 grid.
-<!--l. 1654--><p class="indent" >  <a 
+<!--l. 1659--><p class="indent" >  <a 
  id="Refinement-A-Tighter-Upper-Bound"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.13  </span> <a 
  id="x1-180005.13"></a>Reﬁnement: A Tighter Upper Bound</h4>
@@ -2487,9 +2516,10 @@ src="SolvingMicroDSOPs465x.svg" alt="+ ∞ " class="math";align="absmiddle">,
 <img 
 src="SolvingMicroDSOPs466x.svg" alt="ˇϙt(μt)  " class="math";align="absmiddle"> approaches <img 
 src="SolvingMicroDSOPs467x.svg" alt="1  " class="math";align="absmiddle">.
-<!--l. 5--><p class="indent" >  As before, we can derive an approximated consumption function; call it <img 
-src="SolvingMicroDSOPs468x.svg" alt="`ˇct  " class="math";align="absmiddle">. This
-function will clearly do a better job approximating the consumption function for low
+<!--l. 5--><p class="indent" >  As before (in equation (<a 
+href="#x1-4007r15">15<!--tex4ht:ref: eq:vEndtdefn --></a>)), we can derive an approximated consumption function; call it
+<img 
+src="SolvingMicroDSOPs468x.svg" alt="`ˇct  " class="math";align="absmiddle">. This function will clearly do a better job approximating the consumption function for low
 values of <img 
 src="SolvingMicroDSOPs469x.svg" alt="mt  " class="math";align="absmiddle"> while the previous approximation will perform better for high values of
 <img 
@@ -2578,17 +2608,17 @@ src="SolvingMicroDSOPs490x.svg" alt="ˇX  " class="math";align="absmiddle"> and 
 src="SolvingMicroDSOPs491x.svg" alt="ˇϘ  " class="math";align="absmiddle">. The rest
 of the procedure is analogous to that performed for the consumption rule and is thus omitted
 for brevity.
-<!--l. 1820--><p class="indent" >  <a 
+<!--l. 1825--><p class="indent" >  <a 
  id="Extension-A-Stochastic-Interest-Factor"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.14  </span> <a 
  id="x1-190005.14"></a>Extension: A Stochastic Interest Factor</h4>
-<!--l. 1824--><p class="noindent" >Thus far we have assumed that the interest factor is constant at <img 
+<!--l. 1829--><p class="noindent" >Thus far we have assumed that the interest factor is constant at <img 
 src="SolvingMicroDSOPs492x.svg" alt="R  " class="math";align="absmiddle">. Extending the previous
 derivations to allow for a perfectly forecastable time-varying interest factor <img 
 src="SolvingMicroDSOPs493x.svg" alt="R
   t  " class="math";align="absmiddle"> would be
 trivial. Allowing for a stochastic interest factor is less trivial.
-<!--l. 1829--><p class="indent" >  The easiest case is where the interest factor is i.i.d.,
+<!--l. 1834--><p class="indent" >  The easiest case is where the interest factor is i.i.d.,
 <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -2599,14 +2629,14 @@ logRt+n   ∼   𝒩 (r + ϕ − σ r∕2,σr) ∀ n &#x003E; 0                 
 </div>
                                                                                      
                                                                                      
-<!--l. 1837--><p class="indent" >  where <img 
+<!--l. 1842--><p class="indent" >  where <img 
 src="SolvingMicroDSOPs495x.svg" alt="ϕ  " class="math";align="absmiddle"> is the risk premium and the <img 
 src="SolvingMicroDSOPs496x.svg" alt="  2
 σ r∕2  " class="math";align="absmiddle"> adjustment to the mean log return guarantees
 that an increase in <img 
 src="SolvingMicroDSOPs497x.svg" alt="σ2r  " class="math";align="absmiddle"> constitutes a mean-preserving spread in the level of the
 return.
-<!--l. 1840--><p class="indent" >  This case is reasonably straightforward because <a 
+<!--l. 1845--><p class="indent" >  This case is reasonably straightforward because <a 
 href="#Xmerton:restat">Merton</a> (<a 
 href="#Xmerton:restat">1969</a>) and <a 
 href="#Xsamuelson:portfolio">Samuelson</a> (<a 
@@ -2625,7 +2655,7 @@ src="SolvingMicroDSOPs498x.svg" alt="          (       1−ρ )1∕ρ
  id="x1-19003r68"></a></center>
 </div>and in this case the previous analysis applies once we substitute this MPC for the one that
 characterizes the perfect foresight problem without rate-of-return risk.
-<!--l. 1849--><p class="indent" >  The more realistic case where the interest factor has some serial correlation is more
+<!--l. 1854--><p class="indent" >  The more realistic case where the interest factor has some serial correlation is more
 complex. We consider the simplest case that captures the main features of empirical interest
 rate dynamics: An AR(1) process. Thus the speciﬁcation is <div class="eqnarray">
   <center class="math-display" >
@@ -2638,7 +2668,7 @@ src="SolvingMicroDSOPs500x.svg" alt="r  " class="math";align="absmiddle"> is the
 src="SolvingMicroDSOPs501x.svg" alt="0 &#x003C;  γ &#x003C; 1  " class="math";align="absmiddle"> is the AR(1) serial correlation
 coeﬃcient, and <img 
 src="SolvingMicroDSOPs502x.svg" alt="𝜖t+1   " class="math";align="absmiddle"> is the stochastic shock.
-<!--l. 1858--><p class="indent" >  The consumer’s problem in this case now has two state variables, <img 
+<!--l. 1863--><p class="indent" >  The consumer’s problem in this case now has two state variables, <img 
 src="SolvingMicroDSOPs503x.svg" alt="mt  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs504x.svg" alt="rt  " class="math";align="absmiddle">, and is
 described by <div class="eqnarray">
@@ -2660,7 +2690,7 @@ vt(mt,rt)  =    macxt  u(ct) + 𝔼t[βt+1Γ t+1 vt+1(mt+1, rt+1)]         (70)
 " class="math-display" ><a 
  id="x1-19005r70"></a></center>
 </div>
-<!--l. 1873--><p class="indent" >  We approximate the AR(1) process by a Markov transition matrix using standard
+<!--l. 1878--><p class="indent" >  We approximate the AR(1) process by a Markov transition matrix using standard
 techniques. The stochastic interest factor is allowed to take on 11 values centered around the
 steady-state value <img 
 src="SolvingMicroDSOPs506x.svg" alt="r  " class="math";align="absmiddle"> and chosen [how?]. Given this Markov transition matrix, <span 
@@ -2670,14 +2700,14 @@ still be linear, with identical MPC’s that are computed numerically. Given the
 (conditional) realist’s consumption function can be computed for each Markov state, and the
 converged consumption rules constitute the solution contingent on the dynamics of the
 stochastic interest rate process.
-<!--l. 1879--><p class="indent" >  In principle, this reﬁnement should be combined with the previous one; further exposition of
+<!--l. 1884--><p class="indent" >  In principle, this reﬁnement should be combined with the previous one; further exposition of
 this combination is omitted here because no new insights spring from the combination of the
 two techniques.
-<!--l. 1885--><p class="indent" >  <a 
+<!--l. 1890--><p class="indent" >  <a 
  id="Imposing-Artificial-Borrowing-Constraints"></a>
   <h4 class="subsectionHead"><span class="titlemark">5.15  </span> <a 
  id="x1-200005.15"></a>Imposing ‘Artiﬁcial’ Borrowing Constraints</h4>
-<!--l. 1888--><p class="noindent" >Optimization problems often come with additional constraints that must
+<!--l. 1893--><p class="noindent" >Optimization problems often come with additional constraints that must
 be satisﬁed. Particularly common is an ‘artiﬁcial’ liquidity constraint that
 prevents the consumer’s net worth from falling below some value, often
 zero.<span class="footnote-mark"><a 
@@ -2699,7 +2729,7 @@ vT−1(mT −1)   =   mcaTx−1  u(cT− 1) + 𝔼T −1[βΓT vT (mT )]
 " class="math-display" ><a 
  id="x1-20002r71"></a></center>
 </div>
-<!--l. 1904--><p class="indent" >  By deﬁnition, the constraint will bind if the unconstrained consumer would choose a level of
+<!--l. 1909--><p class="indent" >  By deﬁnition, the constraint will bind if the unconstrained consumer would choose a level of
 spending that would violate the constraint. Here, that means that the constraint binds if the
 <img 
 src="SolvingMicroDSOPs508x.svg" alt="cT− 1   " class="math";align="absmiddle"> that satisﬁes the unconstrained FOC <div class="eqnarray">
@@ -2725,7 +2755,7 @@ src="SolvingMicroDSOPs513x.svg" alt="`c    (m    )  =  min [m    ,`c∗  (m     
 </div>
                                                                                      
                                                                                      
-<!--l. 1926--><p class="indent" >  The introduction of the constraint also introduces a sharp nonlinearity in all of the
+<!--l. 1931--><p class="indent" >  The introduction of the constraint also introduces a sharp nonlinearity in all of the
 functions at the point where the constraint begins to bind. As a result, to get solutions that
 are anywhere close to numerically accurate it is useful to augment the grid of values of the
 state variable to include the exact value at which the constraint ceases to bind. Fortunately,
@@ -2758,7 +2788,7 @@ src="SolvingMicroDSOPs518x.svg" alt="u ′(m    )  =   𝔳′  (0)
 " class="math-display" ><a 
  id="x1-20006r73"></a></center>
 </div>
-<!--l. 1951--><p class="indent" >  <a 
+<!--l. 1956--><p class="indent" >  <a 
  id="cVScCon"></a> <div class="figure" 
 >
                                                                                      
@@ -2767,7 +2797,7 @@ src="SolvingMicroDSOPs518x.svg" alt="u ′(m    )  =   𝔳′  (0)
  id="x1-2000718"></a>
                                                                                      
                                                                                      
-<!--l. 1953--><p class="noindent" > <img 
+<!--l. 1958--><p class="noindent" > <img 
 src="./Figures/cVScCon.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -2776,7 +2806,7 @@ class="content">Constrained (solid) and Unconstrained (dashed) Consumption</span
                                                                                      
                                                                                      
   </div>
-<!--l. 1958--><p class="indent" >  The constrained problem is solved by <span 
+<!--l. 1963--><p class="indent" >  The constrained problem is solved by <span 
 class="ectt-1200">2periodIntExpFOCInvPesReaOptCon.m</span>; the
 resulting consumption rule is shown in Figure <a 
 href="#x1-2000718">18<!--tex4ht:ref: fig:cVScCon --></a>. For comparison purposes, the
@@ -2811,18 +2841,18 @@ src="SolvingMicroDSOPs524x.svg" alt="ϙ  " class="math";align="absmiddle"> still
 src="SolvingMicroDSOPs525x.svg" alt="0  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs526x.svg" alt="1  " class="math";align="absmiddle"> and the ‘method of moderation’
       will proceed smoothly.</li></ol>
-<!--l. 1980--><p class="indent" >  As expected, the liquidity constraint only causes a divergence between the two functions at
+<!--l. 1985--><p class="indent" >  As expected, the liquidity constraint only causes a divergence between the two functions at
 the point where the optimal unconstrained consumption rule runs into the 45 degree
 line.
-<!--l. 1985--><p class="indent" >  <a 
+<!--l. 1990--><p class="indent" >  <a 
  id="Recursions"></a>
   <h3 class="sectionHead"><span class="titlemark">6  </span> <a 
  id="x1-210006"></a>Recursion</h3>
-<!--l. 1987--><p class="noindent" ><a 
+<!--l. 1992--><p class="noindent" ><a 
  id="Theory"></a>
   <h4 class="subsectionHead"><span class="titlemark">6.1  </span> <a 
  id="x1-220006.1"></a>Theory</h4>
-<!--l. 1989--><p class="noindent" >Before we solve for periods earlier than <img 
+<!--l. 1994--><p class="noindent" >Before we solve for periods earlier than <img 
 src="SolvingMicroDSOPs527x.svg" alt="T −  1  " class="math";align="absmiddle">, we assume for convenience that in each such
 period a liquidity constraint exists of the kind discussed above, preventing <img 
 src="SolvingMicroDSOPs528x.svg" alt="c  " class="math";align="absmiddle"> from exceeding
@@ -2830,7 +2860,7 @@ src="SolvingMicroDSOPs528x.svg" alt="c  " class="math";align="absmiddle"> from e
 src="SolvingMicroDSOPs529x.svg" alt="m  " class="math";align="absmiddle">. This simpliﬁes things a bit because now we can always consider an <span 
 class="ectt-1200">aVec </span>that starts with
 zero as its smallest element.
-<!--l. 1995--><p class="indent" >  Recall now equations (<a 
+<!--l. 2000--><p class="indent" >  Recall now equations (<a 
 href="#x1-4009r17">17<!--tex4ht:ref: eq:vEndPrimetOfc --></a>) and (<a 
 href="#x1-4010r18">18<!--tex4ht:ref: eq:upEqbetaOp --></a>): <div class="eqnarray">
   <center class="math-display" >
@@ -2852,7 +2882,7 @@ the beginning of life. Stated generally, the method is as follows. (Here, we use
 original, rather than the “reﬁned,” method for constructing consumption functions;
 the generalization of the algorithm below to use the reﬁned method presents no
 diﬃculties.)
-<!--l. 2009--><p class="indent" >
+<!--l. 2014--><p class="indent" >
       <ol  class="enumerate1" >
       <li 
   class="enumerate" id="x1-22003x1">For the grid of values <img 
@@ -2917,14 +2947,14 @@ Xt,i  " class="math";align="absmiddle">; and construct an interpolating approxim
 src="SolvingMicroDSOPs553x.svg" alt="ˆ
 Xt  " class="math";align="absmiddle"> that matches those
       points.</li></ol>
-<!--l. 2037--><p class="indent" >  With <img 
+<!--l. 2042--><p class="indent" >  With <img 
 src="SolvingMicroDSOPs554x.svg" alt="χ`t  " class="math";align="absmiddle"> in hand, our approximate consumption function is computed directly from the
 appropriate substitutions in (<a 
 href="#x1-15010r45">45<!--tex4ht:ref: eq:cFuncHi --></a>) and related equations. With this consumption rule in hand,
 we can continue the backwards recursion to period <img 
 src="SolvingMicroDSOPs555x.svg" alt="t − 1  " class="math";align="absmiddle"> and so on back to the beginning of
 life.
-<!--l. 2043--><p class="indent" >  Note that this loop does not contain steps for constructing <img 
+<!--l. 2048--><p class="indent" >  Note that this loop does not contain steps for constructing <img 
 src="SolvingMicroDSOPs556x.svg" alt=" ′
 ˆvt(mt )  " class="math";align="absmiddle">. This is because with
 <img 
@@ -2934,7 +2964,7 @@ src="SolvingMicroDSOPs558x.svg" alt="ˆv ′t(mt ) = u′(`ˆct(mt ))  " class="
 interpolating approximations - the function arises ‘free’ (or nearly so) from our constructed
 <img 
 src="SolvingMicroDSOPs559x.svg" alt="`ˆct(mt)  " class="math";align="absmiddle">.
-<!--l. 2051--><p class="indent" >  The program <span 
+<!--l. 2056--><p class="indent" >  The program <span 
 class="ectt-1200">multiperiodCon.m</span><span class="footnote-mark"><a 
 href="SolvingMicroDSOPs24.html#fn23x0"><sup class="textsuperscript">23</sup></a></span><a 
  id="x1-22013f23"></a> 
@@ -2949,12 +2979,12 @@ lifetime that matches the empirical proﬁle; allowing for such a calibration is
 reason we have included the <img 
 src="SolvingMicroDSOPs561x.svg" alt="{Γ }Tt  " class="math";align="absmiddle"> vector in our computational speciﬁcation of the
 problem.
-<!--l. 2063--><p class="indent" >  <a 
+<!--l. 2068--><p class="indent" >  <a 
  id="Mathmatica-Background"></a>
   <h4 class="subsectionHead"><span class="titlemark">6.2  </span> <a 
  id="x1-230006.2"></a><span 
 class="ecti-1200">Mathematica</span> Background</h4>
-<!--l. 2065--><p class="noindent" ><span 
+<!--l. 2070--><p class="noindent" ><span 
 class="ecti-1200">Mathematica</span> has several features that are useful in solving the multiperiod problem.
       <ul class="itemize1">
       <li class="itemize">It can treat a user-created function as an object just like a number or a character.
@@ -2996,16 +3026,16 @@ class="ectt-1200">Map[Sin,{1,2,3}] </span>would return a
       list <span 
 class="ectt-1200">{Sin[1],Sin[2],Sin[3]}</span>.
       </li></ul>
-<!--l. 2094--><p class="indent" >  <a 
+<!--l. 2099--><p class="indent" >  <a 
  id="Program-Structure"></a>
   <h4 class="subsectionHead"><span class="titlemark">6.3  </span> <a 
  id="x1-240006.3"></a>Program Structure</h4>
-<!--l. 2097--><p class="noindent" >After the usual initializations, the heart of the program works like this.
-<!--l. 2100--><p class="indent" >  <a 
+<!--l. 2102--><p class="noindent" >After the usual initializations, the heart of the program works like this.
+<!--l. 2105--><p class="indent" >  <a 
  id="Iteration"></a>
   <h5 class="subsubsectionHead"><span class="titlemark">6.3.1  </span> <a 
  id="x1-250006.3.1"></a>Iteration</h5>
-<!--l. 2103--><p class="noindent" >After setting up a variable <span 
+<!--l. 2108--><p class="noindent" >After setting up a variable <span 
 class="ectt-1200">PeriodsToSolve </span>which deﬁnes the total number of periods that the
 program will solve, the program sets up a “<span 
 class="ectt-1200">Do[SolveAnotherPeriod,{PeriodsToSolve}]</span>”
@@ -3017,7 +3047,7 @@ class="ectt-1200">SolveAnotherPeriod </span>is run, the interpolated consumption
 function for one period of life earlier is calculated. The structure of the <span 
 class="ectt-1200">SolveAnotherPeriod</span>
 function is as follows:
-<!--l. 2115--><p class="indent" >
+<!--l. 2120--><p class="indent" >
       <ol  class="enumerate1" >
       <li 
   class="enumerate" id="x1-25002x1">Add  various  period-t  parameters  to  their  respective  lifecycle  lists,  which  is
@@ -3076,18 +3106,18 @@ class="ectt-1200">functions_ConsNVal.m</span>).
 src="SolvingMicroDSOPs579x.svg" alt="c   " class="math";align="absmiddle"><span 
 class="ectt-1200">From</span><img 
 src="SolvingMicroDSOPs580x.svg" alt="χ   " class="math";align="absmiddle"> with the 45 degree line.</li></ol>
-<!--l. 2145--><p class="indent" >  <a 
+<!--l. 2150--><p class="indent" >  <a 
  id="Results"></a>
   <h4 class="subsectionHead"><span class="titlemark">6.4  </span> <a 
  id="x1-260006.4"></a>Results</h4>
-<!--l. 2148--><p class="noindent" >As written, the program creates <img 
+<!--l. 2153--><p class="noindent" >As written, the program creates <img 
 src="SolvingMicroDSOPs581x.svg" alt="`χ (μ )
   t t   " class="math";align="absmiddle"> functions from which the relevant <img 
 src="SolvingMicroDSOPs582x.svg" alt="`c (m  )
  t   t  " class="math";align="absmiddle"> functions
 are recovered in any period for any value of <img 
 src="SolvingMicroDSOPs583x.svg" alt="m  " class="math";align="absmiddle">.
-<!--l. 2152--><p class="indent" >  <a 
+<!--l. 2157--><p class="indent" >  <a 
  id="PlotCFuncsConverge"></a> <div class="figure" 
 >
                                                                                      
@@ -3096,7 +3126,7 @@ src="SolvingMicroDSOPs583x.svg" alt="m  " class="math";align="absmiddle">.
  id="x1-2600119"></a>
                                                                                      
                                                                                      
-<!--l. 2154--><p class="noindent" > <img 
+<!--l. 2159--><p class="noindent" > <img 
 src="./Figures/PlotCFuncsConverge.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -3107,7 +3137,7 @@ src="SolvingMicroDSOPs585x.svg" alt="n  " class="math";align="absmiddle"> Increa
                                                                                      
                                                                                      
   </div>
-<!--l. 2160--><p class="indent" >  As an illustration, Figure <a 
+<!--l. 2165--><p class="indent" >  As an illustration, Figure <a 
 href="#x1-2600119">19<!--tex4ht:ref: fig:PlotCFuncsConverge --></a> shows <img 
 src="SolvingMicroDSOPs586x.svg" alt="`cT −n(m )  " class="math";align="absmiddle"> for <img 
 src="SolvingMicroDSOPs587x.svg" alt="n =  {20,15,10, 5,1} " class="math";align="absmiddle">. At least one
@@ -3117,17 +3147,17 @@ href="#XBufferStockTheory">Carroll</a> (<a
 href="#XBufferStockTheory">2020</a>) shows must be true under certain
 parametric conditions that are satisﬁed by the baseline parameter values being used
 here.
-<!--l. 2680--><p class="indent" >  <a 
+<!--l. 2685--><p class="indent" >  <a 
  id="Multiple-Control-Variables"></a>
   <h3 class="sectionHead"><span class="titlemark">7  </span> <a 
  id="x1-270007"></a>Multiple Control Variables</h3>
-<!--l. 2683--><p class="noindent" >We now consider how to solve problems with multiple control variables. (To reduce notational
+<!--l. 2688--><p class="noindent" >We now consider how to solve problems with multiple control variables. (To reduce notational
 complexity, in this section we set <img 
 src="SolvingMicroDSOPs588x.svg" alt="Γ t = 1 ∀ t  " class="math";align="absmiddle">.)
-<!--l. 2686--><p class="noindent" >
+<!--l. 2691--><p class="noindent" >
   <h4 class="subsectionHead"><span class="titlemark">7.1  </span> <a 
  id="x1-280007.1"></a>Theory</h4>
-<!--l. 2687--><p class="noindent" >The new control variable that the consumer can now choose is the portion of the portfolio to
+<!--l. 2692--><p class="noindent" >The new control variable that the consumer can now choose is the portion of the portfolio to
 invest in risky assets. Designating the gross return on the risky asset as <img 
 src="SolvingMicroDSOPs589x.svg" alt="Rt+1   " class="math";align="absmiddle">, and using <img 
 src="SolvingMicroDSOPs590x.svg" alt="ςt  " class="math";align="absmiddle">
@@ -3164,7 +3194,7 @@ src="SolvingMicroDSOPs596x.svg" alt="vt(mt )  =   {mcat,xςt}  u(ct) + β 𝔼t[
    0 ≤   ςt  ≤  1,
 " class="math-display" ><a 
  id="x1-28002r81"></a></center>
-</div> or <div class="eqnarray">
+</div> or, more compactly, <div class="eqnarray">
   <center class="math-display" >
 <img 
 src="SolvingMicroDSOPs597x.svg" alt="v (m )   =   max    u(c) + 𝔼 [βv   ((m  − c )R    + 𝜃   )]
@@ -3199,7 +3229,7 @@ src="SolvingMicroDSOPs602x.svg" alt="u′(c )  =  𝔼  [βR    u′(c  )].     
 " class="math-display" ><a 
  id="x1-28005r82"></a></center>
 </div>
-<!--l. 2741--><p class="indent" >  The ﬁrst order condition with respect to the risky portfolio share is
+<!--l. 2746--><p class="indent" >  The ﬁrst order condition with respect to the risky portfolio share is
 <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -3209,7 +3239,7 @@ src="SolvingMicroDSOPs603x.svg" alt="0  =   𝔼 [v′  (m    )(R    − R )a]
 " class="math-display" ><a 
  id="x1-28006r83"></a></center>
 </div>
-<!--l. 2750--><p class="indent" >  As before, it will be useful to deﬁne <img 
+<!--l. 2755--><p class="indent" >  As before, it will be useful to deﬁne <img 
 src="SolvingMicroDSOPs604x.svg" alt="𝔳t  " class="math";align="absmiddle"> as a function that yields the expected <img 
 src="SolvingMicroDSOPs605x.svg" alt="t + 1  " class="math";align="absmiddle"> value
 of ending period <img 
@@ -3241,10 +3271,10 @@ u (ct)  =  𝔳t(mt −  ct,ςt)                          (84)
      0  =  𝔳ςt(at,ςt).                               (85)
 " class="math-display" ></center>
 </div>
-<!--l. 2772--><p class="noindent" >
+<!--l. 2777--><p class="noindent" >
   <h4 class="subsectionHead"><span class="titlemark">7.2  </span> <a 
  id="x1-290007.2"></a>Application</h4>
-<!--l. 2774--><p class="noindent" >Our ﬁrst step is to specify the stochastic process for <img 
+<!--l. 2779--><p class="noindent" >Our ﬁrst step is to specify the stochastic process for <img 
 src="SolvingMicroDSOPs610x.svg" alt="Rt+1   " class="math";align="absmiddle">. We follow the common practice of
 assuming that returns are lognormally distributed, <img 
 src="SolvingMicroDSOPs611x.svg" alt="                     2    2
@@ -3255,7 +3285,7 @@ src="SolvingMicroDSOPs613x.svg" alt="r  " class="math";align="absmiddle"> availa
 asset.<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs25.html#fn24x0"><sup class="textsuperscript">24</sup></a></span><a 
  id="x1-29001f24"></a> 
-<!--l. 2780--><p class="indent" >  As with labor income uncertainty, it is necessary to discretize the rate-of-return risk in order
+<!--l. 2785--><p class="indent" >  As with labor income uncertainty, it is necessary to discretize the rate-of-return risk in order
 to have a problem that is soluble in a reasonable amount of time. We follow the same
 procedure as for labor income uncertainty, generating a set of <img 
 src="SolvingMicroDSOPs616x.svg" alt="nr  " class="math";align="absmiddle"> equiprobable shocks to the
@@ -3269,7 +3299,7 @@ shock to labor income (for example, in recessions the stock market falls and lab
 declines).
                                                                                      
                                                                                      
-<!--l. 2792--><p class="indent" >  The direct expressions for the derivatives of <img 
+<!--l. 2797--><p class="indent" >  The direct expressions for the derivatives of <img 
 src="SolvingMicroDSOPs619x.svg" alt="𝔳t  " class="math";align="absmiddle"> are <div class="eqnarray">
   <center class="math-display" >
 <img 
@@ -3281,7 +3311,7 @@ src="SolvingMicroDSOPs620x.svg" alt="               (   1  ) ∑n𝜃 n∑r     
  t               nrn 𝜃  i=1 j=1
 " class="math-display" ></center>
 </div>
-<!--l. 2798--><p class="indent" >  Writing these equations out explicitly makes a problem very apparent: For every diﬀerent
+<!--l. 2803--><p class="indent" >  Writing these equations out explicitly makes a problem very apparent: For every diﬀerent
 combination of <img 
 src="SolvingMicroDSOPs621x.svg" alt="{at,ςt} " class="math";align="absmiddle"> that the routine wishes to consider, it must perform two
 double-summations of <img 
@@ -3291,7 +3321,7 @@ src="SolvingMicroDSOPs623x.svg" alt="{at,ςt} " class="math";align="absmiddle">,
 again the solution is to construct an approximation to the derivatives of the <img 
 src="SolvingMicroDSOPs624x.svg" alt="𝔳  " class="math";align="absmiddle">
 function.
-<!--l. 2807--><p class="indent" >  Details of the construction of the interpolating approximation are given below; assume for
+<!--l. 2812--><p class="indent" >  Details of the construction of the interpolating approximation are given below; assume for
 the moment that we have the approximations <img 
 src="SolvingMicroDSOPs625x.svg" alt="ˆ𝔳at  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs626x.svg" alt="ˆ𝔳ςt  " class="math";align="absmiddle"> in hand and we want to proceed.
@@ -3349,25 +3379,25 @@ src="SolvingMicroDSOPs640x.svg" alt="m
   t  " class="math";align="absmiddle">. Thus we have transformed
 the multidimensional optimization problem into a sequence of two simple optimization
 problems for which solutions are much easier and more reliable.
-<!--l. 2849--><p class="indent" >  Note the parallel between this trick and the fundamental insight of dynamic programming:
+<!--l. 2854--><p class="indent" >  Note the parallel between this trick and the fundamental insight of dynamic programming:
 Dynamic programming techniques transform a multi-period (or inﬁnite-period) optimization
 problem into a sequence of two-period optimization problems which are individually much
 easier to solve; we have done the same thing here, but with multiple dimensions of controls
 rather than multiple periods.
-<!--l. 2856--><p class="indent" >  <a 
+<!--l. 2861--><p class="indent" >  <a 
  id="Implementation"></a>
                                                                                      
                                                                                      
   <h4 class="subsectionHead"><span class="titlemark">7.3  </span> <a 
  id="x1-300007.3"></a>Implementation</h4>
-<!--l. 2859--><p class="noindent" >The program which solves the constrained problem with multiple control variables is
+<!--l. 2864--><p class="noindent" >The program which solves the constrained problem with multiple control variables is
 <span 
 class="ectt-1200">multicontrolCon.m</span>.
-<!--l. 2862--><p class="indent" >  Some of the functions deﬁned in <span 
+<!--l. 2867--><p class="indent" >  Some of the functions deﬁned in <span 
 class="ectt-1200">multicontrolCon.m </span>correspond to the derivatives of
 <img 
 src="SolvingMicroDSOPs641x.svg" alt="𝔳t(at,ςt)  " class="math";align="absmiddle">.
-<!--l. 2871--><p class="indent" >  The ﬁrst function deﬁnition that does not resemble anything in <span 
+<!--l. 2876--><p class="indent" >  The ﬁrst function deﬁnition that does not resemble anything in <span 
 class="ectt-1200">multiperiod.m </span>is
 <img 
 src="SolvingMicroDSOPs642x.svg" alt="ς   " class="math";align="absmiddle"><span 
@@ -3382,7 +3412,7 @@ src="SolvingMicroDSOPs645x.svg" alt="ς∗t  " class="math";align="absmiddle">, 
 the functions <img 
 src="SolvingMicroDSOPs646x.svg" alt="¯𝔳at(at)  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs647x.svg" alt="ˆςt(at)  " class="math";align="absmiddle"> will be constructed.
-<!--l. 2882--><p class="indent" >  As <img 
+<!--l. 2887--><p class="indent" >  As <img 
 src="SolvingMicroDSOPs648x.svg" alt="ˆςt(at)  " class="math";align="absmiddle"> can be constructed by <img 
 src="SolvingMicroDSOPs649x.svg" alt="ς   " class="math";align="absmiddle"><span 
 class="ectt-1200">Raw[at_]</span>, <img 
@@ -3398,7 +3428,7 @@ src="SolvingMicroDSOPs653x.svg" alt="¯𝔳t(at)  " class="math";align="absmiddl
 <img 
 src="SolvingMicroDSOPs654x.svg" alt="¯𝔳ata(at)  " class="math";align="absmiddle">) the analysis is essentially identical to that for the standard multiperiod problem
 with a single control variable.
-<!--l. 2892--><p class="indent" >  The structure of the program in detail is as follows. First, perform  the usual
+<!--l. 2897--><p class="indent" >  The structure of the program in detail is as follows. First, perform  the usual
 initializations. Then initialize <img 
 src="SolvingMicroDSOPs655x.svg" alt="ς   " class="math";align="absmiddle"><span 
 class="ectt-1200">Vec </span>and the other variables speciﬁc to the multiple control
@@ -3411,7 +3441,7 @@ src="SolvingMicroDSOPs657x.svg" alt="ςt  " class="math";align="absmiddle"> as
 arguments, those with just <img 
 src="SolvingMicroDSOPs658x.svg" alt="at  " class="math";align="absmiddle">, and those with <img 
 src="SolvingMicroDSOPs659x.svg" alt="mt  " class="math";align="absmiddle">.
-<!--l. 2911--><p class="indent" >  Once the setup is complete, the heart of the program is the following.
+<!--l. 2916--><p class="indent" >  Once the setup is complete, the heart of the program is the following.
       <ol  class="enumerate1" >
       <li 
   class="enumerate" id="x1-30003x1">Construct <img 
@@ -3478,10 +3508,10 @@ class="ectt-1200">multiperiod.m</span>), follow the same procedures as in
 class="ectt-1200">multiperiod.m </span>to generate <img 
 src="SolvingMicroDSOPs678x.svg" alt="`ct(m )  " class="math";align="absmiddle">.
       </li></ol>
-<!--l. 2951--><p class="indent" >   
+<!--l. 2956--><p class="indent" >   
   <h4 class="subsectionHead"><span class="titlemark">7.4  </span> <a 
  id="x1-310007.4"></a>Results</h4>
-<!--l. 2954--><p class="noindent" >Figure <a 
+<!--l. 2959--><p class="noindent" >Figure <a 
 href="#x1-3100120">20<!--tex4ht:ref: fig:PlotctMultContr --></a> plots the ﬁrst-period consumption function generated by the program; qualitatively
 it does not look much diﬀerent from the consumption functions generated by the program
 without portfolio choice. Figure <a 
@@ -3509,7 +3539,7 @@ proportion of future consumption out of that wealth, and hence if they invest to
 of it in stocks their consumption will have a high covariance with stock returns.
 Consequently, they reduce that correlation by holding some of their wealth in the riskless
 form.
-<!--l. 2982--><p class="indent" >  <a 
+<!--l. 2987--><p class="indent" >  <a 
  id="PlotctMultContr"></a> <div class="figure" 
 >
                                                                                      
@@ -3518,7 +3548,7 @@ form.
  id="x1-3100120"></a>
                                                                                      
                                                                                      
-<!--l. 2984--><p class="noindent" > <img 
+<!--l. 2989--><p class="noindent" > <img 
 src="./Figures/PlotctMultContr.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -3528,7 +3558,7 @@ src="SolvingMicroDSOPs681x.svg" alt="c(m1 )  " class="math";align="absmiddle"> W
                                                                                      
                                                                                      
   </div>
-<!--l. 2989--><p class="indent" >  <a 
+<!--l. 2994--><p class="indent" >  <a 
  id="PlotRiskySharetOfat"></a> <div class="figure" 
 >
                                                                                      
@@ -3537,7 +3567,7 @@ src="SolvingMicroDSOPs681x.svg" alt="c(m1 )  " class="math";align="absmiddle"> W
  id="x1-3100221"></a>
                                                                                      
                                                                                      
-<!--l. 2991--><p class="noindent" > <img 
+<!--l. 2996--><p class="noindent" > <img 
 src="./Figures/PlotRiskySharetOfat.png" alt="pict"  
  width="578.15999pt" >
 <br /> <div class="caption" 
@@ -3547,11 +3577,11 @@ src="SolvingMicroDSOPs682x.svg" alt="ς(a )  " class="math";align="absmiddle"></
                                                                                      
                                                                                      
   </div>
-<!--l. 2996--><p class="indent" >  <a 
+<!--l. 3001--><p class="indent" >  <a 
  id="The-Infinite-Horizon"></a>
   <h3 class="sectionHead"><span class="titlemark">8  </span> <a 
  id="x1-320008"></a>The-Inﬁnite-Horizon</h3>
-<!--l. 2999--><p class="noindent" >All of the solution methods presented so far have involved period-by-period iteration from an
+<!--l. 3004--><p class="noindent" >All of the solution methods presented so far have involved period-by-period iteration from an
 assumed last period of life, as is appropriate for life cycle problems. However, if the parameter
 values for the problem satisfy certain conditions (detailed in <a 
 href="#XBufferStockTheory">Carroll</a> (<a 
@@ -3567,14 +3597,14 @@ behavior that emerges under some further restrictions on parameter values is a g
 approximation of the behavior of typical consumers over much of the lifetime. Methods for
 ﬁnding the converged functions are therefore of interest, and are dealt with in this
 section.
-<!--l. 3015--><p class="indent" >  Of course, the simplest such method is to solve the problem as speciﬁed above for a large
+<!--l. 3020--><p class="indent" >  Of course, the simplest such method is to solve the problem as speciﬁed above for a large
 number of periods. This is feasible, but there are much faster methods.
-<!--l. 3019--><p class="noindent" >
+<!--l. 3024--><p class="noindent" >
   <h4 class="subsectionHead"><span class="titlemark">8.1  </span> <a 
  id="x1-330008.1"></a>Convergence</h4>
-<!--l. 3021--><p class="noindent" >In solving an inﬁnite-horizon problem, it is necessary to have some metric that determines
+<!--l. 3026--><p class="noindent" >In solving an inﬁnite-horizon problem, it is necessary to have some metric that determines
 when to stop because a solution that is ‘good enough’ has been found.
-<!--l. 3025--><p class="indent" >  A natural metric is deﬁned by the unique ‘target’ level of wealth that <a 
+<!--l. 3030--><p class="indent" >  A natural metric is deﬁned by the unique ‘target’ level of wealth that <a 
 href="#XBufferStockTheory">Carroll</a> (<a 
 href="#XBufferStockTheory">2020</a>) proves
 will exist in problems of this kind: The <img 
@@ -3586,14 +3616,14 @@ class="equation"><tr><td><a
 <img 
 src="SolvingMicroDSOPs684x.svg" alt="𝔼t [mt+1 ∕mt ] = 1 if mt = ˇm
 " class="math-display" ></center></td><td class="equation-label">(95)</td></tr></table>
-<!--l. 3029--><p class="nopar" >
+<!--l. 3034--><p class="nopar" >
 where the <img 
 src="SolvingMicroDSOPs685x.svg" alt="∨ " class="math";align="absmiddle"> accent is meant to signify that this is the value that other <img 
 src="SolvingMicroDSOPs686x.svg" alt="m  " class="math";align="absmiddle">’s ‘point
 to.’
                                                                                      
                                                                                      
-<!--l. 3033--><p class="indent" >  Given a consumption rule <img 
+<!--l. 3038--><p class="indent" >  Given a consumption rule <img 
 src="SolvingMicroDSOPs687x.svg" alt="c(m )  " class="math";align="absmiddle"> it is straightforward to ﬁnd the corresponding <img 
 src="SolvingMicroDSOPs688x.svg" alt="ˇm  " class="math";align="absmiddle">. So for
 our problem, a solution is declared to have converged if the following criterion is met:
@@ -3601,15 +3631,15 @@ our problem, a solution is declared to have converged if the following criterion
 src="SolvingMicroDSOPs689x.svg" alt="|mˇt+1 −  ˇmt| &#x003C; 𝜖  " class="math";align="absmiddle">, where <img 
 src="SolvingMicroDSOPs690x.svg" alt="𝜖  " class="math";align="absmiddle"> is a very small number and measures our degree of convergence
 tolerance.
-<!--l. 3039--><p class="indent" >  Similar criteria can obviously be speciﬁed for other problems. However, it is always wise to
+<!--l. 3044--><p class="indent" >  Similar criteria can obviously be speciﬁed for other problems. However, it is always wise to
 plot successive function diﬀerences and to experiment a bit with convergence criteria to verify
 that the function has converged for all practical purposes.
-<!--l. 3096--><p class="noindent" >
+<!--l. 3101--><p class="noindent" >
   <h4 class="subsectionHead"><span class="titlemark">8.2  </span> <a 
  id="x1-340008.2"></a>Coarse then Fine <img 
 src="SolvingMicroDSOPs691x.svg" alt="𝜃   " class="math";align="absmiddle"><span 
 class="ectt-1200">Vec</span></h4>
-<!--l. 3098--><p class="noindent" >The  speed  of  solution  is  roughly
+<!--l. 3103--><p class="noindent" >The  speed  of  solution  is  roughly
 proportionate<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs29.html#fn28x0"><sup class="textsuperscript">28</sup></a></span><a 
  id="x1-34001f28"></a> 
@@ -3621,11 +3651,11 @@ class="ectt-1200">multiperiodCon_infhor.m </span>begins with three gridpoints, a
 successively ﬁner <img 
 src="SolvingMicroDSOPs692x.svg" alt="𝜃   " class="math";align="absmiddle"><span 
 class="ectt-1200">Vec</span>.
-<!--l. 3112--><p class="indent" >  <a 
+<!--l. 3117--><p class="indent" >  <a 
  id="StructuralEstimation"></a>
   <h3 class="sectionHead"><span class="titlemark">9  </span> <a 
  id="x1-350009"></a>Structural Estimation</h3>
-<!--l. 3115--><p class="noindent" >This section describes how to use the methods developed above to structurally
+<!--l. 3120--><p class="noindent" >This section describes how to use the methods developed above to structurally
 estimate a life-cycle consumption model, following closely the work of
 <a 
 href="#XcagettiWprofiles">Cagetti</a> (<a 
@@ -3639,13 +3669,13 @@ the self-contained subfolder <span
 class="ectt-1200">StructuralEstimation </span>in the Matlab and <span 
 class="ecti-1200">Mathematica</span>
 directories.)
-<!--l. 3127--><p class="indent" >  <a 
+<!--l. 3132--><p class="indent" >  <a 
  id="LifeCycleModel"></a>
                                                                                      
                                                                                      
   <h4 class="subsectionHead"><span class="titlemark">9.1  </span> <a 
  id="x1-360009.1"></a>Life Cycle Model</h4>
-<!--l. 3130--><p class="noindent" >The decision problem for the household at age <img 
+<!--l. 3135--><p class="noindent" >The decision problem for the household at age <img 
 src="SolvingMicroDSOPs693x.svg" alt="t  " class="math";align="absmiddle"> is:
   <table 
 class="equation"><tr><td><a 
@@ -3679,7 +3709,7 @@ src="SolvingMicroDSOPs696x.svg" alt=" ℵs  : probability alive (not dead) until
 " class="math-display" ></center>
 </div> and all the other variables are deﬁned as in section <a 
 href="#x1-20002">2<!--tex4ht:ref: sec:basicproblem --></a>.
-<!--l. 3156--><p class="indent" >  Households start life at age <img 
+<!--l. 3161--><p class="indent" >  Households start life at age <img 
 src="SolvingMicroDSOPs697x.svg" alt="s = 25  " class="math";align="absmiddle"> and live with probability 1 until retirement (<img 
 src="SolvingMicroDSOPs698x.svg" alt="s = 65  " class="math";align="absmiddle">).
 Thereafter the survival probability shrinks every year and agents are dead by <img 
@@ -3691,7 +3721,7 @@ src="SolvingMicroDSOPs701x.svg" alt=" ˆ
 βs  " class="math";align="absmiddle"> in (<a 
 href="#x1-36001r96">96<!--tex4ht:ref: eq:lifecyclemax --></a>) which captures the eﬀect of time-varying
 demographic variables (e.g. changes in family size).
-<!--l. 3163--><p class="indent" >  Transitory and permanent shocks are distributed as follows: <div class="eqnarray">
+<!--l. 3168--><p class="indent" >  Transitory and permanent shocks are distributed as follows: <div class="eqnarray">
   <center class="math-display" >
 <img 
 src="SolvingMicroDSOPs702x.svg" alt="           {
@@ -3704,7 +3734,7 @@ log ψs  ∽   𝒩 (− σψ∕2, σψ)                                        
 </div>where <img 
 src="SolvingMicroDSOPs703x.svg" alt="℘  " class="math";align="absmiddle"> is the probability of unemployment (and unemployment shocks are turned oﬀ after
 retirement).
-<!--l. 3174--><p class="indent" >  The parameter values for the shocks are taken from Carroll (<a 
+<!--l. 3179--><p class="indent" >  The parameter values for the shocks are taken from Carroll (<a 
 href="#Xcarroll:brookings">1992</a>), <img 
 src="SolvingMicroDSOPs704x.svg" alt="℘ = 0.5∕100  " class="math";align="absmiddle">, <img 
 src="SolvingMicroDSOPs705x.svg" alt="σ 𝜃 = 0.1  " class="math";align="absmiddle">, and
@@ -3729,7 +3759,7 @@ src="SolvingMicroDSOPs713x.svg" alt="1.03  " class="math";align="absmiddle">. Th
                                                                                      
 <a 
 href="#x1-360081">1<!--tex4ht:ref: table:StrEstParams --></a>.
-<!--l. 3177--><p class="indent" >  <a 
+<!--l. 3182--><p class="indent" >  <a 
  id="PlotTimeVaryingParam"></a> <div class="figure" 
 >
                                                                                      
@@ -3738,7 +3768,7 @@ href="#x1-360081">1<!--tex4ht:ref: table:StrEstParams --></a>.
  id="x1-3600722"></a>
                                                                                      
                                                                                      
-<!--l. 3179--><p class="noindent" > <img 
+<!--l. 3184--><p class="noindent" > <img 
 src="./Figures/PlotTimeVaryingParam.png" alt="pict"  
  width="602.25pt" >
 <br /> <div class="caption" 
@@ -3750,7 +3780,7 @@ class="content">Time Varying Parameters</span></div><!--tex4ht:label?: x1-360072
   <div class="table">
                                                                                      
                                                                                      
-<!--l. 3184--><p class="indent" >  <a 
+<!--l. 3189--><p class="indent" >  <a 
  id="x1-360081"></a><hr class="float"><div class="float" 
 >
                                                                                      
@@ -3760,7 +3790,7 @@ class="content">Time Varying Parameters</span></div><!--tex4ht:label?: x1-360072
 class="content">Parameter Values</span></div><!--tex4ht:label?: x1-360081 -->
 <div class="center" 
 >
-<!--l. 3186--><p class="noindent" >
+<!--l. 3191--><p class="noindent" >
 <div class="pic-tabular">
 <img 
 src="SolvingMicroDSOPs714x.svg" alt="-----------------------------------
@@ -3777,13 +3807,13 @@ src="SolvingMicroDSOPs714x.svg" alt="-----------------------------------
                                                                                      
   </div><hr class="endfloat" />
   </div>
-<!--l. 3200--><p class="indent" >  The parameters <img 
+<!--l. 3205--><p class="indent" >  The parameters <img 
 src="SolvingMicroDSOPs715x.svg" alt="ℶ  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs716x.svg" alt="ρ  " class="math";align="absmiddle"> are structurally estimated following the procedure described
 below.
   <h4 class="subsectionHead"><span class="titlemark">9.2  </span> <a 
  id="x1-370009.2"></a>Estimation</h4>
-<!--l. 3204--><p class="noindent" >When economists say that they are performing “structural estimation” of a model like this, they
+<!--l. 3209--><p class="noindent" >When economists say that they are performing “structural estimation” of a model like this, they
 mean that they have devised a formal procedure for searching for values for the parameters <img 
 src="SolvingMicroDSOPs717x.svg" alt="ℶ  " class="math";align="absmiddle">
 and <img 
@@ -3802,7 +3832,7 @@ must pick some portion of the population who one wants to match well; since the
 model has little hope of capturing the behavior of Bill Gates, but might conceivably
 match the behavior of Homer Simpson, we choose to match medians rather than
 means.
-<!--l. 3226--><p class="indent" >  As explained in section <a 
+<!--l. 3231--><p class="indent" >  As explained in section <a 
 href="#x1-30003">3<!--tex4ht:ref: sec:normalization --></a>, it is convenient to work with the normalized version the model
 which can be written as:
 <div class="eqnarray">
@@ -3827,7 +3857,7 @@ src="SolvingMicroDSOPs722x.svg" alt="u ′(c ) =   ℶ ℵ   ˆβ   R 𝔼 [u′
 " class="math-display" ><a 
  id="x1-37003r99"></a></center>
 </div>
-<!--l. 3243--><p class="indent" >  The ﬁrst step is to solve for the consumption functions at each age using the routines
+<!--l. 3248--><p class="indent" >  The ﬁrst step is to solve for the consumption functions at each age using the routines
 included in the <span 
 class="ectt-1200">setup_ConsFn.m </span>ﬁle. We need to discretize the shock distribution and solve
 for the policy functions by backward induction using equation (<a 
@@ -3841,7 +3871,7 @@ the growth rate of permanent income, the probability of death, the time-varying
 discount factor and the distribution of shocks will be diﬀerent across the years. We
 thus must ensure that at each backward iteration the right parameter values are
 used.
-<!--l. 3256--><p class="indent" >  Once we have the age varying consumption functions, we can proceed to generate the
+<!--l. 3261--><p class="indent" >  Once we have the age varying consumption functions, we can proceed to generate the
 simulated data and compute the simulated medians using the routines deﬁned in the
 <span 
 class="ectt-1200">setup_Sim.m </span>ﬁle. We ﬁrst have to draw the shocks for each agent and period. This
@@ -3873,7 +3903,7 @@ consumption functions and the age-varying parameters. The simulated medians
 are obtained by taking the medians of the wealth to income ratio of the <img 
 src="SolvingMicroDSOPs728x.svg" alt="7  " class="math";align="absmiddle"> age
 groups.
-<!--l. 3281--><p class="indent" >  Given these simulated medians, we can estimate the model by calculating empirical medians
+<!--l. 3286--><p class="indent" >  Given these simulated medians, we can estimate the model by calculating empirical medians
 and measure the model’s success by calculating the diﬀerence between the empirical median
 and the actual median. Speciﬁcally, deﬁning <img 
 src="SolvingMicroDSOPs729x.svg" alt="ξ  " class="math";align="absmiddle"> as the set of parameters to be estimated
@@ -3893,7 +3923,7 @@ src="SolvingMicroDSOPs732x.svg" alt="ςτ  " class="math";align="absmiddle"> and
 src="SolvingMicroDSOPs733x.svg" alt="sτ  " class="math";align="absmiddle"> are respectively the empirical and simulated medians of the wealth to
 permanent income ratio for age group <img 
 src="SolvingMicroDSOPs734x.svg" alt="τ  " class="math";align="absmiddle">.
-<!--l. 3295--><p class="indent" >  A drawback of proceeding in this way is that it treats the empirically estimated medians as
+<!--l. 3300--><p class="indent" >  A drawback of proceeding in this way is that it treats the empirically estimated medians as
 though they reﬂected perfect measurements of the truth. Imagine, however, that
 one of the age groups happened to have (in the consumer survey) four times as
 many data observations as another age group; then we would expect the median to
@@ -3901,7 +3931,7 @@ be more precisely estimated for the age group with more observations; yet (<a
 href="#x1-37004r100">100<!--tex4ht:ref: eq:naivePowell --></a>)
 assigns equal importance to a deviation between the model and the data for all age
 groups.
-<!--l. 3304--><p class="indent" >  We can get around this problem (and a variety of others) by instead minimizing a slightly
+<!--l. 3309--><p class="indent" >  We can get around this problem (and a variety of others) by instead minimizing a slightly
 more complex object:
   <table 
 class="equation"><tr><td><a 
@@ -3929,7 +3959,7 @@ src="SolvingMicroDSOPs741x.svg" alt="ω
 in the Survey of Consumer Finances (SCF). The absolute value is used since the formula is
 based on the fact that the median is the value that minimizes the sum of the absolute
 deviations from itself.
-<!--l. 3327--><p class="indent" >  The actual data are taken from several waves of the SCF and the medians and means for
+<!--l. 3332--><p class="indent" >  The actual data are taken from several waves of the SCF and the medians and means for
 each age category are plotted in ﬁgure <a 
 href="#x1-3700723">23<!--tex4ht:ref: fig:MeanMedianSCF --></a>. More details on the SCF data are included in
 appendix <a 
@@ -3942,7 +3972,7 @@ href="#x1-39000A">A<!--tex4ht:ref: app:SCFdata --></a>. <a
  id="x1-3700723"></a>
                                                                                      
                                                                                      
-<!--l. 3331--><p class="noindent" > <img 
+<!--l. 3336--><p class="noindent" > <img 
 src="./Figures/PlotMeanMedianSCFcollegeGrads.png" alt="pict"  
  width="301.125pt" >
 <br /> <div class="caption" 
@@ -3952,7 +3982,7 @@ class="content">Wealth to Permanent Income Ratios from SCF (means (dashed) and m
                                                                                      
                                                                                      
   </div>
-<!--l. 3336--><p class="indent" >  The key function to perform structural estimation is deﬁned in the <span 
+<!--l. 3341--><p class="indent" >  The key function to perform structural estimation is deﬁned in the <span 
 class="ectt-1200">setup_Estimation.m</span>
 ﬁle as follows:
 <div class="eqnarray">
@@ -3983,7 +4013,7 @@ class="ectt-1200">Simulate</span>
       <li 
   class="enumerate" id="x1-37014x3">returns the value of equation (<a 
 href="#x1-37005r101">101<!--tex4ht:ref: eq:StructEstim --></a>)</li></ol>
-<!--l. 3354--><p class="indent" >  We delegate the task of ﬁnding the coeﬃcients that minimize the <span 
+<!--l. 3359--><p class="indent" >  We delegate the task of ﬁnding the coeﬃcients that minimize the <span 
 class="ectt-1200">GapEmpiricalSimulatedMedians</span>
 function to the <span 
 class="ecti-1200">Mathematica</span>  built-in numerical minimizer <span 
@@ -3993,7 +4023,7 @@ class="ectt-1200">GapEmpiricalSimulatedMedians</span>
 function has very ﬂat regions or sharp features. It is thus wise to verify the accuracy of the
 solution, for example by experimenting with a variety of alternative starting values for the
 parameter search.
-<!--l. 3363--><p class="indent" >  Finally the standard errors are computed by bootstrap using the routines in the <span 
+<!--l. 3368--><p class="indent" >  Finally the standard errors are computed by bootstrap using the routines in the <span 
 class="ectt-1200">setup_Bootstrap.m</span>
 ﬁle.<span class="footnote-mark"><a 
 href="SolvingMicroDSOPs35.html#fn34x0"><sup class="textsuperscript">34</sup></a></span><a 
@@ -4012,10 +4042,10 @@ This involves:
   class="enumerate" id="x1-37021x3">obtaining new estimates for <img 
 src="SolvingMicroDSOPs743x.svg" alt="ρ  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs744x.svg" alt="ℶ  " class="math";align="absmiddle"></li></ol>
-<!--l. 3372--><p class="noindent" >We repeat the above procedure several times (<span 
+<!--l. 3377--><p class="noindent" >We repeat the above procedure several times (<span 
 class="ectt-1200">Bootstrap</span>) and take the standard deviation for
 each of the estimated parameters across the various bootstrap iterations.
-<!--l. 3374--><p class="indent" >  The ﬁle <span 
+<!--l. 3379--><p class="indent" >  The ﬁle <span 
 class="ectt-1200">StructEstimation.m </span>produces our <img 
 src="SolvingMicroDSOPs745x.svg" alt="ρ  " class="math";align="absmiddle"> and <img 
 src="SolvingMicroDSOPs746x.svg" alt="ℶ  " class="math";align="absmiddle"> estimates with standard errors using 10,000 simulated
@@ -4064,7 +4094,7 @@ src="SolvingMicroDSOPs751x.svg" alt="-----------------
                                                                                      
   </div><hr class="endfloat" />
   </div>
-<!--l. 3413--><p class="indent" >  <a 
+<!--l. 3418--><p class="indent" >  <a 
  id="PlotContourMedianStrEst"></a> <div class="figure" 
 >
                                                                                      
@@ -4073,7 +4103,7 @@ src="SolvingMicroDSOPs751x.svg" alt="-----------------
  id="x1-3702524"></a>
                                                                                      
                                                                                      
-<!--l. 3415--><p class="noindent" > <img 
+<!--l. 3420--><p class="noindent" > <img 
 src="./Figures/PlotContourMedianStrEst.png" alt="pict"  
  width="301.125pt" >
 <br /> <div class="caption" 
@@ -4086,7 +4116,7 @@ dot).</span></div><!--tex4ht:label?: x1-3702524 -->
   </div>
   <h3 class="sectionHead"><span class="titlemark">10  </span> <a 
  id="x1-3800010"></a>Conclusion</h3>
-<!--l. 3422--><p class="noindent" >There are many alternative choices that can be made for solving microeconomic dynamic
+<!--l. 3427--><p class="noindent" >There are many alternative choices that can be made for solving microeconomic dynamic
 stochastic optimization problems. The set of techniques, and associated programs, described in
 these notes represents an approach that I have found to be powerful, ﬂexible, and eﬃcient, but
 other problems may require other techniques. For a much broader treatment of many of the
@@ -4099,7 +4129,7 @@ class="centerline">                                             <span
 class="ecrm-2074">Appendices</span>                            </div>
   <h3 class="sectionHead"><span class="titlemark">A  </span> <a 
  id="x1-39000A"></a>Further Details on SCF Data</h3>
-<!--l. 3438--><p class="noindent" >Data used in the estimation is constructed using the SCF 1992, 1995, 1998,
+<!--l. 3443--><p class="noindent" >Data used in the estimation is constructed using the SCF 1992, 1995, 1998,
 2001 and 2004 waves. The deﬁnition of wealth is net worth including housing
 wealth, but excluding pensions and social securities. The data set contains
 only households whose heads are aged 26-60 and excludes singles, following
@@ -4109,7 +4139,7 @@ href="SolvingMicroDSOPs38.html#fn37x0"><sup class="textsuperscript">37</sup></a>
  id="x1-39001f37"></a> 
 Furthermore, the data set contains only households whose heads are college graduates. The
 total sample size is 4,774.
-<!--l. 3440--><p class="indent" >  In the waves between 1995 and 2004 of the SCF, levels of <span 
+<!--l. 3445--><p class="indent" >  In the waves between 1995 and 2004 of the SCF, levels of <span 
 class="ecti-1200">normal </span>income are reported. The
 question in the questionnaire is &#x0022;About what would your income have been if it had been a
 normal year?&#x0022; We consider the level of normal income as corresponding to the model’s
@@ -4120,7 +4150,7 @@ the level of income is normal or not. Regarding the 1992 wave, only observations
 which report that the level of income is normal are used, and the levels of income of
 remaining observations in the 1992 wave are interpreted as the levels of permanent
 income.
-<!--l. 3452--><p class="indent" >  Normal income levels in the SCF are before-tax ﬁgures. These before-tax permanent income
+<!--l. 3457--><p class="indent" >  Normal income levels in the SCF are before-tax ﬁgures. These before-tax permanent income
 ﬁgures must be rescaled so that the median of the rescaled permanent income of each age
 group matches the median of each age group’s income which is assumed in the simulation.
 This rescaled permanent income is interpreted as after-tax permanent income. This rescaling
@@ -4135,7 +4165,7 @@ href="SolvingMicroDSOPs39.html#fn38x0"><sup class="textsuperscript">38</sup></a>
                                                                                      
   <h3 class="likesectionHead"><a 
  id="x1-40000A"></a>References</h3>
-<!--l. 5--><p class="noindent" >
+<!--l. 6--><p class="noindent" >
   <div class="thebibliography">
   <p class="bibitem" ><span class="biblabel">
 <a 
