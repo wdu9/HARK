@@ -1,0 +1,17 @@
+\providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+  \providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Blanchard]{Blanchard}{1985}{blanchardFinite}
+\textsc{Blanchard, Olivier~J.}  (1985): ``Debt, Deficits, and Finite
+  Horizons,'' \emph{Journal of Political Economy}, 93(2), 223--247.
+
+\harvarditem[Carroll]{Carroll}{2016}{carrollTractable}
+\textsc{Carroll, Christopher~D.}  (2016): ``Lecture Notes: A Tractable Model of
+  Buffer Stock Saving,'' Discussion paper, Johns Hopkins University, At
+  {\url{http://econ.jhu.edu/people/ccarroll/public/lecturenotes/consumption}}.
+
+\end{thebibliography}

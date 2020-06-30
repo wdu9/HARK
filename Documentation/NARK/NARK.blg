@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: NARK.aux
+The style file: texmf-local/bibtex/bst/econtex.bst
+Database file #1: NARK-Add.bib
+Database file #2: economics.bib
+Done.
+You've used 2 entries,
+            2309 wiz_defined-function locations,
+            597 strings with 5028 characters,
+and the built_in function-call counts, 848 in all, are:
+= -- 89
+> -- 30
+< -- 0
++ -- 10
+- -- 8
+* -- 68
+:= -- 178
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 11
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 31
+empty$ -- 55
+format.name$ -- 12
+if$ -- 157
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 12
+pop$ -- 6
+preamble$ -- 2
+purify$ -- 10
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 47
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 22
+warning$ -- 0
+while$ -- 12
+width$ -- 0
+write$ -- 31
