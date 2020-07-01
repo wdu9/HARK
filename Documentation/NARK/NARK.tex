@@ -11,8 +11,9 @@
 
 %\forcedate{2020-02-26} % Add sav, modl; other tweaks
 %\forcedate{2020-06-29} % Update date; shorten ALevBF; add 
-\forcedate{2020-06-30}  % NARK: Minor tweaks
-%\forcedate{July 15, 2018}
+%\forcedate{2020-06-30}  % NARK: Minor tweaks
+\forcedate{2020-07-01}  % Version posted by doEvertyhing.sh
+
 
 \vspace{2in}
 
@@ -29,9 +30,9 @@
   by using names consistent with our guidelines.  
 \end{abstract}
 
-\thanks{The \texttt{NARK} repo that generates this document 
-also contains \LaTeX~configuration files that permit you to use the same name for an object in 
-your writing (your \texttt{paper.tex} file) and in your code (helping to minimize confusion in translating between paper and code).}
+\centerline{html version at \url{https://econ-ark.github.io/HARK/Documentation/NARK}}
+
+%\thanks{The \texttt{NARK} repo that generates this document also contains \LaTeX~configuration files that permit you to use the same name for an object in your writing (your \texttt{paper.tex} file) and in your code (helping to minimize confusion in translating between paper and code).}
 
 
 \pagebreak
@@ -68,7 +69,7 @@ When an alternative is needed with a meaning similar to, but distinct from, the 
 Finally, a few of the definitions below are actually prohibitions; these are based on many years of experience which have shown that use of the prohibited variable name generates more confusion than clarity.  
 
 \begin{table}[ht]
-\begin{center}
+\centering
 \begin{tabular}{|lcl|}   \hline
 Letter & & Meaning 
 \\ \hline
@@ -100,7 +101,6 @@ Letter & & Meaning
 \\  \ZLev & & Lei\textit{Z}ure in consumption/leisure tradeoff
 \\ \hline 
 \end{tabular}
-\end{center}
 \caption{Preferred Usages of Roman Letters}
 \label{table:RomanLetters}
 \end{table}
@@ -119,7 +119,7 @@ Finally, the following are exempted from the prohibition on single-letter variab
 There are more objects that are likely to be used extensively in ARK projects than there are Roman letters.  We present preferred usages for some of those commonly-needed variables here.
 
 \begin{table}[ht]
-\begin{center}
+\centering
 \begin{tabular}{|rcl|}
 \hline
 Name & - & Description 
@@ -135,14 +135,13 @@ Name & - & Description
  \\  \texttt{Lbr}    & - & Quantity of labor (hours)
  \\  \texttt{Pop}    & - & Size of population
  \\  \texttt{Sav}    & - & Saving (=Income Minus Consumption)
- \\  \texttt{Tax} & - & Tax -- should be modified by \texttt{Rte} or \texttt{Amt} articulated below
+ \\  \texttt{Tax}    & - & Tax -- should be modified by \texttt{Rte} or \texttt{Amt} articulated below
  \\  \texttt{Perm}   & - & Permanent (labor; or at least, noncapital) income
  \\  \texttt{Tran}   & - & Transitory (labor; or at least, noncapital) income
 \\ \hline
 \end{tabular}
 \caption{String Variables}
 \label{table:Strings}
-\end{center}
 \end{table}
 
 
@@ -278,7 +277,7 @@ A few operators are so universally used that it will be useful to define them.
 \section{Modifiers}
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{|>{\ttfamily}ccc|} 		
+	\begin{tabular}{|>{\ttfamily}ccl|} 		
 		\hline
    \textit{[object]}\texttt{Agg} & - & Value of something at the aggregate level (as opposed to \texttt{Ind})
 \\ \textit{[object]}\texttt{Ind} & - & Value of something at the level of an individual (as opposed to \texttt{Agg})
@@ -302,13 +301,16 @@ A few operators are so universally used that it will be useful to define them.
 	\label{table:General}
 \end{table}	
 
+\medskip\medskip
 
 Shocks will generally be represented by finite vectors of outcomes and their probabilities.  For example, permanent income is called \texttt{Perm} and shocks are designated \texttt{PermShk}
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{|>{\ttfamily}ccc|} 		
+	\begin{tabular}{|>{\ttfamily}ccl|} 		
 		\hline
-   \textit{[object]}\texttt{Prbs} & - & Probabilities of outcomes (e.g. \texttt{PermShkPrbs} for permanent shocks) 
+   \textit{[object]}\texttt{Abve} & - & Range of points ABOvE some boundary
+\\ \textit{[object]}\texttt{Belw} & - & Range of points BELoW some boundary
+\\ \textit{[object]}\texttt{Prbs} & - & Probabilities of outcomes (e.g. \texttt{PermShkPrbs} for permanent shocks) 
 \\ \textit{[object]}\texttt{Vals} & - & Values (e.g., for mean one shock \texttt{PermShkVals} . \texttt{PermShkPrbs} = 1) 
 \\ \textit{[object]}\texttt{Dstn} & - & Representation of a probability distribution (includes both Prbs and Vals)
 \\ 	\hline
@@ -324,7 +326,7 @@ to steps relative to the local moment within a period, and $t$ variables to refe
 	\centering 
 	\begin{tabular}{|>{\ttfamily}lcl|} 		
 		\hline
-   \textit{[object]}tm2 & - & object in period $t$ minus 2 
+   \textit{[object]}tmn & - & object in period $t$ minus $n$
 \\ \textit{[object]}tm1 & - & object in period $t$ minus 1 
 \\ \textit{[object]}Now & - & object in period $t$
 \\ \textit{[object]}t\phantom{p1}   & - & object in period $t$ (alternative definition)
@@ -347,8 +349,10 @@ e.g. \texttt{import numpy as np}.
 Here are the preferred shortnames for some of our models:
 
 \begin{quote}
-  \texttt{import ConsIndShockModel as cShkModl}
+  \texttt{import ConsIndShockModel as cisMdl}
 \end{quote}
+
+\clearpage
 
 \vfill\eject\pagebreak\newpage 
 
