@@ -33,7 +33,7 @@ print('Risky asset share as a function of market resources:')
 print('Optimal (blue) versus Theoretical Limit (orange)')
 plt.xlabel('Normalized Market Resources')
 plt.ylabel('Portfolio Share')
-plt.ylim(0.0,1.0)
+plt.ylim(0.0,1.01)
 # Since we are using a discretization of the lognormal distribution,
 # the limit is numerically computed and slightly different from 
 # the analytical limit obtained by Merton and Samuelson for infinite wealth
@@ -52,6 +52,8 @@ print('\n\n\n')
 print('For derivation of the numerical limiting portfolio share')
 print('as market resources approach infinity, see')
 print('http://www.econ2.jhu.edu/people/ccarroll/public/lecturenotes/AssetPricing/Portfolio-CRRA/')
+
+print('\n\n\n')
 
 ""
 # Make another example type, but this one optimizes risky portfolio share only
@@ -79,7 +81,7 @@ print('Risky asset share as a function of market resources:')
 print('Optimal (blue) versus Theoretical Limit (orange)')
 plt.xlabel('Normalized Market Resources')
 plt.ylabel('Portfolio Share')
-plt.ylim(0.0,1.0)
+plt.ylim(0.0,1.01)
 # Since we are using a discretization of the lognormal distribution,
 # the limit is numerically computed and slightly different from 
 # the analytical limit obtained by Merton and Samuelson for infinite wealth
@@ -125,10 +127,10 @@ print('Risky asset share function over market resources (when possible to adjust
 print('Optimal (blue) versus Theoretical Limit (orange)')
 plt.xlabel('Normalized Market Resources')
 plt.ylabel('Portfolio Share')
-plt.ylim(0.0,1.0)
+plt.ylim(0.0,1.01)
 plotFuncs([StickyType.ShareFunc[0]
            ,lambda m: StickyType.ShareLimit*np.ones_like(m)
-          ] , 0., 200.)
+          ] , 0., 50.)
 
 
 
@@ -166,4 +168,4 @@ print('Solving a ' + str(AgeVaryingRiskPercType.T_cycle) + ' period portfolio ch
 print('Consumption function over market resources in each lifecycle period:')
 plotFuncs(AgeVaryingRiskPercType.cFunc, 0., 20.)
 print('Risky asset share function over market resources in each lifecycle period:')
-plotFuncs(AgeVaryingRiskPercType.ShareFunc, 0., 200.)
+plotFuncs(AgeVaryingRiskPercType.ShareFunc, 0., 20.)
