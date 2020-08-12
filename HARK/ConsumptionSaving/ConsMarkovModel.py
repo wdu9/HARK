@@ -416,21 +416,22 @@ class ConsMarkovSolver(ConsIndShockSolver):
         temp_array        = self.MrkvArray*WorstIncPrb_array
         WorstIncPrbNow    = np.sum(temp_array,axis=1) # Probability of getting the "worst" income shock and transition from each current state
         ExMPCmaxNext      = (np.dot(temp_array,self.Rfree_list**(1.0-self.CRRA)*
-                            self.solution_next.MPCmax**(-self.CRRA))/WorstIncPrbNow)**\
-                            (-1.0/self.CRRA)
+                            self.solution_next.MPCmax**(-self.CRRA))/WorstIncPrbNow)**(-1.0/self.CRRA)
         DiscFacEff_temp   = self.DiscFac*self.LivPrb
-        self.MPCmaxNow    = 1.0/(1.0 + ((DiscFacEff_temp*WorstIncPrbNow)**
-                            (1.0/self.CRRA))/ExMPCmaxNext)
-        self.MPCmaxEff    = self.MPCmaxNow
+        self.MPCmaxNow    = 1.0/(1.0 + ((DiscFacEff_temp*WorstIncPrbNow)**(1.0/self.CRRA))/ExMPCmaxNext)
+        self.MPCmaxEff    = self.MPCmaxNow.copy()
         self.MPCmaxEff[self.BoroCnstNat_list < self.mNrmMin_list] = 1.0
+        
         # State-conditional PDV of human wealth
         hNrmPlusIncNext   = self.ExIncNextAll + self.solution_next.hNrm
-        self.hNrmNow      = np.dot(self.MrkvArray,(self.PermGroFac_list/self.Rfree_list)*
-                            hNrmPlusIncNext)
+        self.hNrmNow      = np.dot(self.MrkvArray,(self.PermGroFac_list/self.Rfree_list)*hNrmPlusIncNext)
+        
         # Lower bound on MPC as m gets arbitrarily large
-        temp              = (DiscFacEff_temp*np.dot(self.MrkvArray,self.solution_next.MPCmin**
-                            (-self.CRRA)*self.Rfree_list**(1.0-self.CRRA)))**(1.0/self.CRRA)
+        temp              = (DiscFacEff_temp*np.dot(self.MrkvArray,self.solution_next.MPCmin**(-self.CRRA) * 
+                            self.Rfree_list**(1.0-self.CRRA)))**(1.0/self.CRRA)
         self.MPCminNow    = 1.0/(1.0 + temp)
+        if np.any(self.MPCminNow < 0.) or np.any(self.MPCminNow > 1.):
+            self.MPCminNow[:] = np.nan
 
     def makeSolution(self,cNrm,mNrm):
         '''
@@ -520,7 +521,10 @@ class ConsMarkovSolver(ConsIndShockSolver):
         -------
         cFuncUnc: an instance of HARK.interpolation.LinearInterp
         '''
-        cFuncUnc = LinearInterp(mNrm,cNrm,self.MPCminNow_j*self.hNrmNow_j,self.MPCminNow_j)
+        if np.isnan(self.MPCminNow_j):
+            cFuncUnc = LinearInterp(mNrm,cNrm,self.MPCminNow_j*self.hNrmNow_j,self.MPCminNow_j)
+        else:
+            cFuncUnc = LinearInterp(mNrm,cNrm)
         return cFuncUnc
 
 
